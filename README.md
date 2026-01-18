@@ -104,3 +104,9 @@ Thomas Fuglsang <tfuglsang@gmail.com>
 ## License
 
 MIT License - See LICENSE file for details.
+
+## Screenshots
+
+| Main Menu | Guitar Audio Effects | Guitar Tuner |
+|:---------:|:--------------------:|:------------:|
+| ![Main Menu](images/main_menu.jpg) | ![Guitar audio effects](images/audio_effects.jpg) | ![Guitar tuner](images/pitch_detection.jpg) |
