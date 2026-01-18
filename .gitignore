@@ -1,0 +1,25 @@
+# Build directories
+build/
+*/build/
+mx.scratch
+
+# IDE and editor files
+.vscode/
+.clangd
+.cache/
+*/.cache/
+*.swp
+*.swo
+*~
+
+# Compilation artifacts
+*.o
+*.obj
+*.elf
+*.hex
+*.bin
+*.map
+*.lst
+
+# Keep settings if needed
+!.settings
