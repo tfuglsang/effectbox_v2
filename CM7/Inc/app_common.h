@@ -31,15 +31,29 @@ extern "C" {
 // ============================================================================
 // Audio Configuration Constants
 // ============================================================================
+// NOTE: When changing these values, also update tests/mocks/app_common.h
+// to keep host-side unit tests in sync with the target configuration.
 namespace Audio {
+    // Core sample rate - single source of truth for the entire audio system
+    // Used by: codec (WM8994), SAI, DMA, audio pipeline, and all DSP effects
+    constexpr uint32_t SAMPLE_RATE = AUDIO_FREQUENCY_48K;
+    constexpr float SAMPLE_RATE_F = static_cast<float>(SAMPLE_RATE);
+    
+    // Buffer configuration
     constexpr uint32_t SAMPLES_PER_CHANNEL = 512U;
     constexpr uint32_t NUM_CHANNELS = 2U;
     constexpr uint32_t NUM_BUFFERS = 2U;
     constexpr uint32_t TOTAL_SAMPLES = SAMPLES_PER_CHANNEL * NUM_CHANNELS * NUM_BUFFERS;
+    
+    // Codec volume defaults
     constexpr uint32_t INITIAL_OUT_VOLUME = 100U;
     constexpr uint32_t INITIAL_IN_VOLUME = 50U;
-    constexpr uint32_t SAMPLE_RATE = AUDIO_FREQUENCY_48K;
+    
+    // Audio format
     constexpr uint32_t BITS_PER_SAMPLE = AUDIO_RESOLUTION_16B;
+    
+    // Derived constants useful for DSP calculations
+    constexpr float SAMPLES_PER_MS = SAMPLE_RATE_F / 1000.0f;  // 48 samples/ms at 48kHz
 }
 
 // CPU profiling constants

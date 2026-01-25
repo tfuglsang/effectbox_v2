@@ -15,6 +15,7 @@
 #include <cmath>
 #include <algorithm>
 #include "audio_effect.h"
+#include "app_common.h"
 #include "arm_math.h"
 
 /**
@@ -40,7 +41,7 @@ public:
     // Aggressive downsampling: 48kHz -> 8kHz (6x) 
     // Nyquist = 4kHz, plenty for pitch up to 1000Hz
     static constexpr uint32_t DOWNSAMPLE_FACTOR = 6;
-    static constexpr float ORIGINAL_SAMPLE_RATE = 48000.0f;
+    static constexpr float ORIGINAL_SAMPLE_RATE = Audio::SAMPLE_RATE_F;
     static constexpr float DOWNSAMPLED_RATE = ORIGINAL_SAMPLE_RATE / DOWNSAMPLE_FACTOR;  // 8kHz
     
     // Buffer configuration after downsampling

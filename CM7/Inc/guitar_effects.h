@@ -13,6 +13,7 @@
 #define GUITAR_EFFECTS_H
 
 #include "audio_effect.h"
+#include "app_common.h"
 #include "arm_math.h"
 #include <cmath>
 #include <cstring>
@@ -132,8 +133,9 @@ public:
     void process(int16_t* samples, uint32_t num_samples) override {
         if (!enabled_) return;
 
-        // Calculate delay in mono samples (48 samples per ms at 48kHz)
-        const uint32_t delay_samples = delay_ms_ * 48;
+        // Calculate delay in mono samples
+        const uint32_t delay_samples = static_cast<uint32_t>(
+            static_cast<float>(delay_ms_) * Audio::SAMPLES_PER_MS);
         
         for (uint32_t i = 0; i < num_samples; i++) {
             // Read from delay buffer
@@ -245,11 +247,11 @@ public:
         if (!enabled_) return;
 
         // LFO phase increment per sample (mono)
-        const float phase_inc = rate_hz_ / 48000.0f;
+        const float phase_inc = rate_hz_ / Audio::SAMPLE_RATE_F;
         
         // Base delay ~15ms, modulation depth ~10ms (in mono samples)
-        const float base_delay = 15.0f * 48.0f;
-        const float mod_depth = depth_ * 10.0f * 48.0f;
+        const float base_delay = 15.0f * Audio::SAMPLES_PER_MS;
+        const float mod_depth = depth_ * 10.0f * Audio::SAMPLES_PER_MS;
 
         for (uint32_t i = 0; i < num_samples; i++) {
             // Calculate modulated delay using sine LFO
@@ -358,11 +360,11 @@ public:
     void process(int16_t* samples, uint32_t num_samples) override {
         if (!enabled_) return;
 
-        const float phase_inc = rate_hz_ / 48000.0f;
+        const float phase_inc = rate_hz_ / Audio::SAMPLE_RATE_F;
         
         // Very short delay for flanger: 1-7ms (in mono samples)
-        const float base_delay = 1.0f * 48.0f;
-        const float mod_depth = depth_ * 6.0f * 48.0f;
+        const float base_delay = 1.0f * Audio::SAMPLES_PER_MS;
+        const float mod_depth = depth_ * 6.0f * Audio::SAMPLES_PER_MS;
 
         for (uint32_t i = 0; i < num_samples; i++) {
             // Triangle LFO for flanger (more aggressive sweep than sine)
@@ -468,7 +470,7 @@ public:
     void process(int16_t* samples, uint32_t num_samples) override {
         if (!enabled_) return;
 
-        const float phase_inc = rate_hz_ / 48000.0f;
+        const float phase_inc = rate_hz_ / Audio::SAMPLE_RATE_F;
 
         for (uint32_t i = 0; i < num_samples; i++) {
             // Sine LFO for smooth tremolo
