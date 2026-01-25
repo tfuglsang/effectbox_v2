@@ -36,7 +36,6 @@ set(MX_Application_Src
     ${CMAKE_CURRENT_SOURCE_DIR}/Src/stm32_init.cpp
     ${CMAKE_CURRENT_SOURCE_DIR}/Src/audio_effects_mode.cpp
     ${CMAKE_CURRENT_SOURCE_DIR}/Src/pitch_detection_mode.cpp
-    ${CMAKE_CURRENT_SOURCE_DIR}/Src/dsp_utils.cpp
     ${CMAKE_CURRENT_SOURCE_DIR}/Src/lcd_utils.cpp
     ${CMAKE_CURRENT_SOURCE_DIR}/Src/guitar_tuning.cpp
     ${CMAKE_CURRENT_SOURCE_DIR}/Src/stm32h7xx_it.c
@@ -93,8 +92,8 @@ set(STM32_Drivers_Src
     ${CMAKE_CURRENT_SOURCE_DIR}/../Drivers/BSP/Components/nt35510/nt35510.c
     ${CMAKE_CURRENT_SOURCE_DIR}/../Drivers/BSP/Components/nt35510/nt35510_reg.c
     ${CMAKE_CURRENT_SOURCE_DIR}/../Drivers/BSP/Components/is42s32800j/is42s32800j.c
-    ${CMAKE_CURRENT_SOURCE_DIR}/../Drivers/BSP/Components/otm8009a/otm8009a.c       # should be removed, we don't use this LDC controller
-    ${CMAKE_CURRENT_SOURCE_DIR}/../Drivers/BSP/Components/otm8009a/otm8009a_reg.c   # should be removed, we don't use this LDC controller
+    ${CMAKE_CURRENT_SOURCE_DIR}/../Drivers/BSP/Components/otm8009a/otm8009a.c
+    ${CMAKE_CURRENT_SOURCE_DIR}/../Drivers/BSP/Components/otm8009a/otm8009a_reg.c
     ${CMAKE_CURRENT_SOURCE_DIR}/../Drivers/BSP/Components/wm8994/wm8994.c
     ${CMAKE_CURRENT_SOURCE_DIR}/../Drivers/BSP/Components/wm8994/wm8994_reg.c
     
