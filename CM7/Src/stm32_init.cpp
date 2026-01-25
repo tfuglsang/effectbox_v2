@@ -134,7 +134,9 @@ void stm32_system_clock_config() {
     RCC_ClkInitTypeDef RCC_ClkInitStruct;
     RCC_OscInitTypeDef RCC_OscInitStruct;
 
-    __HAL_PWR_VOLTAGESCALING_CONFIG(PWR_REGULATOR_VOLTAGE_SCALE1);
+    // Enable VOS0 (requires PWR overdrive)
+    HAL_PWREx_ConfigSupply(PWR_LDO_SUPPLY);
+    __HAL_PWR_VOLTAGESCALING_CONFIG(PWR_REGULATOR_VOLTAGE_SCALE0);  // Changed from SCALE1
     while (!__HAL_PWR_GET_FLAG(PWR_FLAG_VOSRDY));
 
     RCC_OscInitStruct.OscillatorType = RCC_OSCILLATORTYPE_HSE;
@@ -144,7 +146,7 @@ void stm32_system_clock_config() {
     RCC_OscInitStruct.PLL.PLLState = RCC_PLL_ON;
     RCC_OscInitStruct.PLL.PLLSource = RCC_PLLSOURCE_HSE;
     RCC_OscInitStruct.PLL.PLLM = 5;
-    RCC_OscInitStruct.PLL.PLLN = 160;
+    RCC_OscInitStruct.PLL.PLLN = 192;   // Changed: (25/5) × 192 / 2 = 480 MHz
     RCC_OscInitStruct.PLL.PLLFRACN = 0;
     RCC_OscInitStruct.PLL.PLLP = 2;
     RCC_OscInitStruct.PLL.PLLR = 2;

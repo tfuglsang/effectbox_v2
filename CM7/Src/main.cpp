@@ -12,6 +12,7 @@
 
 #include <string>
 #include <cstring>
+#include <cstdio>
 #include <atomic>
 #include <array>
 #include <cstdint>
@@ -98,6 +99,17 @@ namespace InitialMenu {
         UTIL_LCD_SetTextColor(UTIL_LCD_COLOR_DARKGRAY);
         UTIL_LCD_DisplayStringAt(0, 120, 
             reinterpret_cast<uint8_t*>(const_cast<char*>("Select Mode")), CENTER_MODE);
+        
+        // Draw clock rates (CM7 = SYSCLK, CM4 = HCLK)
+        char clock_str[64];
+        const uint32_t cm7_mhz = HAL_RCC_GetSysClockFreq() / 1000000U;
+        const uint32_t cm4_mhz = HAL_RCC_GetHCLKFreq() / 1000000U;
+        snprintf(clock_str, sizeof(clock_str), "CM7: %lu MHz  |  CM4: %lu MHz", cm7_mhz, cm4_mhz);
+        
+        UTIL_LCD_SetFont(&Font16);
+        UTIL_LCD_SetTextColor(UTIL_LCD_COLOR_GRAY);
+        UTIL_LCD_DisplayStringAt(0, 155, 
+            reinterpret_cast<uint8_t*>(clock_str), CENTER_MODE);
         
         // Draw menu items
         for (uint32_t i = 0; i < NUM_ITEMS; i++) {
