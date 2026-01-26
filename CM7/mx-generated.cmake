@@ -36,6 +36,8 @@ set(MX_Application_Src
     ${CMAKE_CURRENT_SOURCE_DIR}/Src/stm32_init.cpp
     ${CMAKE_CURRENT_SOURCE_DIR}/Src/audio_effects_mode.cpp
     ${CMAKE_CURRENT_SOURCE_DIR}/Src/pitch_detection_mode.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/Src/spectrum_analyzer_mode.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/Src/spectrum_display.cpp
     ${CMAKE_CURRENT_SOURCE_DIR}/Src/lcd_utils.cpp
     ${CMAKE_CURRENT_SOURCE_DIR}/Src/guitar_tuning.cpp
     ${CMAKE_CURRENT_SOURCE_DIR}/Src/stm32h7xx_it.c
