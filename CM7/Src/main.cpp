@@ -20,6 +20,7 @@
 
 #include "app_common.h"
 #include "audio_pipeline.h"
+#include "spectrum_analyzer.h"
 
 // ============================================================================
 // Global Objects
@@ -49,11 +50,12 @@ namespace InitialMenu {
     constexpr uint32_t MENU_START_Y = 200;
     constexpr uint32_t MENU_ITEM_HEIGHT = 50;
     constexpr uint32_t MENU_ITEM_WIDTH = 400;
-    constexpr uint32_t NUM_ITEMS = 2;
+    constexpr uint32_t NUM_ITEMS = 3;
     
     const char* menu_items[NUM_ITEMS] = {
         "Audio Effects",
-        "Pitch Detection"
+        "Pitch Detection",
+        "Spectrum Analyzer"
     };
     
     uint32_t selected_index = 0;
@@ -141,8 +143,10 @@ namespace InitialMenu {
     AppMode confirm_selection() {
         if (selected_index == 0) {
             return AppMode::AUDIO_EFFECTS;
-        } else {
+        } else if (selected_index == 1) {
             return AppMode::PITCH_DETECTION;
+        } else {
+            return AppMode::SPECTRUM_ANALYZER;
         }
     }
 }
@@ -227,6 +231,8 @@ void handle_joystick_event(JoyEvent event) {
                     setup_audio_effects_mode();
                 } else if (current_mode == AppMode::PITCH_DETECTION) {
                     setup_pitch_detection_mode();
+                } else if (current_mode == AppMode::SPECTRUM_ANALYZER) {
+                    setup_spectrum_analyzer_mode();
                 }
             }
             break;
@@ -248,6 +254,21 @@ void handle_joystick_event(JoyEvent event) {
             
         case AppMode::PITCH_DETECTION:
             // Pitch detection mode has no joystick interaction for now
+            break;
+            
+        case AppMode::SPECTRUM_ANALYZER:
+            // LEFT/RIGHT: Change FFT size
+            if (event == JoyEvent::LEFT) {
+                extern SpectrumAnalyzer* g_spectrum_analyzer;
+                if (g_spectrum_analyzer) {
+                    g_spectrum_analyzer->decrease_fft_size();
+                }
+            } else if (event == JoyEvent::RIGHT) {
+                extern SpectrumAnalyzer* g_spectrum_analyzer;
+                if (g_spectrum_analyzer) {
+                    g_spectrum_analyzer->increase_fft_size();
+                }
+            }
             break;
     }
 }
@@ -320,6 +341,20 @@ int main() {
                 if (current_tick - last_pitch_update >= PitchDisplay::UPDATE_INTERVAL_MS) {
                     PitchDisplay::update_display();
                     last_pitch_update = current_tick;
+                }
+                break;
+                
+            case AppMode::SPECTRUM_ANALYZER:
+                // Update spectrum display every 50ms (20 fps)
+                if (current_tick - last_pitch_update >= SpectrumDisplay::UPDATE_INTERVAL_MS) {
+                    SpectrumDisplay::update_display();
+                    SpectrumDisplay::update_fft_size_display();
+                    last_pitch_update = current_tick;
+                }
+                // Update CPU stats every 1 second
+                if (current_tick - last_stats_update >= Profiling::UPDATE_INTERVAL_MS) {
+                    SpectrumDisplay::update_cpu_display();
+                    last_stats_update = current_tick;
                 }
                 break;
                 

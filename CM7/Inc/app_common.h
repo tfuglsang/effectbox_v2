@@ -69,7 +69,8 @@ namespace Profiling {
 enum class AppMode : uint8_t {
     INITIAL_MENU,
     AUDIO_EFFECTS,
-    PITCH_DETECTION
+    PITCH_DETECTION,
+    SPECTRUM_ANALYZER
 };
 
 // ============================================================================
@@ -145,6 +146,20 @@ namespace PitchDisplay {
 }
 
 void setup_pitch_detection_mode();
+
+// ============================================================================
+// Spectrum Analyzer Mode (defined in spectrum_analyzer_mode.cpp)
+// ============================================================================
+
+namespace SpectrumDisplay {
+    constexpr uint32_t UPDATE_INTERVAL_MS = 50;  // Update every 50ms (20 fps)
+    void draw_initial();
+    void update_display();
+    void update_cpu_display();
+    void update_fft_size_display();
+}
+
+void setup_spectrum_analyzer_mode();
 
 // ============================================================================
 // Initial Menu (defined in main.cpp)
