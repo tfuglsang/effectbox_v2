@@ -1,0 +1,788 @@
+{
+  "table_of_contents": [
+    {
+      "title": "For example:",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          123.95999908447266,
+          90.0380859375
+        ],
+        [
+          182.2409210205078,
+          90.0380859375
+        ],
+        [
+          182.2409210205078,
+          101.0028076171875
+        ],
+        [
+          123.95999908447266,
+          101.0028076171875
+        ]
+      ]
+    },
+    {
+      "title": "2.4 Exception model",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          66.240234375,
+          178.431640625
+        ],
+        [
+          235.90493774414062,
+          178.431640625
+        ],
+        [
+          235.90493774414062,
+          193.44287109375
+        ],
+        [
+          66.240234375,
+          193.44287109375
+        ]
+      ]
+    },
+    {
+      "title": "2.4.1 Exception states",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          65.6591796875,
+          333.017578125
+        ],
+        [
+          219.2411651611328,
+          333.017578125
+        ],
+        [
+          219.2411651611328,
+          345.7085266113281
+        ],
+        [
+          65.6591796875,
+          345.7085266113281
+        ]
+      ]
+    },
+    {
+      "title": "2.4.2 Exception types",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          66.240234375,
+          543.8885498046875
+        ],
+        [
+          215.93519592285156,
+          543.8885498046875
+        ],
+        [
+          215.93519592285156,
+          555.8885498046875
+        ],
+        [
+          66.240234375,
+          555.8885498046875
+        ]
+      ]
+    },
+    {
+      "title": "2.4.3 Exception handlers",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          65.078125,
+          467.11130899376667
+        ],
+        [
+          234.5528967254408,
+          467.11130899376667
+        ],
+        [
+          234.5528967254408,
+          479.10774710596615
+        ],
+        [
+          65.078125,
+          479.10774710596615
+        ]
+      ]
+    },
+    {
+      "title": "2.4.4 Vector table",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          66.8212890625,
+          90.0380859375
+        ],
+        [
+          192.3291015625,
+          90.0380859375
+        ],
+        [
+          192.3291015625,
+          102.70849609375
+        ],
+        [
+          66.8212890625,
+          102.70849609375
+        ]
+      ]
+    },
+    {
+      "title": "2.4.5 Exception priorities",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          65.078125,
+          175.96484375
+        ],
+        [
+          235.9308319091797,
+          175.96484375
+        ],
+        [
+          235.9308319091797,
+          188.6884765625
+        ],
+        [
+          65.078125,
+          188.6884765625
+        ]
+      ]
+    },
+    {
+      "title": "2.4.6 Interrupt priority grouping",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          66.240234375,
+          497.7484436035156
+        ],
+        [
+          273.1440734863281,
+          497.7484436035156
+        ],
+        [
+          273.1440734863281,
+          509.7484436035156
+        ],
+        [
+          66.240234375,
+          509.7484436035156
+        ]
+      ]
+    },
+    {
+      "title": "2.4.7 Exception entry and return",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          66.8212890625,
+          90.44921875
+        ],
+        [
+          277.1630859375,
+          90.44921875
+        ],
+        [
+          277.1630859375,
+          102.70849609375
+        ],
+        [
+          66.8212890625,
+          102.70849609375
+        ]
+      ]
+    },
+    {
+      "title": "",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          125.21728515625,
+          140.607421875
+        ],
+        [
+          176.93115234375,
+          140.607421875
+        ],
+        [
+          176.93115234375,
+          148.830078125
+        ],
+        [
+          125.21728515625,
+          148.830078125
+        ]
+      ]
+    },
+    {
+      "title": "",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          124.345703125,
+          226.5341796875
+        ],
+        [
+          155.72265625,
+          226.5341796875
+        ],
+        [
+          155.72265625,
+          233.9345703125
+        ],
+        [
+          124.345703125,
+          233.9345703125
+        ]
+      ]
+    },
+    {
+      "title": "",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          122.89306640625,
+          341.240234375
+        ],
+        [
+          183.90380859375,
+          341.240234375
+        ],
+        [
+          183.90380859375,
+          349.462890625
+        ],
+        [
+          122.89306640625,
+          349.462890625
+        ]
+      ]
+    },
+    {
+      "title": "",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          123.7646484375,
+          393.865234375
+        ],
+        [
+          183.0322265625,
+          393.865234375
+        ],
+        [
+          183.0322265625,
+          402.087890625
+        ],
+        [
+          123.7646484375,
+          402.087890625
+        ]
+      ]
+    },
+    {
+      "title": "Exception entry",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          123.7646484375,
+          521.7275390625
+        ],
+        [
+          206.39344787597656,
+          521.7275390625
+        ],
+        [
+          206.39344787597656,
+          532.8955688476562
+        ],
+        [
+          123.7646484375,
+          532.8955688476562
+        ]
+      ]
+    },
+    {
+      "title": "Exception return",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          122.89306640625,
+          220.3671875
+        ],
+        [
+          211.2422332763672,
+          220.3671875
+        ],
+        [
+          211.2422332763672,
+          231.87567138671875
+        ],
+        [
+          122.89306640625,
+          231.87567138671875
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          97
+        ],
+        [
+          "Line",
+          36
+        ],
+        [
+          "Text",
+          17
+        ],
+        [
+          "ListItem",
+          7
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Reference",
+          2
+        ],
+        [
+          "Code",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "TableCell",
+          66
+        ],
+        [
+          "Line",
+          35
+        ],
+        [
+          "Span",
+          33
+        ],
+        [
+          "Text",
+          12
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "ListItem",
+          2
+        ],
+        [
+          "Picture",
+          2
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          53
+        ],
+        [
+          "Span",
+          27
+        ],
+        [
+          "TableCell",
+          24
+        ],
+        [
+          "Text",
+          12
+        ],
+        [
+          "ListItem",
+          7
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "Reference",
+          2
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          211
+        ],
+        [
+          "Line",
+          96
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "Reference",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          115
+        ],
+        [
+          "Line",
+          42
+        ],
+        [
+          "Text",
+          13
+        ],
+        [
+          "ListItem",
+          6
+        ],
+        [
+          "ListGroup",
+          3
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Reference",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          115
+        ],
+        [
+          "Line",
+          45
+        ],
+        [
+          "Text",
+          13
+        ],
+        [
+          "SectionHeader",
+          6
+        ],
+        [
+          "ListItem",
+          4
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "Reference",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          155
+        ],
+        [
+          "Line",
+          69
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          99
+        ],
+        [
+          "Line",
+          39
+        ],
+        [
+          "TableCell",
+          14
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "ListItem",
+          3
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Reference",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/09_2.4 Exception model"
+}

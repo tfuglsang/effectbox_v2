@@ -1,0 +1,1129 @@
+{
+  "table_of_contents": [
+    {
+      "title": "6 Hardware layout and configuration",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          67.25999450683594,
+          89.2158203125
+        ],
+        [
+          387.7943420410156,
+          89.2158203125
+        ],
+        [
+          387.7943420410156,
+          106.09716796875
+        ],
+        [
+          67.25999450683594,
+          106.09716796875
+        ]
+      ]
+    },
+    {
+      "title": "6.1 STLINK-V3E",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          66.53076171875,
+          90.4228515625
+        ],
+        [
+          205.6144256591797,
+          90.4228515625
+        ],
+        [
+          205.6144256591797,
+          104.40289306640625
+        ],
+        [
+          66.53076171875,
+          104.40289306640625
+        ]
+      ]
+    },
+    {
+      "title": "6.1.1 Drivers and firmware upgrade",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          66.240234375,
+          324.794921875
+        ],
+        [
+          293.953125,
+          324.794921875
+        ],
+        [
+          293.953125,
+          337.728515625
+        ],
+        [
+          66.240234375,
+          337.728515625
+        ]
+      ]
+    },
+    {
+      "title": "6.2 Power supply",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          66.240234375,
+          406.19921875
+        ],
+        [
+          214.93490600585938,
+          406.19921875
+        ],
+        [
+          214.93490600585938,
+          420.4228515625
+        ],
+        [
+          66.240234375,
+          420.4228515625
+        ]
+      ]
+    },
+    {
+      "title": "6.2.1 Supplying the board through STLINK-V3E USB port",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          66.240234375,
+          140.6884765625
+        ],
+        [
+          417.197265625,
+          140.6884765625
+        ],
+        [
+          417.197265625,
+          152.94140625
+        ],
+        [
+          66.240234375,
+          152.94140625
+        ]
+      ]
+    },
+    {
+      "title": "6.2.2 Using STLINK-V3E along with powering through external power",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          65.078125,
+          421.728515625
+        ],
+        [
+          486.4368591308594,
+          421.728515625
+        ],
+        [
+          486.4368591308594,
+          433.728515625
+        ],
+        [
+          65.078125,
+          433.728515625
+        ]
+      ]
+    },
+    {
+      "title": "",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          65.94970703125,
+          584.2197265625
+        ],
+        [
+          106.04248046875,
+          584.2197265625
+        ],
+        [
+          106.04248046875,
+          593.2646484375
+        ],
+        [
+          65.94970703125,
+          593.2646484375
+        ]
+      ]
+    },
+    {
+      "title": "6.2.3 SMPS/LDO power supply",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          65.078125,
+          155.6884765625
+        ],
+        [
+          267.31195068359375,
+          155.6884765625
+        ],
+        [
+          267.31195068359375,
+          167.7421875
+        ],
+        [
+          65.078125,
+          167.7421875
+        ]
+      ]
+    },
+    {
+      "title": "",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          68.564453125,
+          321.9169921875
+        ],
+        [
+          106.9140625,
+          321.9169921875
+        ],
+        [
+          106.9140625,
+          329.3173828125
+        ],
+        [
+          68.564453125,
+          329.3173828125
+        ]
+      ]
+    },
+    {
+      "title": "6.3 Clock references",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          67.25999450683594,
+          257.7802734375
+        ],
+        [
+          236.82479858398438,
+          257.7802734375
+        ],
+        [
+          236.82479858398438,
+          273.12286376953125
+        ],
+        [
+          67.25999450683594,
+          273.12286376953125
+        ]
+      ]
+    },
+    {
+      "title": "6.4 Reset source",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          67.25999450683594,
+          432.1828918457031
+        ],
+        [
+          211.87326049804688,
+          432.1828918457031
+        ],
+        [
+          211.87326049804688,
+          446.1628723144531
+        ],
+        [
+          67.25999450683594,
+          446.1628723144531
+        ]
+      ]
+    },
+    {
+      "title": "6.5 Audio",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          65.94970703125,
+          551.1627807617188
+        ],
+        [
+          163.6087646484375,
+          551.1627807617188
+        ],
+        [
+          163.6087646484375,
+          565.1427612304688
+        ],
+        [
+          65.94970703125,
+          565.1427612304688
+        ]
+      ]
+    },
+    {
+      "title": "6.5.1 Digital microphone",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          65.6591796875,
+          229.43187889581478
+        ],
+        [
+          233.05415617128466,
+          229.43187889581478
+        ],
+        [
+          233.05415617128466,
+          242.568359375
+        ],
+        [
+          65.6591796875,
+          242.568359375
+        ]
+      ]
+    },
+    {
+      "title": "6.6 USB OTG HS port",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          65.94458438287154,
+          584.2197265625
+        ],
+        [
+          243.54534005037783,
+          584.2197265625
+        ],
+        [
+          243.54534005037783,
+          599.8427734375
+        ],
+        [
+          65.94458438287154,
+          599.8427734375
+        ]
+      ]
+    },
+    {
+      "title": "6.6.1 STM32H747I-DISCO as USB device",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          65.94458438287154,
+          646.3081032947462
+        ],
+        [
+          323.727959697733,
+          644.8085485307213
+        ],
+        [
+          323.727959697733,
+          656.0552092609082
+        ],
+        [
+          65.94458438287154,
+          656.8049866429208
+        ]
+      ]
+    },
+    {
+      "title": "6.6.2 STM32H747I-DISCO as USB host",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          66.8212890625,
+          182.6884765625
+        ],
+        [
+          310.5275573730469,
+          182.6884765625
+        ],
+        [
+          310.5275573730469,
+          194.6884765625
+        ],
+        [
+          66.8212890625,
+          194.6884765625
+        ]
+      ]
+    },
+    {
+      "title": "6.7 Ethernet",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          67.11181640625,
+          298.8935546875
+        ],
+        [
+          180.727294921875,
+          298.8935546875
+        ],
+        [
+          180.727294921875,
+          313.44287109375
+        ],
+        [
+          67.11181640625,
+          313.44287109375
+        ]
+      ]
+    },
+    {
+      "title": "6.8 SDRAM",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          67.25999450683594,
+          649.44287109375
+        ],
+        [
+          175.2051544189453,
+          649.44287109375
+        ],
+        [
+          175.2051544189453,
+          663.4228668212891
+        ],
+        [
+          67.25999450683594,
+          663.4228668212891
+        ]
+      ]
+    },
+    {
+      "title": "6.9 Quad-SPI flash memory",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          66.8212890625,
+          90.4228515625
+        ],
+        [
+          281.8115234375,
+          90.4228515625
+        ],
+        [
+          281.8115234375,
+          104.40289306640625
+        ],
+        [
+          66.8212890625,
+          104.40289306640625
+        ]
+      ]
+    },
+    {
+      "title": "6.10 Virtual COM port",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          66.8212890625,
+          172.67578125
+        ],
+        [
+          234.90670776367188,
+          172.67578125
+        ],
+        [
+          234.90670776367188,
+          187.44287109375
+        ],
+        [
+          66.8212890625,
+          187.44287109375
+        ]
+      ]
+    },
+    {
+      "title": "6.11 User LEDs",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          66.8212890625,
+          303.8271484375
+        ],
+        [
+          194.66534423828125,
+          303.8271484375
+        ],
+        [
+          194.66534423828125,
+          318.4228515625
+        ],
+        [
+          66.8212890625,
+          318.4228515625
+        ]
+      ]
+    },
+    {
+      "title": "6.12 Physical input devices",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          66.240234375,
+          387.4228515625
+        ],
+        [
+          274.114990234375,
+          387.4228515625
+        ],
+        [
+          274.114990234375,
+          401.6767578125
+        ],
+        [
+          66.240234375,
+          401.6767578125
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          142
+        ],
+        [
+          "Line",
+          60
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          78
+        ],
+        [
+          "Line",
+          39
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          61
+        ],
+        [
+          "Line",
+          31
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          64
+        ],
+        [
+          "Line",
+          22
+        ],
+        [
+          "PageFooter",
+          3
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          119
+        ],
+        [
+          "Line",
+          42
+        ],
+        [
+          "ListItem",
+          11
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          108
+        ],
+        [
+          "Line",
+          43
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "ListItem",
+          6
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          87
+        ],
+        [
+          "Line",
+          37
+        ],
+        [
+          "ListItem",
+          16
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "ListGroup",
+          4
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "SectionHeader",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          104
+        ],
+        [
+          "Line",
+          45
+        ],
+        [
+          "TableCell",
+          26
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 8,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          94
+        ],
+        [
+          "Line",
+          37
+        ],
+        [
+          "ListItem",
+          8
+        ],
+        [
+          "TableCell",
+          8
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 9,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          55
+        ],
+        [
+          "Span",
+          22
+        ],
+        [
+          "TableCell",
+          13
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "ListItem",
+          4
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 10,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          127
+        ],
+        [
+          "Line",
+          50
+        ],
+        [
+          "TableCell",
+          13
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 11,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          59
+        ],
+        [
+          "Line",
+          23
+        ],
+        [
+          "ListItem",
+          7
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/06_6 Hardware layout and configuration"
+}

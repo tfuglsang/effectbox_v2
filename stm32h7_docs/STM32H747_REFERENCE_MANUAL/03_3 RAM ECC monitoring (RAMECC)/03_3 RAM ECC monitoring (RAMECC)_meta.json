@@ -1,0 +1,975 @@
+{
+  "table_of_contents": [
+    {
+      "title": "3 RAM ECC monitoring (RAMECC)",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          67.25999450683594,
+          89.2158203125
+        ],
+        [
+          371.875,
+          89.2158203125
+        ],
+        [
+          371.875,
+          106.09716796875
+        ],
+        [
+          67.25999450683594,
+          106.09716796875
+        ]
+      ]
+    },
+    {
+      "title": "3.1 Introduction",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          66.8212890625,
+          130.3291015625
+        ],
+        [
+          205.63682556152344,
+          130.3291015625
+        ],
+        [
+          205.63682556152344,
+          144.4228515625
+        ],
+        [
+          66.8212890625,
+          144.4228515625
+        ]
+      ]
+    },
+    {
+      "title": "3.2 RAMECC main features",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          66.8212890625,
+          255.4227294921875
+        ],
+        [
+          280.2536315917969,
+          255.4227294921875
+        ],
+        [
+          280.2536315917969,
+          269.40277099609375
+        ],
+        [
+          66.8212890625,
+          269.40277099609375
+        ]
+      ]
+    },
+    {
+      "title": "3.3 RAMECC functional description",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          65.078125,
+          433.7451171875
+        ],
+        [
+          335.4942932128906,
+          433.7451171875
+        ],
+        [
+          335.4942932128906,
+          448.4428405761719
+        ],
+        [
+          65.078125,
+          448.4428405761719
+        ]
+      ]
+    },
+    {
+      "title": "3.3.1 RAMECC block diagram",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          66.240234375,
+          464.74853515625
+        ],
+        [
+          261.23992919921875,
+          464.74853515625
+        ],
+        [
+          261.23992919921875,
+          476.74853515625
+        ],
+        [
+          66.240234375,
+          476.74853515625
+        ]
+      ]
+    },
+    {
+      "title": "3.3.2 RAMECC internal signals",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          66.8212890625,
+          90.0380859375
+        ],
+        [
+          267.87713623046875,
+          90.0380859375
+        ],
+        [
+          267.87713623046875,
+          102.70849609375
+        ],
+        [
+          66.8212890625,
+          102.70849609375
+        ]
+      ]
+    },
+    {
+      "title": "3.3.3 RAMECC monitor mapping",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          66.8212890625,
+          260.2470703125
+        ],
+        [
+          277.8527526855469,
+          260.2470703125
+        ],
+        [
+          277.8527526855469,
+          272.6884765625
+        ],
+        [
+          66.8212890625,
+          272.6884765625
+        ]
+      ]
+    },
+    {
+      "title": "3.4 RAMECC registers",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          66.8212890625,
+          90.4228515625
+        ],
+        [
+          248.32339477539062,
+          90.4228515625
+        ],
+        [
+          248.32339477539062,
+          104.40289306640625
+        ],
+        [
+          66.8212890625,
+          104.40289306640625
+        ]
+      ]
+    },
+    {
+      "title": "3.4.1 RAMECC interrupt enable register (RAMECC_IER)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          65.078125,
+          150.474609375
+        ],
+        [
+          409.0625,
+          150.474609375
+        ],
+        [
+          409.0625,
+          163.728515625
+        ],
+        [
+          65.078125,
+          163.728515625
+        ]
+      ]
+    },
+    {
+      "title": "Bit 3 GECCDEBWIE: Global ECC double error on byte write (BW) interrupt enable",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          126.669921875,
+          365.4970703125
+        ],
+        [
+          458.4886779785156,
+          365.4970703125
+        ],
+        [
+          458.4886779785156,
+          376.16162109375
+        ],
+        [
+          126.669921875,
+          376.16162109375
+        ]
+      ]
+    },
+    {
+      "title": "Bit 2 GECCDEIE: Global ECC double error interrupt enable",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          126.0888671875,
+          432.1416015625
+        ],
+        [
+          366.9569396972656,
+          432.1416015625
+        ],
+        [
+          366.9569396972656,
+          441.9677734375
+        ],
+        [
+          126.0888671875,
+          441.9677734375
+        ]
+      ]
+    },
+    {
+      "title": "Bit 1 GECCSEIE: Global ECC single error interrupt enable",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          125.5078125,
+          497.1809997558594
+        ],
+        [
+          363.0374450683594,
+          497.1809997558594
+        ],
+        [
+          363.0374450683594,
+          507.7490234375
+        ],
+        [
+          125.5078125,
+          507.7490234375
+        ]
+      ]
+    },
+    {
+      "title": "Bit 0 GIE: Global interrupt enable",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          127.2509765625,
+          561.1962890625
+        ],
+        [
+          263.2177734375,
+          561.1962890625
+        ],
+        [
+          263.2177734375,
+          571.1610107421875
+        ],
+        [
+          127.2509765625,
+          571.1610107421875
+        ]
+      ]
+    },
+    {
+      "title": "3.4.2 RAMECC monitor x configuration register (RAMECC_MxCR)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          65.078125,
+          90.0380859375
+        ],
+        [
+          466.35479736328125,
+          90.0380859375
+        ],
+        [
+          466.35479736328125,
+          102.70849609375
+        ],
+        [
+          65.078125,
+          102.70849609375
+        ]
+      ]
+    },
+    {
+      "title": "Bit 5 ECCELEN: ECC error latching enable",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          127.2509765625,
+          293.12158203125
+        ],
+        [
+          303.02996826171875,
+          293.12158203125
+        ],
+        [
+          303.02996826171875,
+          302.1826171875
+        ],
+        [
+          127.2509765625,
+          302.1826171875
+        ]
+      ]
+    },
+    {
+      "title": "Bit 4 ECCDEBWIE: ECC double error on byte write (BW) interrupt enable",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          127.83203125,
+          368.7861328125
+        ],
+        [
+          425.8421630859375,
+          368.7861328125
+        ],
+        [
+          425.8421630859375,
+          378.14190673828125
+        ],
+        [
+          127.83203125,
+          378.14190673828125
+        ]
+      ]
+    },
+    {
+      "title": "Bit 3 ECCDEIE: ECC double error interrupt enable",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          126.0888671875,
+          432.9228515625
+        ],
+        [
+          332.0306091308594,
+          432.9228515625
+        ],
+        [
+          332.0306091308594,
+          443.1812744140625
+        ],
+        [
+          126.0888671875,
+          443.1812744140625
+        ]
+      ]
+    },
+    {
+      "title": "Bit 2 ECCSEIE: ECC single error interrupt enable",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          126.0888671875,
+          498.7041015625
+        ],
+        [
+          327.5630187988281,
+          498.7041015625
+        ],
+        [
+          327.5630187988281,
+          508.1612854003906
+        ],
+        [
+          126.0888671875,
+          508.1612854003906
+        ]
+      ]
+    },
+    {
+      "title": "3.4.3 RAMECC monitor x status register (RAMECC_MxSR)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          65.078125,
+          586.275390625
+        ],
+        [
+          427.98236083984375,
+          586.275390625
+        ],
+        [
+          427.98236083984375,
+          600.7085113525391
+        ],
+        [
+          65.078125,
+          600.7085113525391
+        ]
+      ]
+    },
+    {
+      "title": "3.4.4 RAMECC monitor x failing address register (RAMECC_MxFAR)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          67.25999450683594,
+          383.74853515625
+        ],
+        [
+          484.47119140625,
+          383.74853515625
+        ],
+        [
+          484.47119140625,
+          395.74853515625
+        ],
+        [
+          67.25999450683594,
+          395.74853515625
+        ]
+      ]
+    },
+    {
+      "title": "3.4.5 RAMECC monitor x failing data low register (RAMECC_MxFDRL)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          66.240234375,
+          590.38671875
+        ],
+        [
+          491.572265625,
+          590.38671875
+        ],
+        [
+          491.572265625,
+          603.7085113525391
+        ],
+        [
+          66.240234375,
+          603.7085113525391
+        ]
+      ]
+    },
+    {
+      "title": "3.4.6 RAMECC monitor x failing data high register (RAMECC_MxFDRH)",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          65.078125,
+          248.6884765625
+        ],
+        [
+          501.069580078125,
+          248.6884765625
+        ],
+        [
+          501.069580078125,
+          261.0693359375
+        ],
+        [
+          65.078125,
+          261.0693359375
+        ]
+      ]
+    },
+    {
+      "title": "3.4.7 RAMECC monitor x failing ECC error code register \nRAMECC_MxFECR)",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          66.240234375,
+          476.9140625
+        ],
+        [
+          415.202392578125,
+          476.9140625
+        ],
+        [
+          415.202392578125,
+          504.7085266113281
+        ],
+        [
+          66.240234375,
+          504.7085266113281
+        ]
+      ]
+    },
+    {
+      "title": "3.4.8 RAMECC register map",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          66.8212890625,
+          90.44921875
+        ],
+        [
+          251.81637573242188,
+          90.44921875
+        ],
+        [
+          251.81637573242188,
+          102.70849609375
+        ],
+        [
+          66.8212890625,
+          102.70849609375
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          79
+        ],
+        [
+          "Line",
+          29
+        ],
+        [
+          "Text",
+          12
+        ],
+        [
+          "ListItem",
+          8
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "ListGroup",
+          3
+        ],
+        [
+          "PageHeader",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          41
+        ],
+        [
+          "Span",
+          13
+        ],
+        [
+          "PageFooter",
+          3
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Figure",
+          2
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "FigureGroup",
+          2
+        ],
+        [
+          "Reference",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          113
+        ],
+        [
+          "TableCell",
+          85
+        ],
+        [
+          "Line",
+          49
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "Reference",
+          3
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "Table",
+          2
+        ],
+        [
+          "TableGroup",
+          2
+        ],
+        [
+          "Picture",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "TableCell",
+          96
+        ],
+        [
+          "Span",
+          91
+        ],
+        [
+          "Line",
+          38
+        ],
+        [
+          "Text",
+          16
+        ],
+        [
+          "SectionHeader",
+          6
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          107
+        ],
+        [
+          "TableCell",
+          80
+        ],
+        [
+          "Line",
+          44
+        ],
+        [
+          "Text",
+          17
+        ],
+        [
+          "SectionHeader",
+          6
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "TableCell",
+          164
+        ],
+        [
+          "Span",
+          93
+        ],
+        [
+          "Line",
+          36
+        ],
+        [
+          "Text",
+          15
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Table",
+          2
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "TableGroup",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "TableCell",
+          245
+        ],
+        [
+          "Span",
+          96
+        ],
+        [
+          "Line",
+          38
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "Table",
+          3
+        ],
+        [
+          "Caption",
+          3
+        ],
+        [
+          "TableGroup",
+          3
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Picture",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "TableCell",
+          513
+        ],
+        [
+          "Span",
+          190
+        ],
+        [
+          "Line",
+          91
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/03_3 RAM ECC monitoring (RAMECC)"
+}

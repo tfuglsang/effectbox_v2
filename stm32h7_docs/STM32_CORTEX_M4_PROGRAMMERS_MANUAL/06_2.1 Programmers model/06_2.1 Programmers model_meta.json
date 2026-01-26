@@ -1,0 +1,1217 @@
+{
+  "table_of_contents": [
+    {
+      "title": "2 The Cortex-M4 processor",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          66.240234375,
+          89.626953125
+        ],
+        [
+          317.255859375,
+          89.626953125
+        ],
+        [
+          317.255859375,
+          106.09716796875
+        ],
+        [
+          66.240234375,
+          106.09716796875
+        ]
+      ]
+    },
+    {
+      "title": "2.1 Programmers model",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          66.240234375,
+          129.095703125
+        ],
+        [
+          260.0511474609375,
+          129.095703125
+        ],
+        [
+          260.0511474609375,
+          144.4228515625
+        ],
+        [
+          66.240234375,
+          144.4228515625
+        ]
+      ]
+    },
+    {
+      "title": "2.1.1 Processor mode and privilege levels for software execution",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          67.25999450683594,
+          203.6884765625
+        ],
+        [
+          463.1424560546875,
+          203.6884765625
+        ],
+        [
+          463.1424560546875,
+          215.6884765625
+        ],
+        [
+          67.25999450683594,
+          215.6884765625
+        ]
+      ]
+    },
+    {
+      "title": "2.1.2 Stacks",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          65.6591796875,
+          531.5947265625
+        ],
+        [
+          162.5904083251953,
+          531.5947265625
+        ],
+        [
+          162.5904083251953,
+          544.728515625
+        ],
+        [
+          65.6591796875,
+          544.728515625
+        ]
+      ]
+    },
+    {
+      "title": "2.1.3 Core registers",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          67.25999450683594,
+          201.455078125
+        ],
+        [
+          208.60321044921875,
+          201.455078125
+        ],
+        [
+          208.60321044921875,
+          215.38848876953125
+        ],
+        [
+          67.25999450683594,
+          215.38848876953125
+        ]
+      ]
+    },
+    {
+      "title": "General-purpose registers",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          122.6025390625,
+          358.0966796875
+        ],
+        [
+          261.35601806640625,
+          358.0966796875
+        ],
+        [
+          261.35601806640625,
+          369.2156677246094
+        ],
+        [
+          122.6025390625,
+          369.2156677246094
+        ]
+      ]
+    },
+    {
+      "title": "Stack pointer",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          123.7646484375,
+          399.2099609375
+        ],
+        [
+          193.5808868408203,
+          399.2099609375
+        ],
+        [
+          193.5808868408203,
+          411.2156677246094
+        ],
+        [
+          123.7646484375,
+          411.2156677246094
+        ]
+      ]
+    },
+    {
+      "title": "Link register",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          123.7646484375,
+          501.9931640625
+        ],
+        [
+          190.0048828125,
+          501.9931640625
+        ],
+        [
+          190.0048828125,
+          513.215576171875
+        ],
+        [
+          123.7646484375,
+          513.215576171875
+        ]
+      ]
+    },
+    {
+      "title": "Program counter",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          122.89306640625,
+          556.235595703125
+        ],
+        [
+          212.4818572998047,
+          556.235595703125
+        ],
+        [
+          212.4818572998047,
+          567.215576171875
+        ],
+        [
+          122.89306640625,
+          567.215576171875
+        ]
+      ]
+    },
+    {
+      "title": "Program status register",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          123.95999908447266,
+          622.2356567382812
+        ],
+        [
+          247.88246154785156,
+          622.2356567382812
+        ],
+        [
+          247.88246154785156,
+          633.2156677246094
+        ],
+        [
+          123.95999908447266,
+          633.2156677246094
+        ]
+      ]
+    },
+    {
+      "title": "Application program status register",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          123.18359375,
+          90.8603515625
+        ],
+        [
+          310.1895751953125,
+          90.8603515625
+        ],
+        [
+          310.1895751953125,
+          101.85565185546875
+        ],
+        [
+          123.18359375,
+          101.85565185546875
+        ]
+      ]
+    },
+    {
+      "title": "Interrupt program status register",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          123.95999908447266,
+          90.8756103515625
+        ],
+        [
+          296.337890625,
+          90.8756103515625
+        ],
+        [
+          296.337890625,
+          101.85565185546875
+        ],
+        [
+          123.95999908447266,
+          101.85565185546875
+        ]
+      ]
+    },
+    {
+      "title": "Execution program status register",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          123.95999908447266,
+          537.5755920410156
+        ],
+        [
+          302.8593444824219,
+          537.5755920410156
+        ],
+        [
+          302.8593444824219,
+          548.5555725097656
+        ],
+        [
+          123.95999908447266,
+          548.5555725097656
+        ]
+      ]
+    },
+    {
+      "title": "Interruptible-continuable instructions",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          121.4404296875,
+          325.6171875
+        ],
+        [
+          319.3161926269531,
+          325.6171875
+        ],
+        [
+          319.3161926269531,
+          336.8756408691406
+        ],
+        [
+          121.4404296875,
+          336.8756408691406
+        ]
+      ]
+    },
+    {
+      "title": "If-Then block",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          122.6025390625,
+          475.6806640625
+        ],
+        [
+          192.3039093017578,
+          475.6806640625
+        ],
+        [
+          192.3039093017578,
+          486.8756408691406
+        ],
+        [
+          122.6025390625,
+          486.8756408691406
+        ]
+      ]
+    },
+    {
+      "title": "Thumb state",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          122.6025390625,
+          541.4619140625
+        ],
+        [
+          189.28660583496094,
+          541.4619140625
+        ],
+        [
+          189.28660583496094,
+          552.8756408691406
+        ],
+        [
+          122.6025390625,
+          552.8756408691406
+        ]
+      ]
+    },
+    {
+      "title": "Exception mask registers",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          123.18359375,
+          670.8956604003906
+        ],
+        [
+          257.0903015136719,
+          670.8956604003906
+        ],
+        [
+          257.0903015136719,
+          682.0693359375
+        ],
+        [
+          123.18359375,
+          682.0693359375
+        ]
+      ]
+    },
+    {
+      "title": "Priority mask register",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          122.6025390625,
+          136.0849609375
+        ],
+        [
+          236.9046630859375,
+          136.0849609375
+        ],
+        [
+          236.9046630859375,
+          147.87567138671875
+        ],
+        [
+          122.6025390625,
+          147.87567138671875
+        ]
+      ]
+    },
+    {
+      "title": "Fault mask register",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          122.021484375,
+          402.087890625
+        ],
+        [
+          224.71246337890625,
+          402.087890625
+        ],
+        [
+          224.71246337890625,
+          414.03564453125
+        ],
+        [
+          122.021484375,
+          414.03564453125
+        ]
+      ]
+    },
+    {
+      "title": "Base priority mask register",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          123.7646484375,
+          90.8603515625
+        ],
+        [
+          265.6404113769531,
+          90.8603515625
+        ],
+        [
+          265.6404113769531,
+          101.85565185546875
+        ],
+        [
+          123.7646484375,
+          101.85565185546875
+        ]
+      ]
+    },
+    {
+      "title": "CONTROL register",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          122.6025390625,
+          419.35546875
+        ],
+        [
+          221.42068481445312,
+          419.35546875
+        ],
+        [
+          221.42068481445312,
+          430.47564697265625
+        ],
+        [
+          122.6025390625,
+          430.47564697265625
+        ]
+      ]
+    },
+    {
+      "title": "2.1.4 Exceptions and interrupts",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          66.240234375,
+          301.3603515625
+        ],
+        [
+          271.96563720703125,
+          301.3603515625
+        ],
+        [
+          271.96563720703125,
+          314.6884765625
+        ],
+        [
+          66.240234375,
+          314.6884765625
+        ]
+      ]
+    },
+    {
+      "title": "2.1.5 Data types",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          66.240234375,
+          427.728515625
+        ],
+        [
+          184.64279174804688,
+          427.728515625
+        ],
+        [
+          184.64279174804688,
+          439.728515625
+        ],
+        [
+          66.240234375,
+          439.728515625
+        ]
+      ]
+    },
+    {
+      "title": "2.1.6 The Cortex microcontroller software interface standard (CMSIS)",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          67.25999450683594,
+          561.7084350585938
+        ],
+        [
+          487.118408203125,
+          561.7084350585938
+        ],
+        [
+          487.118408203125,
+          573.94140625
+        ],
+        [
+          67.25999450683594,
+          573.94140625
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          108
+        ],
+        [
+          "Line",
+          38
+        ],
+        [
+          "Text",
+          15
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "ListItem",
+          4
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          67
+        ],
+        [
+          "TableCell",
+          42
+        ],
+        [
+          "Line",
+          25
+        ],
+        [
+          "Caption",
+          3
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Table",
+          2
+        ],
+        [
+          "Footnote",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          125
+        ],
+        [
+          "TableCell",
+          45
+        ],
+        [
+          "Line",
+          41
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "ListItem",
+          5
+        ],
+        [
+          "Reference",
+          5
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Footnote",
+          2
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          67
+        ],
+        [
+          "Span",
+          22
+        ],
+        [
+          "TableCell",
+          15
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "ListItem",
+          4
+        ],
+        [
+          "Caption",
+          3
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Figure",
+          2
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "Reference",
+          2
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          83
+        ],
+        [
+          "Line",
+          31
+        ],
+        [
+          "TableCell",
+          18
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          95
+        ],
+        [
+          "TableCell",
+          48
+        ],
+        [
+          "Line",
+          40
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "ListItem",
+          2
+        ],
+        [
+          "Reference",
+          2
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Footnote",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          109
+        ],
+        [
+          "Line",
+          40
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "TableCell",
+          10
+        ],
+        [
+          "ListItem",
+          7
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "ListGroup",
+          3
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          96
+        ],
+        [
+          "Line",
+          37
+        ],
+        [
+          "TableCell",
+          12
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "Caption",
+          4
+        ],
+        [
+          "Reference",
+          4
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Figure",
+          2
+        ],
+        [
+          "Table",
+          2
+        ],
+        [
+          "FigureGroup",
+          2
+        ],
+        [
+          "Picture",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 8,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          110
+        ],
+        [
+          "Line",
+          42
+        ],
+        [
+          "TableCell",
+          19
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "Caption",
+          3
+        ],
+        [
+          "Reference",
+          3
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Table",
+          2
+        ],
+        [
+          "TableGroup",
+          2
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Footnote",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 9,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          112
+        ],
+        [
+          "Line",
+          41
+        ],
+        [
+          "ListItem",
+          14
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "ListGroup",
+          3
+        ],
+        [
+          "PageHeader",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 10,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          43
+        ],
+        [
+          "Line",
+          18
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "ListItem",
+          4
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/06_2.1 Programmers model"
+}

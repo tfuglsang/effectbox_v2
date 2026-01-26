@@ -1,0 +1,176 @@
+{
+  "table_of_contents": [
+    {
+      "title": "4 Cortex-M7 peripherals",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          65.6591796875,
+          89.2158203125
+        ],
+        [
+          292.7812194824219,
+          89.2158203125
+        ],
+        [
+          292.7812194824219,
+          106.09716796875
+        ],
+        [
+          65.6591796875,
+          106.09716796875
+        ]
+      ]
+    },
+    {
+      "title": "4.1 About the Cortex-M7 peripherals",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          66.8212890625,
+          129.5068359375
+        ],
+        [
+          340.84442138671875,
+          129.5068359375
+        ],
+        [
+          340.84442138671875,
+          144.4228515625
+        ],
+        [
+          66.8212890625,
+          144.4228515625
+        ]
+      ]
+    },
+    {
+      "title": "In the register descriptions:",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          123.18359375,
+          398.0628356933594
+        ],
+        [
+          243.918212890625,
+          398.0628356933594
+        ],
+        [
+          243.918212890625,
+          408.0228271484375
+        ],
+        [
+          123.18359375,
+          408.0228271484375
+        ]
+      ]
+    },
+    {
+      "title": "Privileged",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          147.0068359375,
+          495.4150390625
+        ],
+        [
+          198.50697326660156,
+          495.4150390625
+        ],
+        [
+          198.50697326660156,
+          506.0028381347656
+        ],
+        [
+          147.0068359375,
+          506.0028381347656
+        ]
+      ]
+    },
+    {
+      "title": "Unprivileged",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          147.95999145507812,
+          524.062744140625
+        ],
+        [
+          211.29762268066406,
+          524.062744140625
+        ],
+        [
+          211.29762268066406,
+          534.0615234375
+        ],
+        [
+          147.95999145507812,
+          534.0615234375
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          90
+        ],
+        [
+          "TableCell",
+          33
+        ],
+        [
+          "Line",
+          29
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/26_4.1 About the Cortex-M7 peripherals"
+}

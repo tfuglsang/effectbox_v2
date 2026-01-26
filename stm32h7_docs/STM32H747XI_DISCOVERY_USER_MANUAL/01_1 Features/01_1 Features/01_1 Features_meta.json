@@ -1,0 +1,72 @@
+{
+  "table_of_contents": [
+    {
+      "title": "1 Features",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          67.11181640625,
+          88.3935546875
+        ],
+        [
+          190.54144287109375,
+          88.3935546875
+        ],
+        [
+          190.54144287109375,
+          106.09716796875
+        ],
+        [
+          67.11181640625,
+          106.09716796875
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          119
+        ],
+        [
+          "Line",
+          41
+        ],
+        [
+          "ListItem",
+          29
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Footnote",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/01_1 Features"
+}

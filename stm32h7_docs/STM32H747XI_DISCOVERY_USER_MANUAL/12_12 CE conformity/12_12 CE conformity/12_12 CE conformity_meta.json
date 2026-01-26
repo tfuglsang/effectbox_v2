@@ -1,0 +1,152 @@
+{
+  "table_of_contents": [
+    {
+      "title": "12 CE conformity",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          66.8212890625,
+          88.3935546875
+        ],
+        [
+          233.25515747070312,
+          88.3935546875
+        ],
+        [
+          233.25515747070312,
+          106.09716796875
+        ],
+        [
+          66.8212890625,
+          106.09716796875
+        ]
+      ]
+    },
+    {
+      "title": "12.1 Warning",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          66.8212890625,
+          129.91796875
+        ],
+        [
+          179.3599853515625,
+          129.91796875
+        ],
+        [
+          179.3599853515625,
+          144.4228515625
+        ],
+        [
+          66.8212890625,
+          144.4228515625
+        ]
+      ]
+    },
+    {
+      "title": "EN 55032 / CISPR32 (2012) Class A product",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          123.18359375,
+          156.6416015625
+        ],
+        [
+          349.099365234375,
+          156.6416015625
+        ],
+        [
+          349.099365234375,
+          167.85565185546875
+        ],
+        [
+          123.18359375,
+          167.85565185546875
+        ]
+      ]
+    },
+    {
+      "title": "12.2 Simplified EU declaration of conformity",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          67.25999450683594,
+          254.46282958984375
+        ],
+        [
+          385.88525390625,
+          254.46282958984375
+        ],
+        [
+          385.88525390625,
+          268.44287109375
+        ],
+        [
+          67.25999450683594,
+          268.44287109375
+        ]
+      ]
+    },
+    {
+      "title": "12.3 20.2 D\u00e9claration de conformit\u00e9 UE simplifi\u00e9e",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          66.240234375,
+          401.265625
+        ],
+        [
+          419.521484375,
+          401.265625
+        ],
+        [
+          419.521484375,
+          415.4428405761719
+        ],
+        [
+          66.240234375,
+          415.4428405761719
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          54
+        ],
+        [
+          "Line",
+          25
+        ],
+        [
+          "Text",
+          12
+        ],
+        [
+          "SectionHeader",
+          5
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/12_12 CE conformity"
+}

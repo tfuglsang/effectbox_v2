@@ -1,0 +1,295 @@
+{
+  "table_of_contents": [
+    {
+      "title": "TYPICAL PERFORMANCE",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          71.71875,
+          96.2200927734375
+        ],
+        [
+          220.48800659179688,
+          96.2200927734375
+        ],
+        [
+          220.48800659179688,
+          108.2200927734375
+        ],
+        [
+          71.71875,
+          108.2200927734375
+        ]
+      ]
+    },
+    {
+      "title": "TYPICAL POWER CONSUMPTION",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          71.71875,
+          118.72265625
+        ],
+        [
+          248.85488891601562,
+          118.72265625
+        ],
+        [
+          248.85488891601562,
+          130.0479736328125
+        ],
+        [
+          71.71875,
+          130.0479736328125
+        ]
+      ]
+    },
+    {
+      "title": "Notes:",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          72.0,
+          580.46484375
+        ],
+        [
+          96.7973403930664,
+          580.46484375
+        ],
+        [
+          96.7973403930664,
+          590.3829498291016
+        ],
+        [
+          72.0,
+          590.3829498291016
+        ]
+      ]
+    },
+    {
+      "title": "TYPICAL SIGNAL LATENCY",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          70.224609375,
+          95.0679931640625
+        ],
+        [
+          218.4236602783203,
+          95.0679931640625
+        ],
+        [
+          218.4236602783203,
+          106.0479736328125
+        ],
+        [
+          70.224609375,
+          106.0479736328125
+        ]
+      ]
+    },
+    {
+      "title": "Notes:",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          71.71875,
+          407.21484375
+        ],
+        [
+          96.7973403930664,
+          407.21484375
+        ],
+        [
+          96.7973403930664,
+          417.3229675292969
+        ],
+        [
+          71.71875,
+          417.3229675292969
+        ]
+      ]
+    },
+    {
+      "title": "SPEAKER DRIVER PERFORMANCE",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          70.5,
+          93.75
+        ],
+        [
+          259.5,
+          93.75
+        ],
+        [
+          259.5,
+          104.25
+        ],
+        [
+          70.5,
+          104.25
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          424
+        ],
+        [
+          "Line",
+          186
+        ],
+        [
+          "TableCell",
+          171
+        ],
+        [
+          "ListItem",
+          5
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          159
+        ],
+        [
+          "Line",
+          64
+        ],
+        [
+          "TableCell",
+          58
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "ListItem",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          58
+        ],
+        [
+          "Span",
+          4
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/10_Typical Performance"
+}

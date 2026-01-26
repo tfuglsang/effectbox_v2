@@ -1,0 +1,99 @@
+{
+  "table_of_contents": [
+    {
+      "title": "PIN CONFIGURATION",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          69.75,
+          93.0
+        ],
+        [
+          198.75,
+          93.0
+        ],
+        [
+          198.75,
+          106.5
+        ],
+        [
+          69.75,
+          106.5
+        ]
+      ]
+    },
+    {
+      "title": "ORDERING INFORMATION",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          69.75,
+          537.75
+        ],
+        [
+          225.75,
+          537.75
+        ],
+        [
+          225.75,
+          552.0
+        ],
+        [
+          69.75,
+          552.0
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "TableCell",
+          100
+        ],
+        [
+          "Line",
+          13
+        ],
+        [
+          "Span",
+          6
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Table",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/04_Ordering Information"
+}

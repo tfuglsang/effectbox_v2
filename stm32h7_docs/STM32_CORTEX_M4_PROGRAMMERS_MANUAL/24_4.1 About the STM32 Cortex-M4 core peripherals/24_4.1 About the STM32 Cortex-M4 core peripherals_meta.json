@@ -1,0 +1,314 @@
+{
+  "table_of_contents": [
+    {
+      "title": "4 Core peripherals",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          65.6591796875,
+          88.3935546875
+        ],
+        [
+          251.0122528076172,
+          88.3935546875
+        ],
+        [
+          251.0122528076172,
+          106.09716796875
+        ],
+        [
+          65.6591796875,
+          106.09716796875
+        ]
+      ]
+    },
+    {
+      "title": "4.1 About the STM32 Cortex-M4 core peripherals",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          66.240234375,
+          129.91796875
+        ],
+        [
+          423.21466064453125,
+          129.91796875
+        ],
+        [
+          423.21466064453125,
+          144.4228515625
+        ],
+        [
+          66.240234375,
+          144.4228515625
+        ]
+      ]
+    },
+    {
+      "title": "4.2 Memory protection unit (MPU)",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          64.4970703125,
+          518.849609375
+        ],
+        [
+          323.79571533203125,
+          518.849609375
+        ],
+        [
+          323.79571533203125,
+          534.4228515625
+        ],
+        [
+          64.4970703125,
+          534.4228515625
+        ]
+      ]
+    },
+    {
+      "title": "3.11.12 WFI",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          66.8212890625,
+          90.0380859375
+        ],
+        [
+          145.91998291015625,
+          90.0380859375
+        ],
+        [
+          145.91998291015625,
+          102.70849609375
+        ],
+        [
+          66.8212890625,
+          102.70849609375
+        ]
+      ]
+    },
+    {
+      "title": "Syntax",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          122.6025390625,
+          133.20703125
+        ],
+        [
+          159.9436492919922,
+          133.20703125
+        ],
+        [
+          159.9436492919922,
+          144.87567138671875
+        ],
+        [
+          122.6025390625,
+          144.87567138671875
+        ]
+      ]
+    },
+    {
+      "title": "Where:",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          122.31201171875,
+          170.06268310546875
+        ],
+        [
+          156.12680053710938,
+          170.06268310546875
+        ],
+        [
+          156.12680053710938,
+          180.022705078125
+        ],
+        [
+          122.31201171875,
+          180.022705078125
+        ]
+      ]
+    },
+    {
+      "title": "Operation",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          122.31201171875,
+          205.56640625
+        ],
+        [
+          175.8536834716797,
+          205.56640625
+        ],
+        [
+          175.8536834716797,
+          217.835693359375
+        ],
+        [
+          122.31201171875,
+          217.835693359375
+        ]
+      ]
+    },
+    {
+      "title": "Condition flags",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          122.6025390625,
+          278.85552978515625
+        ],
+        [
+          203.94488525390625,
+          278.85552978515625
+        ],
+        [
+          203.94488525390625,
+          289.8486328125
+        ],
+        [
+          122.6025390625,
+          289.8486328125
+        ]
+      ]
+    },
+    {
+      "title": "Examples",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          123.18359375,
+          320.68359375
+        ],
+        [
+          175.2486572265625,
+          320.68359375
+        ],
+        [
+          175.2486572265625,
+          331.8355407714844
+        ],
+        [
+          123.18359375,
+          331.8355407714844
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          116
+        ],
+        [
+          "Line",
+          38
+        ],
+        [
+          "TableCell",
+          24
+        ],
+        [
+          "ListItem",
+          12
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "ListGroup",
+          3
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          42
+        ],
+        [
+          "Line",
+          16
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "SectionHeader",
+          6
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "ListItem",
+          2
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/24_4.1 About the STM32 Cortex-M4 core peripherals"
+}

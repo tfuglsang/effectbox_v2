@@ -1,0 +1,1686 @@
+{
+  "table_of_contents": [
+    {
+      "title": "10 Clock recovery system (CRS)",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          67.25999450683594,
+          89.2158203125
+        ],
+        [
+          348.0517578125,
+          89.2158203125
+        ],
+        [
+          348.0517578125,
+          106.09716796875
+        ],
+        [
+          67.25999450683594,
+          106.09716796875
+        ]
+      ]
+    },
+    {
+      "title": "10.1 Introduction",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          66.53076171875,
+          130.3291015625
+        ],
+        [
+          205.62425231933594,
+          130.3291015625
+        ],
+        [
+          205.62425231933594,
+          144.4228515625
+        ],
+        [
+          66.53076171875,
+          144.4228515625
+        ]
+      ]
+    },
+    {
+      "title": "10.2 CRS main features",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          67.25999450683594,
+          308.7607421875
+        ],
+        [
+          248.35543823242188,
+          308.7607421875
+        ],
+        [
+          248.35543823242188,
+          323.40277099609375
+        ],
+        [
+          67.25999450683594,
+          323.40277099609375
+        ]
+      ]
+    },
+    {
+      "title": "10.3 CRS implementation",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          65.6591796875,
+          577.6416015625
+        ],
+        [
+          260.79345703125,
+          577.6416015625
+        ],
+        [
+          260.79345703125,
+          593.2646484375
+        ],
+        [
+          65.6591796875,
+          593.2646484375
+        ]
+      ]
+    },
+    {
+      "title": "10.4 CRS functional description",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          67.25999450683594,
+          90.4228515625
+        ],
+        [
+          304.47265625,
+          90.4228515625
+        ],
+        [
+          304.47265625,
+          104.40289306640625
+        ],
+        [
+          67.25999450683594,
+          104.40289306640625
+        ]
+      ]
+    },
+    {
+      "title": "10.4.1 CRS block diagram",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          66.240234375,
+          120.05078125
+        ],
+        [
+          233.93515014648438,
+          120.05078125
+        ],
+        [
+          233.93515014648438,
+          132.70849609375
+        ],
+        [
+          66.240234375,
+          132.70849609375
+        ]
+      ]
+    },
+    {
+      "title": "10.5 CRS internal signals",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          66.240234375,
+          560.8828735351562
+        ],
+        [
+          260.0022888183594,
+          560.8828735351562
+        ],
+        [
+          260.0022888183594,
+          576.8193359375
+        ],
+        [
+          66.240234375,
+          576.8193359375
+        ]
+      ]
+    },
+    {
+      "title": "10.5.1 Synchronization input",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          65.6591796875,
+          209.677734375
+        ],
+        [
+          249.91075134277344,
+          209.677734375
+        ],
+        [
+          249.91075134277344,
+          221.6884765625
+        ],
+        [
+          65.6591796875,
+          221.6884765625
+        ]
+      ]
+    },
+    {
+      "title": "10.5.2 Frequency error measurement",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          65.6591796875,
+          364.263671875
+        ],
+        [
+          297.2831726074219,
+          364.263671875
+        ],
+        [
+          297.2831726074219,
+          376.728515625
+        ],
+        [
+          65.6591796875,
+          376.728515625
+        ]
+      ]
+    },
+    {
+      "title": "10.5.3 Frequency error evaluation and automatic trimming",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          65.078125,
+          438.6787109375
+        ],
+        [
+          418.359375,
+          438.6787109375
+        ],
+        [
+          418.359375,
+          451.8485412597656
+        ],
+        [
+          65.078125,
+          451.8485412597656
+        ]
+      ]
+    },
+    {
+      "title": "10.5.4 CRS initialization and configuration",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          65.6591796875,
+          308.349609375
+        ],
+        [
+          326.5463562011719,
+          308.349609375
+        ],
+        [
+          326.5463562011719,
+          321.70849609375
+        ],
+        [
+          65.6591796875,
+          321.70849609375
+        ]
+      ]
+    },
+    {
+      "title": "RELOAD value",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          122.021484375,
+          332.6064453125
+        ],
+        [
+          201.47879028320312,
+          332.6064453125
+        ],
+        [
+          201.47879028320312,
+          344.85565185546875
+        ],
+        [
+          122.021484375,
+          344.85565185546875
+        ]
+      ]
+    },
+    {
+      "title": "FELIM value",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          122.021484375,
+          446.0791015625
+        ],
+        [
+          188.00852966308594,
+          446.0791015625
+        ],
+        [
+          188.00852966308594,
+          458.85565185546875
+        ],
+        [
+          122.021484375,
+          458.85565185546875
+        ]
+      ]
+    },
+    {
+      "title": "10.6 CRS low-power modes",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          66.8212890625,
+          90.4228515625
+        ],
+        [
+          275.54376220703125,
+          90.4228515625
+        ],
+        [
+          275.54376220703125,
+          104.40289306640625
+        ],
+        [
+          66.8212890625,
+          104.40289306640625
+        ]
+      ]
+    },
+    {
+      "title": "10.7 CRS interrupts",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          66.240234375,
+          238.44281005859375
+        ],
+        [
+          222.6533203125,
+          238.44281005859375
+        ],
+        [
+          222.6533203125,
+          252.4228515625
+        ],
+        [
+          66.240234375,
+          252.4228515625
+        ]
+      ]
+    },
+    {
+      "title": "10.8\nCRS registers",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          66.69395465994963,
+          89.973285841496
+        ],
+        [
+          216.56801007556675,
+          89.973285841496
+        ],
+        [
+          216.56801007556675,
+          103.46927871772039
+        ],
+        [
+          66.69395465994963,
+          103.46927871772039
+        ]
+      ]
+    },
+    {
+      "title": "10.8.1\nCRS control register (CRS CR)",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          66.69395465994963,
+          156.7034728406055
+        ],
+        [
+          301.2468513853904,
+          156.7034728406055
+        ],
+        [
+          301.2468513853904,
+          168.69991095280497
+        ],
+        [
+          66.69395465994963,
+          168.69991095280497
+        ]
+      ]
+    },
+    {
+      "title": "Bits 13:8 TRIM[5:0]: HSI48 oscillator smooth trimming",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          110.9814453125,
+          358.9189453125
+        ],
+        [
+          331.97103274559197,
+          358.9189453125
+        ],
+        [
+          331.97103274559197,
+          368.89047195013353
+        ],
+        [
+          110.9814453125,
+          368.89047195013353
+        ]
+      ]
+    },
+    {
+      "title": "Bit 7 SWSYNC: Generate software SYNC event",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          128.89168765743074,
+          455.9462890625
+        ],
+        [
+          325.22670025188916,
+          455.9462890625
+        ],
+        [
+          325.22670025188916,
+          467.11130899376667
+        ],
+        [
+          128.89168765743074,
+          467.11130899376667
+        ]
+      ]
+    },
+    {
+      "title": "Bit 6 AUTOTRIMEN: Automatic trimming enable",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          128.4130859375,
+          521.7275390625
+        ],
+        [
+          325.22670025188916,
+          521.7275390625
+        ],
+        [
+          325.22670025188916,
+          531.5921638468388
+        ],
+        [
+          128.4130859375,
+          531.5921638468388
+        ]
+      ]
+    },
+    {
+      "title": "Bit 5 CEN: Frequency error counter enable",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          128.4130859375,
+          609.5690115761354
+        ],
+        [
+          304.2443324937028,
+          609.5690115761354
+        ],
+        [
+          304.2443324937028,
+          619.5771484375
+        ],
+        [
+          128.4130859375,
+          619.5771484375
+        ]
+      ]
+    },
+    {
+      "title": "Bit 3 ESYNCIE: Expected SYNC interrupt enable",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          129.5751953125,
+          97.02734375
+        ],
+        [
+          328.1916198730469,
+          97.02734375
+        ],
+        [
+          328.1916198730469,
+          106.16131591796875
+        ],
+        [
+          129.5751953125,
+          106.16131591796875
+        ]
+      ]
+    },
+    {
+      "title": "Bit 2 ERRIE: Synchronization or trimming error interrupt enable",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          127.83203125,
+          138.962890625
+        ],
+        [
+          384.1274719238281,
+          138.962890625
+        ],
+        [
+          384.1274719238281,
+          148.16070556640625
+        ],
+        [
+          127.83203125,
+          148.16070556640625
+        ]
+      ]
+    },
+    {
+      "title": "Bit 1 SYNCWARNIE: SYNC warning interrupt enable",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          127.2509765625,
+          180.076171875
+        ],
+        [
+          343.6239013671875,
+          180.076171875
+        ],
+        [
+          343.6239013671875,
+          190.16009521484375
+        ],
+        [
+          127.2509765625,
+          190.16009521484375
+        ]
+      ]
+    },
+    {
+      "title": "Bit 0 SYNCOKIE: SYNC event OK interrupt enable",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          127.83203125,
+          222.4228515625
+        ],
+        [
+          335.7335205078125,
+          222.4228515625
+        ],
+        [
+          335.7335205078125,
+          232.15948486328125
+        ],
+        [
+          127.83203125,
+          232.15948486328125
+        ]
+      ]
+    },
+    {
+      "title": "10.8.2 CRS configuration register (CRS_CFGR)",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          65.078125,
+          272.6884765625
+        ],
+        [
+          353.9111633300781,
+          272.6884765625
+        ],
+        [
+          353.9111633300781,
+          285.7373046875
+        ],
+        [
+          65.078125,
+          285.7373046875
+        ]
+      ]
+    },
+    {
+      "title": "Bit 31 SYNCPOL: SYNC polarity selection",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          124.345703125,
+          462.14129638671875
+        ],
+        [
+          296.6609802246094,
+          462.14129638671875
+        ],
+        [
+          296.6609802246094,
+          471.5693359375
+        ],
+        [
+          124.345703125,
+          471.5693359375
+        ]
+      ]
+    },
+    {
+      "title": "Bits 29:28 SYNCSRC[1:0]: SYNC signal source selection",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          108.076171875,
+          531.5947265625
+        ],
+        [
+          340.147216796875,
+          531.5947265625
+        ],
+        [
+          340.147216796875,
+          542.1809997558594
+        ],
+        [
+          108.076171875,
+          542.1809997558594
+        ]
+      ]
+    },
+    {
+      "title": "Bits 26:24 SYNCDIV[2:0]: SYNC divider",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          106.41057934508817,
+          95.97150489759572
+        ],
+        [
+          272.7707808564232,
+          95.97150489759572
+        ],
+        [
+          272.7707808564232,
+          105.71861086375779
+        ],
+        [
+          106.41057934508817,
+          105.71861086375779
+        ]
+      ]
+    },
+    {
+      "title": "Bits 23:16 FELIM[7:0]: Frequency error limit",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          106.41057934508817,
+          221.9341050756901
+        ],
+        [
+          288.507556675063,
+          221.9341050756901
+        ],
+        [
+          288.507556675063,
+          231.4677734375
+        ],
+        [
+          106.41057934508817,
+          231.4677734375
+        ]
+      ]
+    },
+    {
+      "title": "Bits 15:0 RELOAD[15:0]: Counter reload value",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          112.40554156171285,
+          274.41852181656276
+        ],
+        [
+          305.74307304785896,
+          274.41852181656276
+        ],
+        [
+          305.74307304785896,
+          284.1656277827248
+        ],
+        [
+          112.40554156171285,
+          284.1656277827248
+        ]
+      ]
+    },
+    {
+      "title": "10.8.3 CRS interrupt and status register (CRS_ISR)",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          66.69395465994963,
+          323.9038290293856
+        ],
+        [
+          376.9332493702771,
+          323.9038290293856
+        ],
+        [
+          376.9332493702771,
+          336.306640625
+        ],
+        [
+          66.69395465994963,
+          336.306640625
+        ]
+      ]
+    },
+    {
+      "title": "Bits 31:16 FECAP[15:0]: Frequency error capture",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          106.41057934508817,
+          491.1041852181656
+        ],
+        [
+          310.2392947103275,
+          491.1041852181656
+        ],
+        [
+          310.2392947103275,
+          501.1708984375
+        ],
+        [
+          106.41057934508817,
+          501.1708984375
+        ]
+      ]
+    },
+    {
+      "title": "Bit 15 FEDIR: Frequency error direction",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          122.89672544080605,
+          533.8414959928762
+        ],
+        [
+          287.00881612090683,
+          533.8414959928762
+        ],
+        [
+          287.00881612090683,
+          543.9287109375
+        ],
+        [
+          122.89672544080605,
+          543.9287109375
+        ]
+      ]
+    },
+    {
+      "title": "Bits 14:11 Reserved, must be kept at reset value.",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          106.3330078125,
+          597.3759765625
+        ],
+        [
+          307.2418136020151,
+          597.3759765625
+        ],
+        [
+          307.2418136020151,
+          607.319679430098
+        ],
+        [
+          106.3330078125,
+          607.319679430098
+        ]
+      ]
+    },
+    {
+      "title": "Bit 10 TRIMOVF: Trimming overflow or underflow",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          121.4404296875,
+          615.567230632235
+        ],
+        [
+          325.22670025188916,
+          615.567230632235
+        ],
+        [
+          325.22670025188916,
+          626.1552734375
+        ],
+        [
+          121.4404296875,
+          626.1552734375
+        ]
+      ]
+    },
+    {
+      "title": "Bit 9 SYNCMISS: SYNC missed",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          129.60000610351562,
+          96.6162109375
+        ],
+        [
+          261.0963134765625,
+          96.6162109375
+        ],
+        [
+          261.0963134765625,
+          106.16131591796875
+        ],
+        [
+          129.60000610351562,
+          106.16131591796875
+        ]
+      ]
+    },
+    {
+      "title": "Bit 8 SYNCERR: SYNC error",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          129.59999084472656,
+          205.9775390625
+        ],
+        [
+          248.98193359375,
+          205.9775390625
+        ],
+        [
+          248.98193359375,
+          215.12158203125
+        ],
+        [
+          129.59999084472656,
+          215.12158203125
+        ]
+      ]
+    },
+    {
+      "title": "Bits 7:4 Reserved, must be kept at reset value.",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          117.60029602050781,
+          314.927734375
+        ],
+        [
+          307.205078125,
+          314.927734375
+        ],
+        [
+          307.205078125,
+          324.14215087890625
+        ],
+        [
+          117.60029602050781,
+          324.14215087890625
+        ]
+      ]
+    },
+    {
+      "title": "Bit 3 ESYNCF: Expected SYNC flag",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          128.994140625,
+          331.373046875
+        ],
+        [
+          276.56365966796875,
+          331.373046875
+        ],
+        [
+          276.56365966796875,
+          341.181884765625
+        ],
+        [
+          128.994140625,
+          341.181884765625
+        ]
+      ]
+    },
+    {
+      "title": "Bit 2 ERRF: Error flag",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          128.70361328125,
+          408.1418762207031
+        ],
+        [
+          219.92919921875,
+          408.1418762207031
+        ],
+        [
+          219.92919921875,
+          417.1418762207031
+        ],
+        [
+          128.70361328125,
+          417.1418762207031
+        ]
+      ]
+    },
+    {
+      "title": "Bit 1 SYNCWARNF: SYNC warning flag",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          128.994140625,
+          495.1422119140625
+        ],
+        [
+          292.00408935546875,
+          495.1422119140625
+        ],
+        [
+          292.00408935546875,
+          504.4599609375
+        ],
+        [
+          128.994140625,
+          504.4599609375
+        ]
+      ]
+    },
+    {
+      "title": "Bit 0 SYNCOKF: SYNC event OK flag",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          127.2509765625,
+          593.1819915771484
+        ],
+        [
+          284.1357421875,
+          593.1819915771484
+        ],
+        [
+          284.1357421875,
+          603.1318359375
+        ],
+        [
+          127.2509765625,
+          603.1318359375
+        ]
+      ]
+    },
+    {
+      "title": "10.8.4 CRS interrupt flag clear register (CRS_ICR)",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          66.240234375,
+          698.7484130859375
+        ],
+        [
+          369.2400207519531,
+          698.7484130859375
+        ],
+        [
+          369.2400207519531,
+          710.7484130859375
+        ],
+        [
+          66.240234375,
+          710.7484130859375
+        ]
+      ]
+    },
+    {
+      "title": "10.8.5 CRS register map",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          65.6591796875,
+          391.38379341050756
+        ],
+        [
+          225.56045340050377,
+          391.38379341050756
+        ],
+        [
+          225.56045340050377,
+          404.1300089047195
+        ],
+        [
+          65.6591796875,
+          404.1300089047195
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          81
+        ],
+        [
+          "Line",
+          34
+        ],
+        [
+          "ListItem",
+          15
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "TableCell",
+          4
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          96
+        ],
+        [
+          "Line",
+          47
+        ],
+        [
+          "TableCell",
+          12
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Caption",
+          3
+        ],
+        [
+          "PageFooter",
+          3
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          72
+        ],
+        [
+          "Line",
+          35
+        ],
+        [
+          "TableCell",
+          10
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          91
+        ],
+        [
+          "Line",
+          38
+        ],
+        [
+          "ListItem",
+          9
+        ],
+        [
+          "PageFooter",
+          3
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          85
+        ],
+        [
+          "Line",
+          40
+        ],
+        [
+          "Text",
+          12
+        ],
+        [
+          "ListItem",
+          6
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Equation",
+          2
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          45
+        ],
+        [
+          "TableCell",
+          28
+        ],
+        [
+          "Line",
+          20
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "Table",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "TableGroup",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "TableCell",
+          91
+        ],
+        [
+          "Span",
+          43
+        ],
+        [
+          "Line",
+          40
+        ],
+        [
+          "Text",
+          14
+        ],
+        [
+          "SectionHeader",
+          6
+        ],
+        [
+          "ListItem",
+          6
+        ],
+        [
+          "ListGroup",
+          3
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          109
+        ],
+        [
+          "TableCell",
+          80
+        ],
+        [
+          "Line",
+          42
+        ],
+        [
+          "ListItem",
+          15
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "SectionHeader",
+          7
+        ],
+        [
+          "ListGroup",
+          6
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 8,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "TableCell",
+          82
+        ],
+        [
+          "Line",
+          71
+        ],
+        [
+          "Span",
+          39
+        ],
+        [
+          "Text",
+          17
+        ],
+        [
+          "SectionHeader",
+          8
+        ],
+        [
+          "ListItem",
+          4
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "Table",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 9,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          119
+        ],
+        [
+          "Line",
+          51
+        ],
+        [
+          "Text",
+          19
+        ],
+        [
+          "SectionHeader",
+          8
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Picture",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 10,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "TableCell",
+          281
+        ],
+        [
+          "Line",
+          70
+        ],
+        [
+          "Span",
+          18
+        ],
+        [
+          "Text",
+          11
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 11,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          7
+        ],
+        [
+          "PageFooter",
+          3
+        ],
+        [
+          "Line",
+          3
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Text",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/10_10 Clock recovery system (CRS)"
+}

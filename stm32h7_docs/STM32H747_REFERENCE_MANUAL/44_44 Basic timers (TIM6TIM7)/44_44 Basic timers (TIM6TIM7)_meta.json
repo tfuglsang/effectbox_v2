@@ -1,0 +1,1331 @@
+{
+  "table_of_contents": [
+    {
+      "title": "44 Basic timers (TIM6/TIM7)",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          65.94458438287154,
+          89.2158203125
+        ],
+        [
+          312.0263671875,
+          89.2158203125
+        ],
+        [
+          312.0263671875,
+          105.71861086375779
+        ],
+        [
+          65.94458438287154,
+          105.71861086375779
+        ]
+      ]
+    },
+    {
+      "title": "44.1 TIM6/TIM7 introduction",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          65.6591796875,
+          129.71148708815673
+        ],
+        [
+          278.0163727959698,
+          129.71148708815673
+        ],
+        [
+          278.0163727959698,
+          141.7079252003562
+        ],
+        [
+          65.6591796875,
+          141.7079252003562
+        ]
+      ]
+    },
+    {
+      "title": "44.2 TIM6/TIM7 main features",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          65.6591796875,
+          261.67230632235083
+        ],
+        [
+          287.00881612090683,
+          261.67230632235083
+        ],
+        [
+          287.00881612090683,
+          273.4033203125
+        ],
+        [
+          65.6591796875,
+          273.4033203125
+        ]
+      ]
+    },
+    {
+      "title": "44.3 TIM6/TIM7 functional description",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          66.8212890625,
+          89.626953125
+        ],
+        [
+          342.2412109375,
+          89.626953125
+        ],
+        [
+          342.2412109375,
+          104.40289306640625
+        ],
+        [
+          66.8212890625,
+          104.40289306640625
+        ]
+      ]
+    },
+    {
+      "title": "44.3.1 Time-base unit",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          66.240234375,
+          120.70849609375
+        ],
+        [
+          208.36322021484375,
+          120.70849609375
+        ],
+        [
+          208.36322021484375,
+          132.70849609375
+        ],
+        [
+          66.240234375,
+          132.70849609375
+        ]
+      ]
+    },
+    {
+      "title": "Prescaler description",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          122.89306640625,
+          406.8956604003906
+        ],
+        [
+          235.6627960205078,
+          406.8956604003906
+        ],
+        [
+          235.6627960205078,
+          418.1220703125
+        ],
+        [
+          122.89306640625,
+          418.1220703125
+        ]
+      ]
+    },
+    {
+      "title": "44.3.2 Counting mode",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          66.53076171875,
+          90.44921875
+        ],
+        [
+          211.9043731689453,
+          90.44921875
+        ],
+        [
+          211.9043731689453,
+          102.70849609375
+        ],
+        [
+          66.53076171875,
+          102.70849609375
+        ]
+      ]
+    },
+    {
+      "title": "44.3.3 UIF bit remapping",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          65.6591796875,
+          420.3485412597656
+        ],
+        [
+          225.9552001953125,
+          420.3485412597656
+        ],
+        [
+          225.9552001953125,
+          433.333984375
+        ],
+        [
+          65.6591796875,
+          433.333984375
+        ]
+      ]
+    },
+    {
+      "title": "44.3.4 Clock source",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          65.94970703125,
+          544.7509765625
+        ],
+        [
+          199.29116821289062,
+          544.7509765625
+        ],
+        [
+          199.29116821289062,
+          557.3885498046875
+        ],
+        [
+          65.94970703125,
+          557.3885498046875
+        ]
+      ]
+    },
+    {
+      "title": "44.3.5 Debug mode",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          65.6591796875,
+          335.0732421875
+        ],
+        [
+          196.60079956054688,
+          335.0732421875
+        ],
+        [
+          196.60079956054688,
+          347.3285217285156
+        ],
+        [
+          65.6591796875,
+          347.3285217285156
+        ]
+      ]
+    },
+    {
+      "title": "44.4 TIM6/TIM7 registers",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          66.240234375,
+          427.1669921875
+        ],
+        [
+          254.69546508789062,
+          427.1669921875
+        ],
+        [
+          254.69546508789062,
+          442.0228576660156
+        ],
+        [
+          66.240234375,
+          442.0228576660156
+        ]
+      ]
+    },
+    {
+      "title": "44.4.1 TIMx control register 1 (TIMx_CR1)(x = 6 to 7)",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          66.240234375,
+          495.3485412597656
+        ],
+        [
+          381.5208435058594,
+          495.3485412597656
+        ],
+        [
+          381.5208435058594,
+          509.3935546875
+        ],
+        [
+          66.240234375,
+          509.3935546875
+        ]
+      ]
+    },
+    {
+      "title": "Bit 7 ARPE: Auto-reload preload enable",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          129.5751953125,
+          96.205078125
+        ],
+        [
+          291.24896240234375,
+          96.205078125
+        ],
+        [
+          291.24896240234375,
+          106.16131591796875
+        ],
+        [
+          129.5751953125,
+          106.16131591796875
+        ]
+      ]
+    },
+    {
+      "title": "Bits 6:4 Reserved, must be kept at reset value.",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          117.77938842773438,
+          138.140625
+        ],
+        [
+          307.3779296875,
+          138.140625
+        ],
+        [
+          307.3779296875,
+          147.14190673828125
+        ],
+        [
+          117.77938842773438,
+          147.14190673828125
+        ]
+      ]
+    },
+    {
+      "title": "Bit 3 OPM: One-pulse mode",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          128.4130859375,
+          155.1221923828125
+        ],
+        [
+          245.30039978027344,
+          155.1221923828125
+        ],
+        [
+          245.30039978027344,
+          164.1221923828125
+        ],
+        [
+          128.4130859375,
+          164.1221923828125
+        ]
+      ]
+    },
+    {
+      "title": "Bit 2 URS: Update request source",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          129.77911376953125,
+          196.1622314453125
+        ],
+        [
+          268.309814453125,
+          196.1622314453125
+        ],
+        [
+          268.309814453125,
+          205.1622314453125
+        ],
+        [
+          129.77911376953125,
+          205.1622314453125
+        ]
+      ]
+    },
+    {
+      "title": "Bit 1 UDIS: Update disable",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          127.83203125,
+          311.638671875
+        ],
+        [
+          239.8455047607422,
+          311.638671875
+        ],
+        [
+          239.8455047607422,
+          321.14337158203125
+        ],
+        [
+          127.83203125,
+          321.14337158203125
+        ]
+      ]
+    },
+    {
+      "title": "Bit 0 CEN: Counter enable",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          128.70361328125,
+          439.5009765625
+        ],
+        [
+          238.85824584960938,
+          439.5009765625
+        ],
+        [
+          238.85824584960938,
+          449.1836853027344
+        ],
+        [
+          128.70361328125,
+          449.1836853027344
+        ]
+      ]
+    },
+    {
+      "title": "44.4.2 TIMx control register 2 (TIMx_CR2)(x = 6 to 7)",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          66.240234375,
+          90.0380859375
+        ],
+        [
+          382.333984375,
+          90.0380859375
+        ],
+        [
+          382.333984375,
+          102.70849609375
+        ],
+        [
+          66.240234375,
+          102.70849609375
+        ]
+      ]
+    },
+    {
+      "title": "Bits 6:4 MMS[2:0]: Master mode selection",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          116.7919921875,
+          227.3564453125
+        ],
+        [
+          289.9462890625,
+          227.3564453125
+        ],
+        [
+          289.9462890625,
+          237.1416015625
+        ],
+        [
+          116.7919921875,
+          237.1416015625
+        ]
+      ]
+    },
+    {
+      "title": "44.4.3 TIMx DMA/Interrupt enable register (TIMx_DIER)(x = 6 to 7)",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          63.916015625,
+          463.3466796875
+        ],
+        [
+          456.7667541503906,
+          463.3466796875
+        ],
+        [
+          456.7667541503906,
+          477.7085266113281
+        ],
+        [
+          63.916015625,
+          477.7085266113281
+        ]
+      ]
+    },
+    {
+      "title": "44.4.4 TIMx status register (TIMx_SR)(x = 6 to 7)",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          66.240234375,
+          90.0380859375
+        ],
+        [
+          361.416015625,
+          90.0380859375
+        ],
+        [
+          361.416015625,
+          102.70849609375
+        ],
+        [
+          66.240234375,
+          102.70849609375
+        ]
+      ]
+    },
+    {
+      "title": "44.4.5 TIMx event generation register (TIMx_EGR)(x = 6 to 7)",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          65.078125,
+          337.5400390625
+        ],
+        [
+          428.9375305175781,
+          337.5400390625
+        ],
+        [
+          428.9375305175781,
+          349.8740234375
+        ],
+        [
+          65.078125,
+          349.8740234375
+        ]
+      ]
+    },
+    {
+      "title": "44.4.6 TIMx counter (TIMx_CNT)(x = 6 to 7)",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          64.4970703125,
+          547.728515625
+        ],
+        [
+          328.1376037597656,
+          547.728515625
+        ],
+        [
+          328.1376037597656,
+          561.1962890625
+        ],
+        [
+          64.4970703125,
+          561.1962890625
+        ]
+      ]
+    },
+    {
+      "title": "Bit 31 UIFCPY: UIF Copy",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          123.9000015258789,
+          98.2607421875
+        ],
+        [
+          228.64501953125,
+          98.2607421875
+        ],
+        [
+          228.64501953125,
+          108.14129638671875
+        ],
+        [
+          123.9000015258789,
+          108.14129638671875
+        ]
+      ]
+    },
+    {
+      "title": "44.4.7 TIMx prescaler (TIMx_PSC)(x = 6 to 7)",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          66.8212890625,
+          179.6884765625
+        ],
+        [
+          337.7303771972656,
+          179.6884765625
+        ],
+        [
+          337.7303771972656,
+          192.8212890625
+        ],
+        [
+          66.8212890625,
+          192.8212890625
+        ]
+      ]
+    },
+    {
+      "title": "Bits 15:0 PSC[15:0]: Prescaler value",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          110.400390625,
+          298.0712890625
+        ],
+        [
+          262.4048767089844,
+          298.0712890625
+        ],
+        [
+          262.4048767089844,
+          309.14129638671875
+        ],
+        [
+          110.400390625,
+          309.14129638671875
+        ]
+      ]
+    },
+    {
+      "title": "44.4.8 TIMx auto-reload register (TIMx_ARR)(x = 6 to 7)",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          63.916015625,
+          372.486328125
+        ],
+        [
+          398.23077392578125,
+          372.486328125
+        ],
+        [
+          398.23077392578125,
+          384.7085266113281
+        ],
+        [
+          63.916015625,
+          384.7085266113281
+        ]
+      ]
+    },
+    {
+      "title": "Bits 15:0 ARR[15:0]: Prescaler value",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          111.77999877929688,
+          492.1259765625
+        ],
+        [
+          262.8656921386719,
+          492.1259765625
+        ],
+        [
+          262.8656921386719,
+          502.1612854003906
+        ],
+        [
+          111.77999877929688,
+          502.1612854003906
+        ]
+      ]
+    },
+    {
+      "title": "44.4.9 TIMx register map",
+      "heading_level": null,
+      "page_id": 12,
+      "polygon": [
+        [
+          66.240234375,
+          90.44921875
+        ],
+        [
+          226.711181640625,
+          90.44921875
+        ],
+        [
+          226.711181640625,
+          102.70849609375
+        ],
+        [
+          66.240234375,
+          102.70849609375
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          53
+        ],
+        [
+          "Span",
+          16
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "ListItem",
+          4
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageFooter",
+          3
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "PictureGroup",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          66
+        ],
+        [
+          "Line",
+          29
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "ListItem",
+          3
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "ListGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          107
+        ],
+        [
+          "Line",
+          32
+        ],
+        [
+          "PageFooter",
+          3
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "Figure",
+          2
+        ],
+        [
+          "Reference",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          83
+        ],
+        [
+          "Line",
+          33
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "ListItem",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          65
+        ],
+        [
+          "Line",
+          24
+        ],
+        [
+          "Figure",
+          3
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          79
+        ],
+        [
+          "Line",
+          28
+        ],
+        [
+          "Figure",
+          3
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          96
+        ],
+        [
+          "Line",
+          36
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "PageFooter",
+          3
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          93
+        ],
+        [
+          "Line",
+          31
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Figure",
+          2
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "FigureGroup",
+          2
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 8,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          86
+        ],
+        [
+          "Line",
+          34
+        ],
+        [
+          "ListItem",
+          14
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "SectionHeader",
+          6
+        ],
+        [
+          "ListGroup",
+          5
+        ],
+        [
+          "PageFooter",
+          3
+        ],
+        [
+          "PageHeader",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 9,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          110
+        ],
+        [
+          "TableCell",
+          96
+        ],
+        [
+          "Line",
+          42
+        ],
+        [
+          "Text",
+          19
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Table",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 10,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "TableCell",
+          178
+        ],
+        [
+          "Span",
+          89
+        ],
+        [
+          "Line",
+          39
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "ListItem",
+          6
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Table",
+          3
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "TableGroup",
+          2
+        ],
+        [
+          "ListGroup",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 11,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          71
+        ],
+        [
+          "TableCell",
+          67
+        ],
+        [
+          "Line",
+          29
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Table",
+          2
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 12,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "TableCell",
+          534
+        ],
+        [
+          "Span",
+          169
+        ],
+        [
+          "Line",
+          81
+        ],
+        [
+          "PageFooter",
+          3
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/44_44 Basic timers (TIM6TIM7)"
+}

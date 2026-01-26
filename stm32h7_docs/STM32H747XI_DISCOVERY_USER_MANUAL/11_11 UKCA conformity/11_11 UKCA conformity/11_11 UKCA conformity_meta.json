@@ -1,0 +1,87 @@
+{
+  "table_of_contents": [
+    {
+      "title": "11 UKCA conformity",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          65.6591796875,
+          89.2158203125
+        ],
+        [
+          257.4072265625,
+          89.2158203125
+        ],
+        [
+          257.4072265625,
+          106.09716796875
+        ],
+        [
+          65.6591796875,
+          106.09716796875
+        ]
+      ]
+    },
+    {
+      "title": "Simplified UK declaration of conformity",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          123.95999908447266,
+          130.3291015625
+        ],
+        [
+          331.201171875,
+          130.3291015625
+        ],
+        [
+          331.201171875,
+          141.87567138671875
+        ],
+        [
+          123.95999908447266,
+          141.87567138671875
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          25
+        ],
+        [
+          "Line",
+          11
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "PageFooter",
+          3
+        ],
+        [
+          "SectionHeader",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/11_11 UKCA conformity"
+}

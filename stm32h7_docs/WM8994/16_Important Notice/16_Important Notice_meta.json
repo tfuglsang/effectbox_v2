@@ -1,0 +1,91 @@
+{
+  "table_of_contents": [
+    {
+      "title": "IMPORTANT NOTICE",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          72.0,
+          96.2200927734375
+        ],
+        [
+          191.9759979248047,
+          96.2200927734375
+        ],
+        [
+          191.9759979248047,
+          108.2200927734375
+        ],
+        [
+          72.0,
+          108.2200927734375
+        ]
+      ]
+    },
+    {
+      "title": "Contacting Cirrus Logic Support",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          71.12109375,
+          274.62005615234375
+        ],
+        [
+          258.78515625,
+          274.62005615234375
+        ],
+        [
+          258.78515625,
+          287.33203125
+        ],
+        [
+          71.12109375,
+          287.33203125
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          109
+        ],
+        [
+          "Line",
+          48
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/16_Important Notice"
+}

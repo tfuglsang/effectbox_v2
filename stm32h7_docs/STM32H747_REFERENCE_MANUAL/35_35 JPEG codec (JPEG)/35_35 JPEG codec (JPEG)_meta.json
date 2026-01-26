@@ -1,0 +1,2220 @@
+{
+  "table_of_contents": [
+    {
+      "title": "35 JPEG codec (JPEG)",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          67.25999450683594,
+          88.3935546875
+        ],
+        [
+          276.58203125,
+          88.3935546875
+        ],
+        [
+          276.58203125,
+          106.09716796875
+        ],
+        [
+          67.25999450683594,
+          106.09716796875
+        ]
+      ]
+    },
+    {
+      "title": "35.1 Introduction",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          66.53076171875,
+          130.3291015625
+        ],
+        [
+          205.62425231933594,
+          130.3291015625
+        ],
+        [
+          205.62425231933594,
+          144.4228515625
+        ],
+        [
+          66.53076171875,
+          144.4228515625
+        ]
+      ]
+    },
+    {
+      "title": "35.2 JPEG codec main features",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          66.8212890625,
+          201.4228515625
+        ],
+        [
+          300.44647216796875,
+          201.4228515625
+        ],
+        [
+          300.44647216796875,
+          215.40289306640625
+        ],
+        [
+          66.8212890625,
+          215.40289306640625
+        ]
+      ]
+    },
+    {
+      "title": "35.3 JPEG codec block functional description",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          65.94458438287154,
+          88.47373107747106
+        ],
+        [
+          397.44140625,
+          88.47373107747106
+        ],
+        [
+          397.44140625,
+          104.96883348174532
+        ],
+        [
+          65.94458438287154,
+          104.96883348174532
+        ]
+      ]
+    },
+    {
+      "title": "35.3.1 General description",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          65.94458438287154,
+          119.21460373998218
+        ],
+        [
+          236.80100755667507,
+          119.21460373998218
+        ],
+        [
+          236.80100755667507,
+          131.9608192341941
+        ],
+        [
+          65.94458438287154,
+          131.9608192341941
+        ]
+      ]
+    },
+    {
+      "title": "35.3.2 JPEG internal signals",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          65.94458438287154,
+          530.8423864648263
+        ],
+        [
+          248.04156171284637,
+          530.8423864648263
+        ],
+        [
+          248.04156171284637,
+          544.7509765625
+        ],
+        [
+          65.94458438287154,
+          544.7509765625
+        ]
+      ]
+    },
+    {
+      "title": "Table 295. JPEG internal signals (continued)",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          216.15234375,
+          90.8603515625
+        ],
+        [
+          431.1811828613281,
+          90.8603515625
+        ],
+        [
+          431.1811828613281,
+          101.5498046875
+        ],
+        [
+          216.15234375,
+          101.5498046875
+        ]
+      ]
+    },
+    {
+      "title": "35.3.3 JPEG decoding procedure",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          65.078125,
+          175.142578125
+        ],
+        [
+          274.66070556640625,
+          175.142578125
+        ],
+        [
+          274.66070556640625,
+          188.6884765625
+        ],
+        [
+          65.078125,
+          188.6884765625
+        ]
+      ]
+    },
+    {
+      "title": "Interrupt or MDMA trigger generation for input FIFO",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          122.6025390625,
+          357.87567138671875
+        ],
+        [
+          392.7427673339844,
+          357.87567138671875
+        ],
+        [
+          392.7427673339844,
+          368.85565185546875
+        ],
+        [
+          122.6025390625,
+          368.85565185546875
+        ]
+      ]
+    },
+    {
+      "title": "Header parsing",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          122.31201171875,
+          633.5556640625
+        ],
+        [
+          203.92953491210938,
+          633.5556640625
+        ],
+        [
+          203.92953491210938,
+          644.8556671142578
+        ],
+        [
+          122.31201171875,
+          644.8556671142578
+        ]
+      ]
+    },
+    {
+      "title": "JPEG decoding",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          122.89306640625,
+          250.8956298828125
+        ],
+        [
+          205.1417236328125,
+          250.8956298828125
+        ],
+        [
+          205.1417236328125,
+          261.8916015625
+        ],
+        [
+          122.89306640625,
+          261.8916015625
+        ]
+      ]
+    },
+    {
+      "title": "Interrupt or MDMA trigger generation for output FIFO",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          123.95999908447266,
+          358.0966796875
+        ],
+        [
+          400.0686340332031,
+          358.0966796875
+        ],
+        [
+          400.0686340332031,
+          369.8756408691406
+        ],
+        [
+          123.95999908447266,
+          369.8756408691406
+        ]
+      ]
+    },
+    {
+      "title": "35.3.4 JPEG encoding procedure",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          66.240234375,
+          596.7485046386719
+        ],
+        [
+          274.66070556640625,
+          596.7485046386719
+        ],
+        [
+          274.66070556640625,
+          608.7485046386719
+        ],
+        [
+          66.240234375,
+          608.7485046386719
+        ]
+      ]
+    },
+    {
+      "title": "Interrupt or MDMA trigger generation for input FIFO",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          122.021484375,
+          223.2451171875
+        ],
+        [
+          392.7427673339844,
+          223.2451171875
+        ],
+        [
+          392.7427673339844,
+          234.87567138671875
+        ],
+        [
+          122.021484375,
+          234.87567138671875
+        ]
+      ]
+    },
+    {
+      "title": "JPEG encoding",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          122.6025390625,
+          499.8956604003906
+        ],
+        [
+          205.1417236328125,
+          499.8956604003906
+        ],
+        [
+          205.1417236328125,
+          511.0380859375
+        ],
+        [
+          122.6025390625,
+          511.0380859375
+        ]
+      ]
+    },
+    {
+      "title": "Interrupt or MDMA trigger generation for output FIFO",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          123.7646484375,
+          553.8956604003906
+        ],
+        [
+          400.0686340332031,
+          553.8956604003906
+        ],
+        [
+          400.0686340332031,
+          564.8756408691406
+        ],
+        [
+          123.7646484375,
+          564.8756408691406
+        ]
+      ]
+    },
+    {
+      "title": "35.4 JPEG codec interrupts",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          66.240234375,
+          270.4227294921875
+        ],
+        [
+          274.79998779296875,
+          270.4227294921875
+        ],
+        [
+          274.79998779296875,
+          284.50390625
+        ],
+        [
+          66.240234375,
+          284.50390625
+        ]
+      ]
+    },
+    {
+      "title": "35.5 JPEG codec registers",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          65.6591796875,
+          89.626953125
+        ],
+        [
+          269.0283203125,
+          89.626953125
+        ],
+        [
+          269.0283203125,
+          104.40289306640625
+        ],
+        [
+          65.6591796875,
+          104.40289306640625
+        ]
+      ]
+    },
+    {
+      "title": "35.5.1 JPEG codec control register (JPEG_CONFR0)",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          67.25999450683594,
+          120.70849609375
+        ],
+        [
+          385.8203125,
+          120.70849609375
+        ],
+        [
+          385.8203125,
+          132.70849609375
+        ],
+        [
+          67.25999450683594,
+          132.70849609375
+        ]
+      ]
+    },
+    {
+      "title": "35.5.2 JPEG codec configuration register 1 (JPEG_CONFR1)",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          65.078125,
+          385.2314453125
+        ],
+        [
+          430.5372009277344,
+          385.2314453125
+        ],
+        [
+          430.5372009277344,
+          397.5654296875
+        ],
+        [
+          65.078125,
+          397.5654296875
+        ]
+      ]
+    },
+    {
+      "title": "Bits 31:16 YSIZE[15:0]: Y Size",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          105.751953125,
+          557.9072265625
+        ],
+        [
+          233.583984375,
+          557.9072265625
+        ],
+        [
+          233.583984375,
+          567.5611877441406
+        ],
+        [
+          105.751953125,
+          567.5611877441406
+        ]
+      ]
+    },
+    {
+      "title": "Bits 5:4 COLSPACE[1:0]: Color space",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          115.6298828125,
+          96.6162109375
+        ],
+        [
+          273.477294921875,
+          96.6162109375
+        ],
+        [
+          273.477294921875,
+          106.16131591796875
+        ],
+        [
+          115.6298828125,
+          106.16131591796875
+        ]
+      ]
+    },
+    {
+      "title": "Bits 1:0 NF[1:0]: Number of color components",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          116.2109375,
+          242.568359375
+        ],
+        [
+          303.70562744140625,
+          242.568359375
+        ],
+        [
+          303.70562744140625,
+          255.13922119140625
+        ],
+        [
+          116.2109375,
+          255.13922119140625
+        ]
+      ]
+    },
+    {
+      "title": "35.5.3 JPEG codec configuration register 2 (JPEG_CONFR2)",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          66.240234375,
+          330.9619140625
+        ],
+        [
+          430.5372009277344,
+          330.9619140625
+        ],
+        [
+          430.5372009277344,
+          343.728515625
+        ],
+        [
+          66.240234375,
+          343.728515625
+        ]
+      ]
+    },
+    {
+      "title": "Bits 25:0 NMCU[25:0]: Number of MCUs",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          111.66059112548828,
+          521.7275390625
+        ],
+        [
+          277.6034851074219,
+          521.7275390625
+        ],
+        [
+          277.6034851074219,
+          530.8416137695312
+        ],
+        [
+          111.66059112548828,
+          530.8416137695312
+        ]
+      ]
+    },
+    {
+      "title": "35.5.4 JPEG codec configuration register 3 (JPEG_CONFR3)",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          66.240234375,
+          90.0380859375
+        ],
+        [
+          431.142578125,
+          90.0380859375
+        ],
+        [
+          431.142578125,
+          102.70849609375
+        ],
+        [
+          66.240234375,
+          102.70849609375
+        ]
+      ]
+    },
+    {
+      "title": "35.5.5 JPEG codec configuration register x (JPEG_CONFRx)",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          67.25999450683594,
+          318.216796875
+        ],
+        [
+          430.5372009277344,
+          318.216796875
+        ],
+        [
+          430.5372009277344,
+          330.4084167480469
+        ],
+        [
+          67.25999450683594,
+          330.4084167480469
+        ]
+      ]
+    },
+    {
+      "title": "35.5.6 JPEG control register (JPEG_CR)",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          66.240234375,
+          214.2001953125
+        ],
+        [
+          314.4911804199219,
+          214.2001953125
+        ],
+        [
+          314.4911804199219,
+          226.728515625
+        ],
+        [
+          66.240234375,
+          226.728515625
+        ]
+      ]
+    },
+    {
+      "title": "Bit 3 OFTIE: Output FIFO threshold interrupt enable",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          127.2509765625,
+          95.7939453125
+        ],
+        [
+          338.2527160644531,
+          95.7939453125
+        ],
+        [
+          338.2527160644531,
+          106.16131591796875
+        ],
+        [
+          127.2509765625,
+          106.16131591796875
+        ]
+      ]
+    },
+    {
+      "title": "Bit 2 IFNFIE: Input FIFO not full interrupt enable",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          127.2509765625,
+          149.2412109375
+        ],
+        [
+          322.6637878417969,
+          149.2412109375
+        ],
+        [
+          322.6637878417969,
+          160.160400390625
+        ],
+        [
+          127.2509765625,
+          160.160400390625
+        ]
+      ]
+    },
+    {
+      "title": "Bit 1 IFTIE: Input FIFO threshold interrupt enable",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          127.2509765625,
+          204.3330078125
+        ],
+        [
+          326.7120056152344,
+          204.3330078125
+        ],
+        [
+          326.7120056152344,
+          214.15948486328125
+        ],
+        [
+          127.2509765625,
+          214.15948486328125
+        ]
+      ]
+    },
+    {
+      "title": "Bit 0 JCEN: JPEG core enable",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          127.83203125,
+          259.013671875
+        ],
+        [
+          254.21337890625,
+          259.013671875
+        ],
+        [
+          254.21337890625,
+          268.15863037109375
+        ],
+        [
+          127.83203125,
+          268.15863037109375
+        ]
+      ]
+    },
+    {
+      "title": "35.5.7 JPEG status register (JPEG_SR)",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          67.25999450683594,
+          319.861328125
+        ],
+        [
+          308.6280212402344,
+          319.861328125
+        ],
+        [
+          308.6280212402344,
+          332.74853515625
+        ],
+        [
+          67.25999450683594,
+          332.74853515625
+        ]
+      ]
+    },
+    {
+      "title": "Bit 7 COF: Codec operation flag",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          126.669921875,
+          508.5712890625
+        ],
+        [
+          259.2716979980469,
+          508.5712890625
+        ],
+        [
+          259.2716979980469,
+          519.8610229492188
+        ],
+        [
+          126.669921875,
+          519.8610229492188
+        ]
+      ]
+    },
+    {
+      "title": "Bit 6 HPDF: Header parsing done flag",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          126.669921875,
+          564.4853515625
+        ],
+        [
+          282.6744079589844,
+          564.4853515625
+        ],
+        [
+          282.6744079589844,
+          573.860107421875
+        ],
+        [
+          126.669921875,
+          573.860107421875
+        ]
+      ]
+    },
+    {
+      "title": "Bit 5 EOCF: End of conversion flag",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          126.669921875,
+          629.8401336669922
+        ],
+        [
+          271.1624755859375,
+          629.8401336669922
+        ],
+        [
+          271.1624755859375,
+          639.3115234375
+        ],
+        [
+          126.669921875,
+          639.3115234375
+        ]
+      ]
+    },
+    {
+      "title": "Bit 4 OFNEF: Output FIFO not empty flag",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          128.63999938964844,
+          96.6162109375
+        ],
+        [
+          297.5,
+          96.6162109375
+        ],
+        [
+          297.5,
+          106.16131591796875
+        ],
+        [
+          128.63999938964844,
+          106.16131591796875
+        ]
+      ]
+    },
+    {
+      "title": "Bit 3 OFTF: Output FIFO threshold flag",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          127.2509765625,
+          150.8857421875
+        ],
+        [
+          287.3199157714844,
+          150.8857421875
+        ],
+        [
+          287.3199157714844,
+          160.160400390625
+        ],
+        [
+          127.2509765625,
+          160.160400390625
+        ]
+      ]
+    },
+    {
+      "title": "Bit 2 IFNFF: Input FIFO not full flag",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          126.96044921875,
+          204.744140625
+        ],
+        [
+          271.6797180175781,
+          204.744140625
+        ],
+        [
+          271.6797180175781,
+          214.15948486328125
+        ],
+        [
+          126.96044921875,
+          214.15948486328125
+        ]
+      ]
+    },
+    {
+      "title": "Bit 1 IFTF: Input FIFO threshold flag",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          126.0888671875,
+          258.6025390625
+        ],
+        [
+          276.0009765625,
+          258.6025390625
+        ],
+        [
+          276.0009765625,
+          268.15863037109375
+        ],
+        [
+          126.0888671875,
+          268.15863037109375
+        ]
+      ]
+    },
+    {
+      "title": "35.5.8 JPEG clear flag register (JPEG_CFR)",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          65.6591796875,
+          336.306640625
+        ],
+        [
+          334.0619812011719,
+          336.306640625
+        ],
+        [
+          334.0619812011719,
+          349.728515625
+        ],
+        [
+          65.6591796875,
+          349.728515625
+        ]
+      ]
+    },
+    {
+      "title": "Bit 6 CHPDF: Clear header parsing done flag",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          128.4130859375,
+          527.8416137695312
+        ],
+        [
+          311.78851318359375,
+          527.8416137695312
+        ],
+        [
+          311.78851318359375,
+          537.3505859375
+        ],
+        [
+          128.4130859375,
+          537.3505859375
+        ]
+      ]
+    },
+    {
+      "title": "Bit 5 CEOCF: Clear end of conversion flag",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          127.2509765625,
+          580.9306640625
+        ],
+        [
+          300.5321960449219,
+          580.9306640625
+        ],
+        [
+          300.5321960449219,
+          590.8416137695312
+        ],
+        [
+          127.2509765625,
+          590.8416137695312
+        ]
+      ]
+    },
+    {
+      "title": "35.5.9 JPEG data input register (JPEG_DIR)",
+      "heading_level": null,
+      "page_id": 12,
+      "polygon": [
+        [
+          66.8212890625,
+          90.0380859375
+        ],
+        [
+          335.2685546875,
+          90.0380859375
+        ],
+        [
+          335.2685546875,
+          102.70849609375
+        ],
+        [
+          66.8212890625,
+          102.70849609375
+        ]
+      ]
+    },
+    {
+      "title": "35.5.10 JPEG data output register (JPEG_DOR)",
+      "heading_level": null,
+      "page_id": 12,
+      "polygon": [
+        [
+          66.240234375,
+          299.7158203125
+        ],
+        [
+          348.4294738769531,
+          299.7158203125
+        ],
+        [
+          348.4294738769531,
+          313.42852783203125
+        ],
+        [
+          66.240234375,
+          313.42852783203125
+        ]
+      ]
+    },
+    {
+      "title": "35.5.11 JPEG quantization memory x (JPEG_QMEMx_y)",
+      "heading_level": null,
+      "page_id": 13,
+      "polygon": [
+        [
+          66.240234375,
+          90.0380859375
+        ],
+        [
+          398.603515625,
+          90.0380859375
+        ],
+        [
+          398.603515625,
+          102.70849609375
+        ],
+        [
+          66.240234375,
+          102.70849609375
+        ]
+      ]
+    },
+    {
+      "title": "35.5.12 JPEG Huffman min (JPEG_HUFFMINx_y)",
+      "heading_level": null,
+      "page_id": 13,
+      "polygon": [
+        [
+          67.25999450683594,
+          467.4580078125
+        ],
+        [
+          356.5967712402344,
+          467.4580078125
+        ],
+        [
+          356.5967712402344,
+          481.42852783203125
+        ],
+        [
+          67.25999450683594,
+          481.42852783203125
+        ]
+      ]
+    },
+    {
+      "title": "Bits 31:0 DATA{x}[{32*y+31}:{32*y}]: Minimum Huffman value",
+      "heading_level": null,
+      "page_id": 14,
+      "polygon": [
+        [
+          109.23828125,
+          97.849609375
+        ],
+        [
+          364.90234375,
+          97.849609375
+        ],
+        [
+          364.90234375,
+          108.14129638671875
+        ],
+        [
+          109.23828125,
+          108.14129638671875
+        ]
+      ]
+    },
+    {
+      "title": "35.5.13 JPEG Huffman min x (JPEG_HUFFMINx_y)",
+      "heading_level": null,
+      "page_id": 14,
+      "polygon": [
+        [
+          66.240234375,
+          135.673828125
+        ],
+        [
+          368.388671875,
+          135.673828125
+        ],
+        [
+          368.388671875,
+          148.728515625
+        ],
+        [
+          66.240234375,
+          148.728515625
+        ]
+      ]
+    },
+    {
+      "title": "35.5.14 JPEG Huffman base (JPEG_HUFFBASEx)",
+      "heading_level": null,
+      "page_id": 14,
+      "polygon": [
+        [
+          65.6591796875,
+          454.42852783203125
+        ],
+        [
+          360.5436706542969,
+          454.42852783203125
+        ],
+        [
+          360.5436706542969,
+          466.42852783203125
+        ],
+        [
+          65.6591796875,
+          466.42852783203125
+        ]
+      ]
+    },
+    {
+      "title": "35.5.15 JPEG Huffman symbol (JPEG_HUFFSYMBx)",
+      "heading_level": null,
+      "page_id": 15,
+      "polygon": [
+        [
+          67.25999450683594,
+          200.6884765625
+        ],
+        [
+          376.4844055175781,
+          200.6884765625
+        ],
+        [
+          376.4844055175781,
+          217.4892578125
+        ],
+        [
+          67.25999450683594,
+          217.4892578125
+        ]
+      ]
+    },
+    {
+      "title": "35.5.16 JPEG DHT memory (JPEG_DHTMEMx)",
+      "heading_level": null,
+      "page_id": 16,
+      "polygon": [
+        [
+          67.25999450683594,
+          90.44921875
+        ],
+        [
+          343.16156005859375,
+          90.44921875
+        ],
+        [
+          343.16156005859375,
+          102.70849609375
+        ],
+        [
+          67.25999450683594,
+          102.70849609375
+        ]
+      ]
+    },
+    {
+      "title": "35.5.17 JPEG Huffman encoder ACx (JPEG_HUFFENC_ACx_y)",
+      "heading_level": null,
+      "page_id": 16,
+      "polygon": [
+        [
+          65.078125,
+          480.6142578125
+        ],
+        [
+          436.0379333496094,
+          480.6142578125
+        ],
+        [
+          436.0379333496094,
+          493.42852783203125
+        ],
+        [
+          65.078125,
+          493.42852783203125
+        ]
+      ]
+    },
+    {
+      "title": "35.5.18 JPEG Huffman encoder DCx (JPEG_HUFFENC_DCx_y)",
+      "heading_level": null,
+      "page_id": 17,
+      "polygon": [
+        [
+          66.240234375,
+          266.6884765625
+        ],
+        [
+          436.4664001464844,
+          266.6884765625
+        ],
+        [
+          436.4664001464844,
+          279.1591796875
+        ],
+        [
+          66.240234375,
+          279.1591796875
+        ]
+      ]
+    },
+    {
+      "title": "35.5.19 JPEG codec register map",
+      "heading_level": null,
+      "page_id": 18,
+      "polygon": [
+        [
+          67.25999450683594,
+          90.44921875
+        ],
+        [
+          269.3208312988281,
+          90.44921875
+        ],
+        [
+          269.3208312988281,
+          102.70849609375
+        ],
+        [
+          67.25999450683594,
+          102.70849609375
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          59
+        ],
+        [
+          "Line",
+          18
+        ],
+        [
+          "ListItem",
+          11
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          54
+        ],
+        [
+          "Span",
+          40
+        ],
+        [
+          "TableCell",
+          18
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Caption",
+          3
+        ],
+        [
+          "Reference",
+          2
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          96
+        ],
+        [
+          "Line",
+          39
+        ],
+        [
+          "Text",
+          16
+        ],
+        [
+          "TableCell",
+          8
+        ],
+        [
+          "ListItem",
+          6
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "ListGroup",
+          3
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          92
+        ],
+        [
+          "Line",
+          41
+        ],
+        [
+          "Text",
+          16
+        ],
+        [
+          "ListItem",
+          4
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "Picture",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          103
+        ],
+        [
+          "Line",
+          40
+        ],
+        [
+          "Text",
+          15
+        ],
+        [
+          "ListItem",
+          11
+        ],
+        [
+          "ListGroup",
+          5
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Picture",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          77
+        ],
+        [
+          "Line",
+          30
+        ],
+        [
+          "TableCell",
+          21
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "ListItem",
+          6
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "TableCell",
+          177
+        ],
+        [
+          "Span",
+          93
+        ],
+        [
+          "Line",
+          35
+        ],
+        [
+          "Text",
+          16
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "Table",
+          2
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          85
+        ],
+        [
+          "TableCell",
+          73
+        ],
+        [
+          "Line",
+          35
+        ],
+        [
+          "Text",
+          21
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 8,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "TableCell",
+          186
+        ],
+        [
+          "Span",
+          88
+        ],
+        [
+          "Line",
+          34
+        ],
+        [
+          "Text",
+          21
+        ],
+        [
+          "PageFooter",
+          3
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Table",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 9,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          114
+        ],
+        [
+          "TableCell",
+          96
+        ],
+        [
+          "Line",
+          42
+        ],
+        [
+          "Text",
+          32
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 10,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          108
+        ],
+        [
+          "TableCell",
+          96
+        ],
+        [
+          "Line",
+          40
+        ],
+        [
+          "Text",
+          15
+        ],
+        [
+          "SectionHeader",
+          8
+        ],
+        [
+          "PageFooter",
+          3
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 11,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          99
+        ],
+        [
+          "TableCell",
+          96
+        ],
+        [
+          "Line",
+          37
+        ],
+        [
+          "Text",
+          23
+        ],
+        [
+          "SectionHeader",
+          7
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 12,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "TableCell",
+          151
+        ],
+        [
+          "Span",
+          55
+        ],
+        [
+          "Line",
+          24
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "PageFooter",
+          3
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Table",
+          2
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "TableGroup",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 13,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "TableCell",
+          138
+        ],
+        [
+          "Span",
+          99
+        ],
+        [
+          "Line",
+          39
+        ],
+        [
+          "Text",
+          18
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Table",
+          2
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 14,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "TableCell",
+          166
+        ],
+        [
+          "Span",
+          105
+        ],
+        [
+          "Line",
+          36
+        ],
+        [
+          "Text",
+          12
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageFooter",
+          3
+        ],
+        [
+          "Table",
+          2
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 15,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          85
+        ],
+        [
+          "TableCell",
+          63
+        ],
+        [
+          "Line",
+          30
+        ],
+        [
+          "Text",
+          20
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 16,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "TableCell",
+          161
+        ],
+        [
+          "Span",
+          99
+        ],
+        [
+          "Line",
+          37
+        ],
+        [
+          "Text",
+          16
+        ],
+        [
+          "PageFooter",
+          3
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Table",
+          2
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 17,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          101
+        ],
+        [
+          "TableCell",
+          86
+        ],
+        [
+          "Line",
+          36
+        ],
+        [
+          "Text",
+          24
+        ],
+        [
+          "ListItem",
+          4
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 18,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "TableCell",
+          1052
+        ],
+        [
+          "Span",
+          259
+        ],
+        [
+          "Line",
+          113
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 19,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "TableCell",
+          811
+        ],
+        [
+          "Span",
+          232
+        ],
+        [
+          "Line",
+          107
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/35_35 JPEG codec (JPEG)"
+}

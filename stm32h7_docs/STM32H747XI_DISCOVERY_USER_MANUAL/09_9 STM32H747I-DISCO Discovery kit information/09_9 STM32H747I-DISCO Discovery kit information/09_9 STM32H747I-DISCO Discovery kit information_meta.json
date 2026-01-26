@@ -1,0 +1,376 @@
+{
+  "table_of_contents": [
+    {
+      "title": "9 STM32H747I-DISCO Discovery kit information",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          67.25999450683594,
+          89.2158203125
+        ],
+        [
+          470.4828796386719,
+          89.2158203125
+        ],
+        [
+          470.4828796386719,
+          106.09716796875
+        ],
+        [
+          67.25999450683594,
+          106.09716796875
+        ]
+      ]
+    },
+    {
+      "title": "9.1 Product marking",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          65.078125,
+          129.91796875
+        ],
+        [
+          235.18910217285156,
+          129.91796875
+        ],
+        [
+          235.18910217285156,
+          144.4228515625
+        ],
+        [
+          65.078125,
+          144.4228515625
+        ]
+      ]
+    },
+    {
+      "title": "Dual-sticker example:",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          144.6826171875,
+          289.042236328125
+        ],
+        [
+          241.2997589111328,
+          289.042236328125
+        ],
+        [
+          241.2997589111328,
+          299.00225830078125
+        ],
+        [
+          144.6826171875,
+          299.00225830078125
+        ]
+      ]
+    },
+    {
+      "title": "9.2 STM32H747I-DISCO product history",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          63.69647355163728,
+          86.22439893143365
+        ],
+        [
+          363.44458438287154,
+          86.22439893143365
+        ],
+        [
+          363.44458438287154,
+          105.71861086375779
+        ],
+        [
+          63.69647355163728,
+          105.71861086375779
+        ]
+      ]
+    },
+    {
+      "title": "9.3 Board revision history",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          66.240234375,
+          90.4228515625
+        ],
+        [
+          273.095703125,
+          90.4228515625
+        ],
+        [
+          273.095703125,
+          104.40289306640625
+        ],
+        [
+          66.240234375,
+          104.40289306640625
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          132
+        ],
+        [
+          "Line",
+          49
+        ],
+        [
+          "Text",
+          14
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Picture",
+          2
+        ],
+        [
+          "ListItem",
+          2
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "TableCell",
+          20
+        ],
+        [
+          "Line",
+          11
+        ],
+        [
+          "Span",
+          6
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "TableCell",
+          22
+        ],
+        [
+          "Line",
+          6
+        ],
+        [
+          "Span",
+          3
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "TableCell",
+          18
+        ],
+        [
+          "Line",
+          8
+        ],
+        [
+          "Span",
+          4
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          127
+        ],
+        [
+          "Line",
+          62
+        ],
+        [
+          "TableCell",
+          36
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/09_9 STM32H747I-DISCO Discovery kit information"
+}

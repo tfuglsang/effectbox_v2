@@ -1,0 +1,416 @@
+{
+  "table_of_contents": [
+    {
+      "title": "1.3 About the Cortex\u00ae-M7 processor and core peripherals",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          66.240234375,
+          208.85546875
+        ],
+        [
+          482.7490539550781,
+          208.85546875
+        ],
+        [
+          482.7490539550781,
+          226.44287109375
+        ],
+        [
+          66.240234375,
+          226.44287109375
+        ]
+      ]
+    },
+    {
+      "title": "1.3.1 System level interface",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          65.6591796875,
+          506.09973285841494
+        ],
+        [
+          250.28967254408062,
+          506.09973285841494
+        ],
+        [
+          250.28967254408062,
+          518.4384765625
+        ],
+        [
+          65.6591796875,
+          518.4384765625
+        ]
+      ]
+    },
+    {
+      "title": "1.3.2 Integrated configurable debug",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          66.69395465994963,
+          619.3161175422974
+        ],
+        [
+          297.5,
+          619.3161175422974
+        ],
+        [
+          297.5,
+          631.3125556544968
+        ],
+        [
+          66.69395465994963,
+          631.3125556544968
+        ]
+      ]
+    },
+    {
+      "title": "1.3.3 Cortex\u00ae-M7 processor features and benefits summary",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          66.240234375,
+          249.07476806640625
+        ],
+        [
+          431.63995361328125,
+          249.07476806640625
+        ],
+        [
+          431.63995361328125,
+          263.92852783203125
+        ],
+        [
+          66.240234375,
+          263.92852783203125
+        ]
+      ]
+    },
+    {
+      "title": "1.3.4 Cortex\u00ae-M7 processor core peripherals",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          66.8212890625,
+          531.18359375
+        ],
+        [
+          347.6591796875,
+          531.18359375
+        ],
+        [
+          347.6591796875,
+          548.1484375
+        ],
+        [
+          66.8212890625,
+          548.1484375
+        ]
+      ]
+    },
+    {
+      "title": "Nested Vectored Interrupt Controller",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          123.7646484375,
+          574.3525390625
+        ],
+        [
+          299.3984069824219,
+          574.3525390625
+        ],
+        [
+          299.3984069824219,
+          585.3827209472656
+        ],
+        [
+          123.7646484375,
+          585.3827209472656
+        ]
+      ]
+    },
+    {
+      "title": "System Control Block",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          123.47412109375,
+          619.98828125
+        ],
+        [
+          230.5987091064453,
+          619.98828125
+        ],
+        [
+          230.5987091064453,
+          630.3828125
+        ],
+        [
+          123.47412109375,
+          630.3828125
+        ]
+      ]
+    },
+    {
+      "title": "Integrated instruction and data caches",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          123.7646484375,
+          89.626953125
+        ],
+        [
+          310.04766845703125,
+          89.626953125
+        ],
+        [
+          310.04766845703125,
+          101.0028076171875
+        ],
+        [
+          123.7646484375,
+          101.0028076171875
+        ]
+      ]
+    },
+    {
+      "title": "System timer",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          122.89306640625,
+          148.0078125
+        ],
+        [
+          189.52767944335938,
+          148.0078125
+        ],
+        [
+          189.52767944335938,
+          158.0028076171875
+        ],
+        [
+          122.89306640625,
+          158.0028076171875
+        ]
+      ]
+    },
+    {
+      "title": "Memory Protection Unit",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          123.47412109375,
+          193.04278564453125
+        ],
+        [
+          239.53182983398438,
+          193.04278564453125
+        ],
+        [
+          239.53182983398438,
+          203.099609375
+        ],
+        [
+          123.47412109375,
+          203.099609375
+        ]
+      ]
+    },
+    {
+      "title": "Floating-point unit",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          123.18359375,
+          249.96875
+        ],
+        [
+          214.5222930908203,
+          249.96875
+        ],
+        [
+          214.5222930908203,
+          260.0028076171875
+        ],
+        [
+          123.18359375,
+          260.0028076171875
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          129
+        ],
+        [
+          "Line",
+          57
+        ],
+        [
+          "Text",
+          11
+        ],
+        [
+          "ListItem",
+          5
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          63
+        ],
+        [
+          "Span",
+          25
+        ],
+        [
+          "Text",
+          11
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Picture",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          125
+        ],
+        [
+          "Line",
+          40
+        ],
+        [
+          "ListItem",
+          15
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          37
+        ],
+        [
+          "Line",
+          16
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "SectionHeader",
+          4
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/04_1.3 About the Cortex\u00ae-M7 processor and core peripherals"
+}

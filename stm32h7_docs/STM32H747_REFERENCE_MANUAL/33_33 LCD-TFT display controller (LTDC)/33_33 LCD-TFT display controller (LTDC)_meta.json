@@ -1,0 +1,3120 @@
+{
+  "table_of_contents": [
+    {
+      "title": "33 LCD-TFT display controller (LTDC)",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          67.25999450683594,
+          89.2158203125
+        ],
+        [
+          385.8203125,
+          89.2158203125
+        ],
+        [
+          385.8203125,
+          106.09716796875
+        ],
+        [
+          67.25999450683594,
+          106.09716796875
+        ]
+      ]
+    },
+    {
+      "title": "33.1 Introduction",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          66.53076171875,
+          130.3291015625
+        ],
+        [
+          205.62425231933594,
+          130.3291015625
+        ],
+        [
+          205.62425231933594,
+          144.4228515625
+        ],
+        [
+          66.53076171875,
+          144.4228515625
+        ]
+      ]
+    },
+    {
+      "title": "33.2 LTDC main features",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          66.8212890625,
+          224.8896484375
+        ],
+        [
+          255.09661865234375,
+          224.8896484375
+        ],
+        [
+          255.09661865234375,
+          239.40289306640625
+        ],
+        [
+          66.8212890625,
+          239.40289306640625
+        ]
+      ]
+    },
+    {
+      "title": "33.3 LTDC functional description",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          66.8212890625,
+          90.0380859375
+        ],
+        [
+          312.0263671875,
+          90.0380859375
+        ],
+        [
+          312.0263671875,
+          104.40289306640625
+        ],
+        [
+          66.8212890625,
+          104.40289306640625
+        ]
+      ]
+    },
+    {
+      "title": "33.3.1 LTDC block diagram",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          66.240234375,
+          120.70849609375
+        ],
+        [
+          243.08163452148438,
+          120.70849609375
+        ],
+        [
+          243.08163452148438,
+          132.70849609375
+        ],
+        [
+          66.240234375,
+          132.70849609375
+        ]
+      ]
+    },
+    {
+      "title": "33.3.2 LTDC pins and internal signals",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          66.240234375,
+          385.2314453125
+        ],
+        [
+          299.0688171386719,
+          385.2314453125
+        ],
+        [
+          299.0688171386719,
+          398.74853515625
+        ],
+        [
+          66.240234375,
+          398.74853515625
+        ]
+      ]
+    },
+    {
+      "title": "33.3.3 LTDC reset and clocks",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          67.25999450683594,
+          268.4697265625
+        ],
+        [
+          252.3324432373047,
+          268.4697265625
+        ],
+        [
+          252.3324432373047,
+          280.728515625
+        ],
+        [
+          67.25999450683594,
+          280.728515625
+        ]
+      ]
+    },
+    {
+      "title": "33.4 LTDC programmable parameters",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          67.25999450683594,
+          90.4228515625
+        ],
+        [
+          340.60247802734375,
+          90.4228515625
+        ],
+        [
+          340.60247802734375,
+          104.40289306640625
+        ],
+        [
+          67.25999450683594,
+          104.40289306640625
+        ]
+      ]
+    },
+    {
+      "title": "33.4.1 LTDC global configuration parameters",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          67.25999450683594,
+          150.474609375
+        ],
+        [
+          341.66522216796875,
+          150.474609375
+        ],
+        [
+          341.66522216796875,
+          163.728515625
+        ],
+        [
+          67.25999450683594,
+          163.728515625
+        ]
+      ]
+    },
+    {
+      "title": "Synchronous timings",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          122.89306640625,
+          175.5537109375
+        ],
+        [
+          236.2744140625,
+          175.5537109375
+        ],
+        [
+          236.2744140625,
+          186.87567138671875
+        ],
+        [
+          122.89306640625,
+          186.87567138671875
+        ]
+      ]
+    },
+    {
+      "title": "Example of synchronous timings configuration",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          122.021484375,
+          280.8037109375
+        ],
+        [
+          369.9822692871094,
+          280.8037109375
+        ],
+        [
+          369.9822692871094,
+          291.87567138671875
+        ],
+        [
+          122.021484375,
+          291.87567138671875
+        ]
+      ]
+    },
+    {
+      "title": "Programmable polarity",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          123.47412109375,
+          550.8956604003906
+        ],
+        [
+          243.75244140625,
+          550.8956604003906
+        ],
+        [
+          243.75244140625,
+          561.8756408691406
+        ],
+        [
+          123.47412109375,
+          561.8756408691406
+        ]
+      ]
+    },
+    {
+      "title": "Background color",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          123.7646484375,
+          604.8956604003906
+        ],
+        [
+          221.04185485839844,
+          604.8956604003906
+        ],
+        [
+          221.04185485839844,
+          616.2880859375
+        ],
+        [
+          123.7646484375,
+          616.2880859375
+        ]
+      ]
+    },
+    {
+      "title": "Dithering",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          122.6025390625,
+          658.8956604003906
+        ],
+        [
+          172.1951446533203,
+          658.8956604003906
+        ],
+        [
+          172.1951446533203,
+          669.8756713867188
+        ],
+        [
+          122.6025390625,
+          669.8756713867188
+        ]
+      ]
+    },
+    {
+      "title": "Reload shadow registers",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          123.47412109375,
+          256.8956298828125
+        ],
+        [
+          253.9917449951172,
+          256.8956298828125
+        ],
+        [
+          253.9917449951172,
+          268.4697265625
+        ],
+        [
+          123.47412109375,
+          268.4697265625
+        ]
+      ]
+    },
+    {
+      "title": "Interrupt generation event",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          122.31201171875,
+          424.8956604003906
+        ],
+        [
+          260.1076354980469,
+          424.8956604003906
+        ],
+        [
+          260.1076354980469,
+          435.8756408691406
+        ],
+        [
+          122.31201171875,
+          435.8756408691406
+        ]
+      ]
+    },
+    {
+      "title": "33.4.2 Layer programmable parameters",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          66.8212890625,
+          470.74853515625
+        ],
+        [
+          310.6319580078125,
+          470.74853515625
+        ],
+        [
+          310.6319580078125,
+          482.74853515625
+        ],
+        [
+          66.8212890625,
+          482.74853515625
+        ]
+      ]
+    },
+    {
+      "title": "Windowing",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          122.31201171875,
+          537.8756713867188
+        ],
+        [
+          182.46253967285156,
+          537.8756713867188
+        ],
+        [
+          182.46253967285156,
+          548.8556518554688
+        ],
+        [
+          122.31201171875,
+          548.8556518554688
+        ]
+      ]
+    },
+    {
+      "title": "Pixel input format",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          123.47412109375,
+          257.67559814453125
+        ],
+        [
+          218.18603515625,
+          257.67559814453125
+        ],
+        [
+          218.18603515625,
+          268.6556396484375
+        ],
+        [
+          123.47412109375,
+          268.6556396484375
+        ]
+      ]
+    },
+    {
+      "title": "Color look-up table (CLUT)",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          123.47412109375,
+          515.9155883789062
+        ],
+        [
+          263.7178039550781,
+          515.9155883789062
+        ],
+        [
+          263.7178039550781,
+          527.89453125
+        ],
+        [
+          123.47412109375,
+          527.89453125
+        ]
+      ]
+    },
+    {
+      "title": "Color frame buffer address",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          122.6025390625,
+          194.4658203125
+        ],
+        [
+          264.92449951171875,
+          194.4658203125
+        ],
+        [
+          264.92449951171875,
+          205.835693359375
+        ],
+        [
+          122.6025390625,
+          205.835693359375
+        ]
+      ]
+    },
+    {
+      "title": "Color frame buffer length",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          123.47412109375,
+          266.85552978515625
+        ],
+        [
+          255.75071716308594,
+          266.85552978515625
+        ],
+        [
+          255.75071716308594,
+          278.3369140625
+        ],
+        [
+          123.47412109375,
+          278.3369140625
+        ]
+      ]
+    },
+    {
+      "title": "Color frame buffer pitch",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          122.021484375,
+          416.4775390625
+        ],
+        [
+          249.05184936523438,
+          416.4775390625
+        ],
+        [
+          249.05184936523438,
+          427.83563232421875
+        ],
+        [
+          122.021484375,
+          427.83563232421875
+        ]
+      ]
+    },
+    {
+      "title": "Layer blending",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          123.18359375,
+          482.2587890625
+        ],
+        [
+          202.20703125,
+          482.2587890625
+        ],
+        [
+          202.20703125,
+          493.89556884765625
+        ],
+        [
+          123.18359375,
+          493.89556884765625
+        ]
+      ]
+    },
+    {
+      "title": "Default color",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          123.47412109375,
+          90.44921875
+        ],
+        [
+          191.11148071289062,
+          90.44921875
+        ],
+        [
+          191.11148071289062,
+          101.85565185546875
+        ],
+        [
+          123.47412109375,
+          101.85565185546875
+        ]
+      ]
+    },
+    {
+      "title": "Color keying",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          123.47412109375,
+          204.744140625
+        ],
+        [
+          190.48892211914062,
+          204.744140625
+        ],
+        [
+          190.48892211914062,
+          215.85565185546875
+        ],
+        [
+          123.47412109375,
+          215.85565185546875
+        ]
+      ]
+    },
+    {
+      "title": "33.5 LTDC interrupts",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          65.078125,
+          465.8134765625
+        ],
+        [
+          229.43218994140625,
+          465.8134765625
+        ],
+        [
+          229.43218994140625,
+          481.4428405761719
+        ],
+        [
+          65.078125,
+          481.4428405761719
+        ]
+      ]
+    },
+    {
+      "title": "33.6 LTDC programming procedure",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          66.8212890625,
+          380.94287109375
+        ],
+        [
+          326.6644287109375,
+          380.94287109375
+        ],
+        [
+          326.6644287109375,
+          395.0986328125
+        ],
+        [
+          66.8212890625,
+          395.0986328125
+        ]
+      ]
+    },
+    {
+      "title": "33.7 LTDC registers",
+      "heading_level": null,
+      "page_id": 12,
+      "polygon": [
+        [
+          66.240234375,
+          264.4227294921875
+        ],
+        [
+          223.229248046875,
+          264.4227294921875
+        ],
+        [
+          223.229248046875,
+          278.40277099609375
+        ],
+        [
+          66.240234375,
+          278.40277099609375
+        ]
+      ]
+    },
+    {
+      "title": "33.7.1 LTDC synchronization size configuration register (LTDC_SSCR)",
+      "heading_level": null,
+      "page_id": 12,
+      "polygon": [
+        [
+          66.240234375,
+          294.70849609375
+        ],
+        [
+          486.923828125,
+          294.70849609375
+        ],
+        [
+          486.923828125,
+          306.70849609375
+        ],
+        [
+          66.240234375,
+          306.70849609375
+        ]
+      ]
+    },
+    {
+      "title": "33.7.2 LTDC back porch configuration register (LTDC_BPCR)",
+      "heading_level": null,
+      "page_id": 12,
+      "polygon": [
+        [
+          67.25999450683594,
+          608.7485046386719
+        ],
+        [
+          432.7319641113281,
+          608.7485046386719
+        ],
+        [
+          432.7319641113281,
+          620.810546875
+        ],
+        [
+          67.25999450683594,
+          620.810546875
+        ]
+      ]
+    },
+    {
+      "title": "33.7.3 LTDC active width configuration register (LTDC_AWCR)",
+      "heading_level": null,
+      "page_id": 13,
+      "polygon": [
+        [
+          66.240234375,
+          391.8095703125
+        ],
+        [
+          440.439453125,
+          391.8095703125
+        ],
+        [
+          440.439453125,
+          404.74853515625
+        ],
+        [
+          66.240234375,
+          404.74853515625
+        ]
+      ]
+    },
+    {
+      "title": "33.7.4 LTDC total width configuration register (LTDC_TWCR)",
+      "heading_level": null,
+      "page_id": 14,
+      "polygon": [
+        [
+          66.240234375,
+          195.69921875
+        ],
+        [
+          430.6752014160156,
+          195.69921875
+        ],
+        [
+          430.6752014160156,
+          208.728515625
+        ],
+        [
+          66.240234375,
+          208.728515625
+        ]
+      ]
+    },
+    {
+      "title": "33.7.5 LTDC global control register (LTDC_GCR)",
+      "heading_level": null,
+      "page_id": 14,
+      "polygon": [
+        [
+          67.25999450683594,
+          545.74853515625
+        ],
+        [
+          360.8736267089844,
+          545.74853515625
+        ],
+        [
+          360.8736267089844,
+          558.318359375
+        ],
+        [
+          67.25999450683594,
+          558.318359375
+        ]
+      ]
+    },
+    {
+      "title": "Bit 31 HSPOL: Horizontal synchronization polarity",
+      "heading_level": null,
+      "page_id": 15,
+      "polygon": [
+        [
+          123.18359375,
+          98.2607421875
+        ],
+        [
+          325.390625,
+          98.2607421875
+        ],
+        [
+          325.390625,
+          108.14129638671875
+        ],
+        [
+          123.18359375,
+          108.14129638671875
+        ]
+      ]
+    },
+    {
+      "title": "Bit 30 VSPOL: Vertical synchronization polarity",
+      "heading_level": null,
+      "page_id": 15,
+      "polygon": [
+        [
+          123.65999603271484,
+          152.119140625
+        ],
+        [
+          313.55999755859375,
+          152.119140625
+        ],
+        [
+          313.55999755859375,
+          162.14129638671875
+        ],
+        [
+          123.65999603271484,
+          162.14129638671875
+        ]
+      ]
+    },
+    {
+      "title": "Bit 29 DEPOL: Not data enable polarity",
+      "heading_level": null,
+      "page_id": 15,
+      "polygon": [
+        [
+          123.18359375,
+          205.9775390625
+        ],
+        [
+          283.5546875,
+          205.9775390625
+        ],
+        [
+          283.5546875,
+          216.14129638671875
+        ],
+        [
+          123.18359375,
+          216.14129638671875
+        ]
+      ]
+    },
+    {
+      "title": "Bit 28 PCPOL: Pixel clock polarity",
+      "heading_level": null,
+      "page_id": 15,
+      "polygon": [
+        [
+          123.66000366210938,
+          260.658203125
+        ],
+        [
+          262.27081298828125,
+          260.658203125
+        ],
+        [
+          262.27081298828125,
+          270.14129638671875
+        ],
+        [
+          123.66000366210938,
+          270.14129638671875
+        ]
+      ]
+    },
+    {
+      "title": "33.7.6 LTDC shadow reload configuration register (LTDC_SRCR)",
+      "heading_level": null,
+      "page_id": 16,
+      "polygon": [
+        [
+          66.240234375,
+          90.44921875
+        ],
+        [
+          452.6255798339844,
+          90.44921875
+        ],
+        [
+          452.6255798339844,
+          102.70849609375
+        ],
+        [
+          66.240234375,
+          102.70849609375
+        ]
+      ]
+    },
+    {
+      "title": "Bit 1 VBR: Vertical blanking reload",
+      "heading_level": null,
+      "page_id": 16,
+      "polygon": [
+        [
+          127.2509765625,
+          339.1416015625
+        ],
+        [
+          269.25897216796875,
+          339.1416015625
+        ],
+        [
+          269.25897216796875,
+          348.2294921875
+        ],
+        [
+          127.2509765625,
+          348.2294921875
+        ]
+      ]
+    },
+    {
+      "title": "Bit 0 IMR: Immediate reload",
+      "heading_level": null,
+      "page_id": 16,
+      "polygon": [
+        [
+          128.12255859375,
+          413.1884765625
+        ],
+        [
+          243.75244140625,
+          413.1884765625
+        ],
+        [
+          243.75244140625,
+          424.16192626953125
+        ],
+        [
+          128.12255859375,
+          424.16192626953125
+        ]
+      ]
+    },
+    {
+      "title": "33.7.7 LTDC background color configuration register (LTDC_BCCR)",
+      "heading_level": null,
+      "page_id": 16,
+      "polygon": [
+        [
+          66.240234375,
+          476.74853515625
+        ],
+        [
+          470.76959228515625,
+          476.74853515625
+        ],
+        [
+          470.76959228515625,
+          490.0703125
+        ],
+        [
+          66.240234375,
+          490.0703125
+        ]
+      ]
+    },
+    {
+      "title": "Bits 23:16 BCRED[7:0]: Background color red value",
+      "heading_level": null,
+      "page_id": 16,
+      "polygon": [
+        [
+          106.3330078125,
+          671.1810150146484
+        ],
+        [
+          317.5527038574219,
+          671.1810150146484
+        ],
+        [
+          317.5527038574219,
+          682.0693359375
+        ],
+        [
+          106.3330078125,
+          682.0693359375
+        ]
+      ]
+    },
+    {
+      "title": "33.7.8 LTDC interrupt enable register (LTDC_IER)",
+      "heading_level": null,
+      "page_id": 17,
+      "polygon": [
+        [
+          67.25999450683594,
+          164.6884765625
+        ],
+        [
+          365.4720153808594,
+          164.6884765625
+        ],
+        [
+          365.4720153808594,
+          176.787109375
+        ],
+        [
+          67.25999450683594,
+          176.787109375
+        ]
+      ]
+    },
+    {
+      "title": "33.7.9 LTDC interrupt status register (LTDC_ISR)",
+      "heading_level": null,
+      "page_id": 18,
+      "polygon": [
+        [
+          66.240234375,
+          90.44921875
+        ],
+        [
+          363.740234375,
+          90.44921875
+        ],
+        [
+          363.740234375,
+          102.70849609375
+        ],
+        [
+          66.240234375,
+          102.70849609375
+        ]
+      ]
+    },
+    {
+      "title": "33.7.10 LTDC interrupt clear register (LTDC_ICR)",
+      "heading_level": null,
+      "page_id": 18,
+      "polygon": [
+        [
+          66.8212890625,
+          490.728515625
+        ],
+        [
+          356.0747985839844,
+          490.728515625
+        ],
+        [
+          356.0747985839844,
+          502.728515625
+        ],
+        [
+          66.8212890625,
+          502.728515625
+        ]
+      ]
+    },
+    {
+      "title": "33.7.11 LTDC line interrupt position configuration register (LTDC_LIPCR)",
+      "heading_level": null,
+      "page_id": 19,
+      "polygon": [
+        [
+          66.240234375,
+          230.6884765625
+        ],
+        [
+          493.9835510253906,
+          230.6884765625
+        ],
+        [
+          493.9835510253906,
+          242.6884765625
+        ],
+        [
+          66.240234375,
+          242.6884765625
+        ]
+      ]
+    },
+    {
+      "title": "33.7.12 LTDC current position status register (LTDC_CPSR)",
+      "heading_level": null,
+      "page_id": 19,
+      "polygon": [
+        [
+          66.240234375,
+          473.625
+        ],
+        [
+          418.1879577636719,
+          473.625
+        ],
+        [
+          418.1879577636719,
+          486.78125
+        ],
+        [
+          66.240234375,
+          486.78125
+        ]
+      ]
+    },
+    {
+      "title": "33.7.13 LTDC current display status register (LTDC CDSR)",
+      "heading_level": null,
+      "page_id": 20,
+      "polygon": [
+        [
+          66.240234375,
+          89.973285841496
+        ],
+        [
+          414.873046875,
+          89.973285841496
+        ],
+        [
+          414.873046875,
+          101.96972395369545
+        ],
+        [
+          66.240234375,
+          101.96972395369545
+        ]
+      ]
+    },
+    {
+      "title": "33.7.14 LTDC layer x control register (LTDC LxCR)",
+      "heading_level": null,
+      "page_id": 20,
+      "polygon": [
+        [
+          65.94458438287154,
+          550.5068359375
+        ],
+        [
+          368.69017632241815,
+          550.5068359375
+        ],
+        [
+          368.69017632241815,
+          563.8325912733749
+        ],
+        [
+          65.94458438287154,
+          563.8325912733749
+        ]
+      ]
+    },
+    {
+      "title": "33.7.15 LTDC layer x window horizontal position configuration register\n(LTDC_LxWHPCR)",
+      "heading_level": null,
+      "page_id": 21,
+      "polygon": [
+        [
+          66.240234375,
+          325.6171875
+        ],
+        [
+          482.275390625,
+          325.6171875
+        ],
+        [
+          482.275390625,
+          351.9296875
+        ],
+        [
+          66.240234375,
+          351.9296875
+        ]
+      ]
+    },
+    {
+      "title": "33.7.16 LTDC layer x window vertical position configuration register\n(LTDC_LxWVPCR)",
+      "heading_level": null,
+      "page_id": 22,
+      "polygon": [
+        [
+          66.240234375,
+          162.3974609375
+        ],
+        [
+          468.330078125,
+          162.3974609375
+        ],
+        [
+          468.330078125,
+          189.70849609375
+        ],
+        [
+          66.240234375,
+          189.70849609375
+        ]
+      ]
+    },
+    {
+      "title": "Example:",
+      "heading_level": null,
+      "page_id": 22,
+      "polygon": [
+        [
+          123.47412109375,
+          312.8720703125
+        ],
+        [
+          165.60887145996094,
+          312.8720703125
+        ],
+        [
+          165.60887145996094,
+          323.0028076171875
+        ],
+        [
+          123.47412109375,
+          323.0028076171875
+        ]
+      ]
+    },
+    {
+      "title": "33.7.17 LTDC layer x color keying configuration register\n(LTDC_LxCKCR)",
+      "heading_level": null,
+      "page_id": 23,
+      "polygon": [
+        [
+          66.240234375,
+          89.2158203125
+        ],
+        [
+          398.603515625,
+          89.2158203125
+        ],
+        [
+          398.603515625,
+          116.6884765625
+        ],
+        [
+          66.240234375,
+          116.6884765625
+        ]
+      ]
+    },
+    {
+      "title": "33.7.18 LTDC layer x pixel format configuration register\n(LTDC_LxPFCR)",
+      "heading_level": null,
+      "page_id": 23,
+      "polygon": [
+        [
+          65.078125,
+          356.86328125
+        ],
+        [
+          395.1171875,
+          356.86328125
+        ],
+        [
+          395.1171875,
+          383.74853515625
+        ],
+        [
+          65.078125,
+          383.74853515625
+        ]
+      ]
+    },
+    {
+      "title": "33.7.19 LTDC layer x constant alpha configuration register\n(LTDC_LxCACR)",
+      "heading_level": null,
+      "page_id": 24,
+      "polygon": [
+        [
+          67.25999450683594,
+          90.44921875
+        ],
+        [
+          413.7109375,
+          90.44921875
+        ],
+        [
+          413.7109375,
+          116.76171875
+        ],
+        [
+          67.25999450683594,
+          116.76171875
+        ]
+      ]
+    },
+    {
+      "title": "Bits 7:0 CONSTA[7:0]: Constant alpha",
+      "heading_level": null,
+      "page_id": 24,
+      "polygon": [
+        [
+          113.88671875,
+          311.18096923828125
+        ],
+        [
+          274.2578125,
+          311.18096923828125
+        ],
+        [
+          274.2578125,
+          320.2724609375
+        ],
+        [
+          113.88671875,
+          320.2724609375
+        ]
+      ]
+    },
+    {
+      "title": "33.7.20 LTDC layer x default color configuration register\n(LTDC_LxDCCR)",
+      "heading_level": null,
+      "page_id": 24,
+      "polygon": [
+        [
+          65.078125,
+          381.9423828125
+        ],
+        [
+          399.00115966796875,
+          381.9423828125
+        ],
+        [
+          399.00115966796875,
+          408.7085266113281
+        ],
+        [
+          65.078125,
+          408.7085266113281
+        ]
+      ]
+    },
+    {
+      "title": "33.7.21 LTDC layer x blending factors configuration register\n(LTDC_LxBFCR)",
+      "heading_level": null,
+      "page_id": 25,
+      "polygon": [
+        [
+          67.25999450683594,
+          89.2158203125
+        ],
+        [
+          420.68359375,
+          89.2158203125
+        ],
+        [
+          420.68359375,
+          116.6884765625
+        ],
+        [
+          67.25999450683594,
+          116.6884765625
+        ]
+      ]
+    },
+    {
+      "title": "33.7.22 LTDC layer x color frame buffer address register\n(LTDC_LxCFBAR)",
+      "heading_level": null,
+      "page_id": 26,
+      "polygon": [
+        [
+          66.240234375,
+          90.70849609375
+        ],
+        [
+          400.927734375,
+          90.70849609375
+        ],
+        [
+          400.927734375,
+          116.6884765625
+        ],
+        [
+          66.240234375,
+          116.6884765625
+        ]
+      ]
+    },
+    {
+      "title": "33.7.23 LTDC layer x color frame buffer length register\n(LTDC_LxCFBLR)",
+      "heading_level": null,
+      "page_id": 26,
+      "polygon": [
+        [
+          65.078125,
+          330.9619140625
+        ],
+        [
+          389.0123596191406,
+          330.9619140625
+        ],
+        [
+          389.0123596191406,
+          357.7085266113281
+        ],
+        [
+          65.078125,
+          357.7085266113281
+        ]
+      ]
+    },
+    {
+      "title": "Example:",
+      "heading_level": null,
+      "page_id": 26,
+      "polygon": [
+        [
+          122.89306640625,
+          419.7666015625
+        ],
+        [
+          165.60887145996094,
+          419.7666015625
+        ],
+        [
+          165.60887145996094,
+          431.0028381347656
+        ],
+        [
+          122.89306640625,
+          431.0028381347656
+        ]
+      ]
+    },
+    {
+      "title": "33.7.24 LTDC layer x color frame buffer line number register\n(LTDC_LxCFBLNR)",
+      "heading_level": null,
+      "page_id": 27,
+      "polygon": [
+        [
+          65.078125,
+          157.052734375
+        ],
+        [
+          421.0487365722656,
+          157.052734375
+        ],
+        [
+          421.0487365722656,
+          183.70849609375
+        ],
+        [
+          65.078125,
+          183.70849609375
+        ]
+      ]
+    },
+    {
+      "title": "33.7.25 LTDC layer x CLUT write register (LTDC_LxCLUTWR)",
+      "heading_level": null,
+      "page_id": 27,
+      "polygon": [
+        [
+          67.25999450683594,
+          486.70843505859375
+        ],
+        [
+          425.3544006347656,
+          486.70843505859375
+        ],
+        [
+          425.3544006347656,
+          498.70843505859375
+        ],
+        [
+          67.25999450683594,
+          498.70843505859375
+        ]
+      ]
+    },
+    {
+      "title": "33.7.26 LTDC register map",
+      "heading_level": null,
+      "page_id": 28,
+      "polygon": [
+        [
+          65.6591796875,
+          226.123046875
+        ],
+        [
+          230.2752227783203,
+          226.123046875
+        ],
+        [
+          230.2752227783203,
+          238.728515625
+        ],
+        [
+          65.6591796875,
+          238.728515625
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          91
+        ],
+        [
+          "Line",
+          32
+        ],
+        [
+          "ListItem",
+          23
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageFooter",
+          3
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          129
+        ],
+        [
+          "Line",
+          62
+        ],
+        [
+          "TableCell",
+          24
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Caption",
+          3
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          77
+        ],
+        [
+          "TableCell",
+          38
+        ],
+        [
+          "Line",
+          36
+        ],
+        [
+          "ListItem",
+          5
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "PageFooter",
+          3
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "Table",
+          2
+        ],
+        [
+          "TableGroup",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          67
+        ],
+        [
+          "TableCell",
+          50
+        ],
+        [
+          "Line",
+          33
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "Table",
+          2
+        ],
+        [
+          "TableGroup",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          85
+        ],
+        [
+          "Line",
+          37
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "ListItem",
+          3
+        ],
+        [
+          "Reference",
+          3
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          123
+        ],
+        [
+          "Line",
+          43
+        ],
+        [
+          "ListItem",
+          13
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "ListGroup",
+          3
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Picture",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          93
+        ],
+        [
+          "Line",
+          42
+        ],
+        [
+          "Text",
+          15
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "ListItem",
+          2
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          153
+        ],
+        [
+          "Line",
+          77
+        ],
+        [
+          "TableCell",
+          48
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 8,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          205
+        ],
+        [
+          "Line",
+          102
+        ],
+        [
+          "TableCell",
+          88
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 9,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          91
+        ],
+        [
+          "Line",
+          42
+        ],
+        [
+          "ListItem",
+          8
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "PictureGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 10,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          87
+        ],
+        [
+          "Line",
+          37
+        ],
+        [
+          "Text",
+          12
+        ],
+        [
+          "ListItem",
+          7
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageFooter",
+          3
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 11,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          87
+        ],
+        [
+          "Line",
+          40
+        ],
+        [
+          "TableCell",
+          15
+        ],
+        [
+          "ListItem",
+          14
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "Picture",
+          2
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PictureGroup",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 12,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "TableCell",
+          96
+        ],
+        [
+          "Span",
+          89
+        ],
+        [
+          "Line",
+          38
+        ],
+        [
+          "Text",
+          12
+        ],
+        [
+          "ListItem",
+          5
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 13,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "TableCell",
+          192
+        ],
+        [
+          "Span",
+          112
+        ],
+        [
+          "Line",
+          43
+        ],
+        [
+          "Text",
+          17
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Table",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 14,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "TableCell",
+          190
+        ],
+        [
+          "Span",
+          121
+        ],
+        [
+          "Line",
+          42
+        ],
+        [
+          "Text",
+          15
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Table",
+          2
+        ],
+        [
+          "Picture",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 15,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          100
+        ],
+        [
+          "Line",
+          37
+        ],
+        [
+          "ListItem",
+          20
+        ],
+        [
+          "Text",
+          12
+        ],
+        [
+          "ListGroup",
+          8
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Picture",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 16,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "TableCell",
+          173
+        ],
+        [
+          "Span",
+          94
+        ],
+        [
+          "Line",
+          39
+        ],
+        [
+          "Text",
+          16
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Table",
+          2
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "TableGroup",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 17,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "TableCell",
+          96
+        ],
+        [
+          "Span",
+          95
+        ],
+        [
+          "Line",
+          34
+        ],
+        [
+          "Text",
+          25
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 18,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "TableCell",
+          192
+        ],
+        [
+          "Span",
+          114
+        ],
+        [
+          "Line",
+          40
+        ],
+        [
+          "ListItem",
+          12
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Table",
+          2
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "TableGroup",
+          2
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 19,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "TableCell",
+          192
+        ],
+        [
+          "Span",
+          97
+        ],
+        [
+          "Line",
+          37
+        ],
+        [
+          "Text",
+          21
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Table",
+          2
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 20,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "TableCell",
+          192
+        ],
+        [
+          "Line",
+          51
+        ],
+        [
+          "Span",
+          24
+        ],
+        [
+          "Text",
+          15
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Table",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 21,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          108
+        ],
+        [
+          "TableCell",
+          96
+        ],
+        [
+          "Line",
+          43
+        ],
+        [
+          "Text",
+          25
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "ListItem",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 22,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "TableCell",
+          96
+        ],
+        [
+          "Span",
+          94
+        ],
+        [
+          "Line",
+          36
+        ],
+        [
+          "Text",
+          17
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "ListItem",
+          2
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 23,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "TableCell",
+          179
+        ],
+        [
+          "Span",
+          97
+        ],
+        [
+          "Line",
+          40
+        ],
+        [
+          "Text",
+          16
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Table",
+          2
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 24,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "TableCell",
+          165
+        ],
+        [
+          "Span",
+          100
+        ],
+        [
+          "Line",
+          40
+        ],
+        [
+          "Text",
+          19
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Table",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 25,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          110
+        ],
+        [
+          "TableCell",
+          94
+        ],
+        [
+          "Line",
+          37
+        ],
+        [
+          "Text",
+          20
+        ],
+        [
+          "ListItem",
+          5
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 26,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "TableCell",
+          164
+        ],
+        [
+          "Span",
+          91
+        ],
+        [
+          "Line",
+          39
+        ],
+        [
+          "Text",
+          12
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Table",
+          2
+        ],
+        [
+          "ListItem",
+          2
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 27,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "TableCell",
+          191
+        ],
+        [
+          "Span",
+          85
+        ],
+        [
+          "Line",
+          38
+        ],
+        [
+          "Text",
+          17
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Table",
+          2
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 28,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "TableCell",
+          671
+        ],
+        [
+          "Span",
+          213
+        ],
+        [
+          "Line",
+          93
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 29,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "TableCell",
+          1142
+        ],
+        [
+          "Span",
+          233
+        ],
+        [
+          "Line",
+          95
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 30,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "TableCell",
+          1054
+        ],
+        [
+          "Span",
+          218
+        ],
+        [
+          "Line",
+          88
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/33_33 LCD-TFT display controller (LTDC)"
+}

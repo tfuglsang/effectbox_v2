@@ -1,0 +1,1103 @@
+{
+  "table_of_contents": [
+    {
+      "title": "48 Independent watchdog (IWDG)",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          66.240234375,
+          89.2158203125
+        ],
+        [
+          356.767578125,
+          89.2158203125
+        ],
+        [
+          356.767578125,
+          106.09716796875
+        ],
+        [
+          66.240234375,
+          106.09716796875
+        ]
+      ]
+    },
+    {
+      "title": "48.1 Introduction",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          65.6591796875,
+          130.3291015625
+        ],
+        [
+          205.62425231933594,
+          130.3291015625
+        ],
+        [
+          205.62425231933594,
+          144.4228515625
+        ],
+        [
+          65.6591796875,
+          144.4228515625
+        ]
+      ]
+    },
+    {
+      "title": "48.2 IWDG main features",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          65.6591796875,
+          308.7607421875
+        ],
+        [
+          256.8692932128906,
+          308.7607421875
+        ],
+        [
+          256.8692932128906,
+          323.40277099609375
+        ],
+        [
+          65.6591796875,
+          323.40277099609375
+        ]
+      ]
+    },
+    {
+      "title": "48.3 IWDG functional description",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          66.240234375,
+          439.912109375
+        ],
+        [
+          312.06927490234375,
+          439.912109375
+        ],
+        [
+          312.06927490234375,
+          454.712890625
+        ],
+        [
+          66.240234375,
+          454.712890625
+        ]
+      ]
+    },
+    {
+      "title": "48.3.1 IWDG block diagram",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          65.078125,
+          470.74853515625
+        ],
+        [
+          241.31759643554688,
+          470.74853515625
+        ],
+        [
+          241.31759643554688,
+          482.74853515625
+        ],
+        [
+          65.078125,
+          482.74853515625
+        ]
+      ]
+    },
+    {
+      "title": "48.3.2 IWDG internal signals",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          66.240234375,
+          188.298828125
+        ],
+        [
+          248.01600646972656,
+          188.298828125
+        ],
+        [
+          248.01600646972656,
+          200.6884765625
+        ],
+        [
+          66.240234375,
+          200.6884765625
+        ]
+      ]
+    },
+    {
+      "title": "48.3.3 Window option",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          66.240234375,
+          329.728515625
+        ],
+        [
+          209.859619140625,
+          329.728515625
+        ],
+        [
+          209.859619140625,
+          342.7085266113281
+        ],
+        [
+          66.240234375,
+          342.7085266113281
+        ]
+      ]
+    },
+    {
+      "title": "Configuring the IWDG when the window option is enabled",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          123.18359375,
+          487.8956604003906
+        ],
+        [
+          426.22613525390625,
+          487.8956604003906
+        ],
+        [
+          426.22613525390625,
+          498.8756408691406
+        ],
+        [
+          123.18359375,
+          498.8756408691406
+        ]
+      ]
+    },
+    {
+      "title": "Configuring the IWDG when the window option is disabled",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          122.021484375,
+          658.8956604003906
+        ],
+        [
+          429.2895202636719,
+          658.8956604003906
+        ],
+        [
+          429.2895202636719,
+          669.8756713867188
+        ],
+        [
+          122.021484375,
+          669.8756713867188
+        ]
+      ]
+    },
+    {
+      "title": "48.3.4 Hardware watchdog",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          66.8212890625,
+          203.099609375
+        ],
+        [
+          237.90235900878906,
+          203.099609375
+        ],
+        [
+          237.90235900878906,
+          215.6884765625
+        ],
+        [
+          66.8212890625,
+          215.6884765625
+        ]
+      ]
+    },
+    {
+      "title": "48.3.5 Low-power freeze",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          65.6591796875,
+          286.728515625
+        ],
+        [
+          225.2567596435547,
+          286.728515625
+        ],
+        [
+          225.2567596435547,
+          298.728515625
+        ],
+        [
+          65.6591796875,
+          298.728515625
+        ]
+      ]
+    },
+    {
+      "title": "48.3.6 Register access protection",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          66.240234375,
+          369.6083984375
+        ],
+        [
+          277.2563171386719,
+          369.6083984375
+        ],
+        [
+          277.2563171386719,
+          381.7085266113281
+        ],
+        [
+          66.240234375,
+          381.7085266113281
+        ]
+      ]
+    },
+    {
+      "title": "48.3.7 Debug mode",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          65.078125,
+          494.7484436035156
+        ],
+        [
+          196.60079956054688,
+          494.7484436035156
+        ],
+        [
+          196.60079956054688,
+          506.7484436035156
+        ],
+        [
+          65.078125,
+          506.7484436035156
+        ]
+      ]
+    },
+    {
+      "title": "48.4 IWDG registers",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          67.25999450683594,
+          90.4228515625
+        ],
+        [
+          224.98651123046875,
+          90.4228515625
+        ],
+        [
+          224.98651123046875,
+          104.40289306640625
+        ],
+        [
+          67.25999450683594,
+          104.40289306640625
+        ]
+      ]
+    },
+    {
+      "title": "48.4.1 IWDG key register (IWDG_KR)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          65.078125,
+          157.052734375
+        ],
+        [
+          295.2060241699219,
+          157.052734375
+        ],
+        [
+          295.2060241699219,
+          169.728515625
+        ],
+        [
+          65.078125,
+          169.728515625
+        ]
+      ]
+    },
+    {
+      "title": "48.4.2 IWDG prescaler register (IWDG_PR)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          65.6591796875,
+          90.44921875
+        ],
+        [
+          329.4580078125,
+          90.44921875
+        ],
+        [
+          329.4580078125,
+          102.70849609375
+        ],
+        [
+          65.6591796875,
+          102.70849609375
+        ]
+      ]
+    },
+    {
+      "title": "Bits 2:0 PR[2:0]: Prescaler divider",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          115.92041015625,
+          268.4697265625
+        ],
+        [
+          259.74688720703125,
+          268.4697265625
+        ],
+        [
+          259.74688720703125,
+          278.12158203125
+        ],
+        [
+          115.92041015625,
+          278.12158203125
+        ]
+      ]
+    },
+    {
+      "title": "48.4.3 IWDG reload register (IWDG_RLR)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          67.25999450683594,
+          90.44921875
+        ],
+        [
+          318.6288146972656,
+          90.44921875
+        ],
+        [
+          318.6288146972656,
+          102.70849609375
+        ],
+        [
+          67.25999450683594,
+          102.70849609375
+        ]
+      ]
+    },
+    {
+      "title": "Bits 11:0 RL[11:0]: Watchdog counter reload value",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          113.88671875,
+          268.4697265625
+        ],
+        [
+          321.4439697265625,
+          268.4697265625
+        ],
+        [
+          321.4439697265625,
+          278.12158203125
+        ],
+        [
+          113.88671875,
+          278.12158203125
+        ]
+      ]
+    },
+    {
+      "title": "48.4.4 IWDG status register (IWDG_SR)",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          66.8212890625,
+          90.44921875
+        ],
+        [
+          309.9551696777344,
+          90.44921875
+        ],
+        [
+          309.9551696777344,
+          102.70849609375
+        ],
+        [
+          66.8212890625,
+          102.70849609375
+        ]
+      ]
+    },
+    {
+      "title": "Bit 2 WVU: Watchdog counter window value update",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          128.4130859375,
+          268.880859375
+        ],
+        [
+          341.1425476074219,
+          268.880859375
+        ],
+        [
+          341.1425476074219,
+          278.12158203125
+        ],
+        [
+          128.4130859375,
+          278.12158203125
+        ]
+      ]
+    },
+    {
+      "title": "Bit 1 RVU: Watchdog counter reload value update",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          128.4130859375,
+          332.6064453125
+        ],
+        [
+          334.03765869140625,
+          332.6064453125
+        ],
+        [
+          334.03765869140625,
+          342.1415710449219
+        ],
+        [
+          128.4130859375,
+          342.1415710449219
+        ]
+      ]
+    },
+    {
+      "title": "Bit 0 PVU: Watchdog prescaler value update",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          128.994140625,
+          397.154296875
+        ],
+        [
+          310.7834777832031,
+          397.154296875
+        ],
+        [
+          310.7834777832031,
+          406.1615905761719
+        ],
+        [
+          128.994140625,
+          406.1615905761719
+        ]
+      ]
+    },
+    {
+      "title": "48.4.5 IWDG window register (IWDG_WINR)",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          66.240234375,
+          90.44921875
+        ],
+        [
+          333.9576110839844,
+          90.44921875
+        ],
+        [
+          333.9576110839844,
+          102.70849609375
+        ],
+        [
+          66.240234375,
+          102.70849609375
+        ]
+      ]
+    },
+    {
+      "title": "Bits 11:0 WIN[11:0]: Watchdog counter window value",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          111.5625,
+          268.4697265625
+        ],
+        [
+          332.0055236816406,
+          268.4697265625
+        ],
+        [
+          332.0055236816406,
+          278.12158203125
+        ],
+        [
+          111.5625,
+          278.12158203125
+        ]
+      ]
+    },
+    {
+      "title": "48.4.6 IWDG register map",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          65.6591796875,
+          90.44921875
+        ],
+        [
+          231.89515686035156,
+          90.44921875
+        ],
+        [
+          231.89515686035156,
+          102.70849609375
+        ],
+        [
+          65.6591796875,
+          102.70849609375
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          104
+        ],
+        [
+          "Line",
+          48
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "ListItem",
+          5
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          114
+        ],
+        [
+          "Line",
+          38
+        ],
+        [
+          "Text",
+          12
+        ],
+        [
+          "ListItem",
+          6
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          84
+        ],
+        [
+          "Line",
+          31
+        ],
+        [
+          "ListItem",
+          6
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "PageFooter",
+          3
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "ListGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "TableCell",
+          96
+        ],
+        [
+          "Span",
+          50
+        ],
+        [
+          "Line",
+          21
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "TableCell",
+          96
+        ],
+        [
+          "Span",
+          68
+        ],
+        [
+          "Line",
+          28
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "TableCell",
+          96
+        ],
+        [
+          "Span",
+          60
+        ],
+        [
+          "Line",
+          23
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "TableCell",
+          96
+        ],
+        [
+          "Span",
+          76
+        ],
+        [
+          "Line",
+          32
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "TableCell",
+          96
+        ],
+        [
+          "Span",
+          56
+        ],
+        [
+          "Line",
+          22
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 8,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "TableCell",
+          371
+        ],
+        [
+          "Span",
+          123
+        ],
+        [
+          "Line",
+          60
+        ],
+        [
+          "PageFooter",
+          3
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/48_48 Independent watchdog (IWDG)"
+}

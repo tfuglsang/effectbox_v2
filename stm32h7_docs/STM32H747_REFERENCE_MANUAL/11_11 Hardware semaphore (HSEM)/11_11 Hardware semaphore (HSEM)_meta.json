@@ -1,0 +1,1526 @@
+{
+  "table_of_contents": [
+    {
+      "title": "11 Hardware semaphore (HSEM)",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          67.25999450683594,
+          89.2158203125
+        ],
+        [
+          348.0517578125,
+          89.2158203125
+        ],
+        [
+          348.0517578125,
+          106.09716796875
+        ],
+        [
+          67.25999450683594,
+          106.09716796875
+        ]
+      ]
+    },
+    {
+      "title": "11.1 Introduction",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          66.8212890625,
+          129.5068359375
+        ],
+        [
+          205.6131134033203,
+          129.5068359375
+        ],
+        [
+          205.6131134033203,
+          144.4228515625
+        ],
+        [
+          66.8212890625,
+          144.4228515625
+        ]
+      ]
+    },
+    {
+      "title": "11.2 Main features",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          65.6591796875,
+          363.0302734375
+        ],
+        [
+          214.12124633789062,
+          363.0302734375
+        ],
+        [
+          214.12124633789062,
+          377.40283203125
+        ],
+        [
+          65.6591796875,
+          377.40283203125
+        ]
+      ]
+    },
+    {
+      "title": "11.3 Functional description",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          67.25999450683594,
+          90.4228515625
+        ],
+        [
+          274.2578125,
+          90.4228515625
+        ],
+        [
+          274.2578125,
+          104.40289306640625
+        ],
+        [
+          67.25999450683594,
+          104.40289306640625
+        ]
+      ]
+    },
+    {
+      "title": "11.3.1 HSEM block diagram",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          66.240234375,
+          120.70849609375
+        ],
+        [
+          243.2592315673828,
+          120.70849609375
+        ],
+        [
+          243.2592315673828,
+          132.70849609375
+        ],
+        [
+          66.240234375,
+          132.70849609375
+        ]
+      ]
+    },
+    {
+      "title": "11.3.2 HSEM internal signals",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          65.6591796875,
+          473.3285217285156
+        ],
+        [
+          249.90000915527344,
+          473.3285217285156
+        ],
+        [
+          249.90000915527344,
+          486.3701171875
+        ],
+        [
+          65.6591796875,
+          486.3701171875
+        ]
+      ]
+    },
+    {
+      "title": "11.3.3 HSEM lock procedures",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          66.240234375,
+          602.3285217285156
+        ],
+        [
+          254.5727996826172,
+          602.3285217285156
+        ],
+        [
+          254.5727996826172,
+          614.3285217285156
+        ],
+        [
+          66.240234375,
+          614.3285217285156
+        ]
+      ]
+    },
+    {
+      "title": "2-step (write) lock procedure",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          123.7646484375,
+          402.4990234375
+        ],
+        [
+          274.1126403808594,
+          402.4990234375
+        ],
+        [
+          274.1126403808594,
+          413.9156494140625
+        ],
+        [
+          123.7646484375,
+          413.9156494140625
+        ]
+      ]
+    },
+    {
+      "title": "1-step (read) lock procedure",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          123.7646484375,
+          90.8603515625
+        ],
+        [
+          271.6849365234375,
+          90.8603515625
+        ],
+        [
+          271.6849365234375,
+          101.85565185546875
+        ],
+        [
+          123.7646484375,
+          101.85565185546875
+        ]
+      ]
+    },
+    {
+      "title": "11.3.4 HSEM write/read/read lock register address",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          67.25999450683594,
+          325.2060546875
+        ],
+        [
+          371.2343444824219,
+          325.2060546875
+        ],
+        [
+          371.2343444824219,
+          337.728515625
+        ],
+        [
+          67.25999450683594,
+          337.728515625
+        ]
+      ]
+    },
+    {
+      "title": "11.3.5 HSEM unlock procedures",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          65.078125,
+          444.7085266113281
+        ],
+        [
+          269.2440490722656,
+          444.7085266113281
+        ],
+        [
+          269.2440490722656,
+          456.7085266113281
+        ],
+        [
+          65.078125,
+          456.7085266113281
+        ]
+      ]
+    },
+    {
+      "title": "11.3.6 HSEM COREID semaphore clear",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          66.8212890625,
+          90.44921875
+        ],
+        [
+          307.3779296875,
+          90.44921875
+        ],
+        [
+          307.3779296875,
+          102.70849609375
+        ],
+        [
+          66.8212890625,
+          102.70849609375
+        ]
+      ]
+    },
+    {
+      "title": "11.3.7 HSEM interrupts",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          66.240234375,
+          245.6884765625
+        ],
+        [
+          217.92356872558594,
+          245.6884765625
+        ],
+        [
+          217.92356872558594,
+          257.6884765625
+        ],
+        [
+          66.240234375,
+          257.6884765625
+        ]
+      ]
+    },
+    {
+      "title": "Try to lock semaphore x",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          122.89306640625,
+          452.6572265625
+        ],
+        [
+          249.6985626220703,
+          452.6572265625
+        ],
+        [
+          249.6985626220703,
+          465.03564453125
+        ],
+        [
+          122.89306640625,
+          465.03564453125
+        ]
+      ]
+    },
+    {
+      "title": "On semaphore x free interrupt, try to lock semaphore x",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          123.7646484375,
+          580.0556640625
+        ],
+        [
+          410.9574279785156,
+          580.0556640625
+        ],
+        [
+          410.9574279785156,
+          591.0356750488281
+        ],
+        [
+          123.7646484375,
+          591.0356750488281
+        ]
+      ]
+    },
+    {
+      "title": "11.3.8 AHB bus master ID verification",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          65.6591796875,
+          176.3759765625
+        ],
+        [
+          299.89080810546875,
+          176.3759765625
+        ],
+        [
+          299.89080810546875,
+          188.6884765625
+        ],
+        [
+          65.6591796875,
+          188.6884765625
+        ]
+      ]
+    },
+    {
+      "title": "11.4 HSEM registers",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          67.25999450683594,
+          90.4228515625
+        ],
+        [
+          227.31695556640625,
+          90.4228515625
+        ],
+        [
+          227.31695556640625,
+          104.40289306640625
+        ],
+        [
+          67.25999450683594,
+          104.40289306640625
+        ]
+      ]
+    },
+    {
+      "title": "11.4.1 HSEM register semaphore x (HSEM_Rx)",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          65.6591796875,
+          150.474609375
+        ],
+        [
+          351.2447814941406,
+          150.474609375
+        ],
+        [
+          351.2447814941406,
+          163.728515625
+        ],
+        [
+          65.6591796875,
+          163.728515625
+        ]
+      ]
+    },
+    {
+      "title": "Bit 31 LOCK: Lock indication",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          124.63623046875,
+          353.1630859375
+        ],
+        [
+          244.25070190429688,
+          353.1630859375
+        ],
+        [
+          244.25070190429688,
+          362.1813049316406
+        ],
+        [
+          124.63623046875,
+          362.1813049316406
+        ]
+      ]
+    },
+    {
+      "title": "Bits 11:8 COREID[3:0]: Semaphore COREID",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          113.88029479980469,
+          452.1813049316406
+        ],
+        [
+          297.20758056640625,
+          452.1813049316406
+        ],
+        [
+          297.20758056640625,
+          461.7021484375
+        ],
+        [
+          113.88029479980469,
+          461.7021484375
+        ]
+      ]
+    },
+    {
+      "title": "Bits 7:0 PROCID[7:0]: Semaphore PROCID",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          116.2109375,
+          574.3525390625
+        ],
+        [
+          297.14276123046875,
+          574.3525390625
+        ],
+        [
+          297.14276123046875,
+          584.1797790527344
+        ],
+        [
+          116.2109375,
+          584.1797790527344
+        ]
+      ]
+    },
+    {
+      "title": "11.4.2 HSEM read lock register semaphore x (HSEM_RLRx)",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          67.25999450683594,
+          90.44921875
+        ],
+        [
+          423.3036193847656,
+          90.44921875
+        ],
+        [
+          423.3036193847656,
+          102.70849609375
+        ],
+        [
+          67.25999450683594,
+          102.70849609375
+        ]
+      ]
+    },
+    {
+      "title": "Bit 31 LOCK: Lock indication",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          124.345703125,
+          290.6708984375
+        ],
+        [
+          244.02151489257812,
+          290.6708984375
+        ],
+        [
+          244.02151489257812,
+          301.16131591796875
+        ],
+        [
+          124.345703125,
+          301.16131591796875
+        ]
+      ]
+    },
+    {
+      "title": "Bits 11:8 COREID[3:0]: Semaphore COREID",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          110.9814453125,
+          414.8330078125
+        ],
+        [
+          296.8694763183594,
+          414.8330078125
+        ],
+        [
+          296.8694763183594,
+          424.16070556640625
+        ],
+        [
+          110.9814453125,
+          424.16070556640625
+        ]
+      ]
+    },
+    {
+      "title": "Bits 7:0 PROCID[7:0]: Semaphore processor ID",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          115.6298828125,
+          501.9931640625
+        ],
+        [
+          312.89935302734375,
+          501.9931640625
+        ],
+        [
+          312.89935302734375,
+          511.1610107421875
+        ],
+        [
+          115.6298828125,
+          511.1610107421875
+        ]
+      ]
+    },
+    {
+      "title": "11.4.3 HSEM interrupt enable register (HSEM_CnIER)",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          67.25999450683594,
+          90.0380859375
+        ],
+        [
+          388.6440124511719,
+          90.0380859375
+        ],
+        [
+          388.6440124511719,
+          102.70849609375
+        ],
+        [
+          67.25999450683594,
+          102.70849609375
+        ]
+      ]
+    },
+    {
+      "title": "11.4.4 HSEM interrupt clear register (HSEM_CnICR)",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          66.240234375,
+          316.1611328125
+        ],
+        [
+          379.1976013183594,
+          316.1611328125
+        ],
+        [
+          379.1976013183594,
+          329.74847412109375
+        ],
+        [
+          66.240234375,
+          329.74847412109375
+        ]
+      ]
+    },
+    {
+      "title": "11.4.5 HSEM interrupt status register (HSEM_CnISR)",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          66.240234375,
+          543.1064453125
+        ],
+        [
+          385.8168029785156,
+          543.1064453125
+        ],
+        [
+          385.8168029785156,
+          556.728515625
+        ],
+        [
+          66.240234375,
+          556.728515625
+        ]
+      ]
+    },
+    {
+      "title": "11.4.6 HSEM interrupt status register (HSEM_CnMISR)",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          67.25999450683594,
+          177.1982421875
+        ],
+        [
+          396.279296875,
+          177.1982421875
+        ],
+        [
+          396.279296875,
+          189.70849609375
+        ],
+        [
+          67.25999450683594,
+          189.70849609375
+        ]
+      ]
+    },
+    {
+      "title": "11.4.7 HSEM clear register (HSEM_CR)",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          65.078125,
+          425.5224609375
+        ],
+        [
+          307.2599792480469,
+          425.5224609375
+        ],
+        [
+          307.2599792480469,
+          438.7085266113281
+        ],
+        [
+          65.078125,
+          438.7085266113281
+        ]
+      ]
+    },
+    {
+      "title": "Bits 11:8 COREID[3:0]: COREID of semaphores to be cleared",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          112.724609375,
+          96.6162109375
+        ],
+        [
+          364.3782653808594,
+          96.6162109375
+        ],
+        [
+          364.3782653808594,
+          106.16131591796875
+        ],
+        [
+          112.724609375,
+          106.16131591796875
+        ]
+      ]
+    },
+    {
+      "title": "11.4.8 HSEM clear semaphore key register (HSEM_KEYR)",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          67.25999450683594,
+          178.8427734375
+        ],
+        [
+          413.930419921875,
+          178.8427734375
+        ],
+        [
+          413.930419921875,
+          192.70849609375
+        ],
+        [
+          67.25999450683594,
+          192.70849609375
+        ]
+      ]
+    },
+    {
+      "title": "11.4.9 HSEM register map",
+      "heading_level": null,
+      "page_id": 12,
+      "polygon": [
+        [
+          67.25999450683594,
+          90.44921875
+        ],
+        [
+          234.74609375,
+          90.44921875
+        ],
+        [
+          234.74609375,
+          102.70849609375
+        ],
+        [
+          67.25999450683594,
+          102.70849609375
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          65
+        ],
+        [
+          "Line",
+          24
+        ],
+        [
+          "ListItem",
+          13
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "Picture",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          105
+        ],
+        [
+          "Line",
+          48
+        ],
+        [
+          "TableCell",
+          12
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "ListItem",
+          3
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          89
+        ],
+        [
+          "Line",
+          41
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "ListItem",
+          4
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          95
+        ],
+        [
+          "Line",
+          43
+        ],
+        [
+          "Text",
+          13
+        ],
+        [
+          "ListItem",
+          5
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "Picture",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          67
+        ],
+        [
+          "Line",
+          30
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "ListItem",
+          4
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          87
+        ],
+        [
+          "Line",
+          39
+        ],
+        [
+          "ListItem",
+          8
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          60
+        ],
+        [
+          "Line",
+          26
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "ListItem",
+          6
+        ],
+        [
+          "TableCell",
+          4
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          100
+        ],
+        [
+          "TableCell",
+          96
+        ],
+        [
+          "Line",
+          44
+        ],
+        [
+          "ListItem",
+          14
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "ListGroup",
+          3
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 8,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "TableCell",
+          96
+        ],
+        [
+          "Span",
+          88
+        ],
+        [
+          "Line",
+          38
+        ],
+        [
+          "Text",
+          18
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 9,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "TableCell",
+          232
+        ],
+        [
+          "Span",
+          79
+        ],
+        [
+          "Line",
+          37
+        ],
+        [
+          "Text",
+          13
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Table",
+          3
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "TableGroup",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 10,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "TableCell",
+          163
+        ],
+        [
+          "Span",
+          92
+        ],
+        [
+          "Line",
+          40
+        ],
+        [
+          "Text",
+          18
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Table",
+          2
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "TableGroup",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 11,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "TableCell",
+          82
+        ],
+        [
+          "Span",
+          45
+        ],
+        [
+          "Line",
+          19
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "PageFooter",
+          3
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 12,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "TableCell",
+          992
+        ],
+        [
+          "Span",
+          212
+        ],
+        [
+          "Line",
+          78
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 13,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "TableCell",
+          235
+        ],
+        [
+          "Span",
+          90
+        ],
+        [
+          "Line",
+          42
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/11_11 Hardware semaphore (HSEM)"
+}

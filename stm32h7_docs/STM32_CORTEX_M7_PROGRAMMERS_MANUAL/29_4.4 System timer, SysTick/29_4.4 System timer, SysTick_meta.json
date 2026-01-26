@@ -1,0 +1,524 @@
+{
+  "table_of_contents": [
+    {
+      "title": "4.3.13 BusFault address register",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          66.8212890625,
+          88.8046875
+        ],
+        [
+          272.5146484375,
+          88.8046875
+        ],
+        [
+          272.5146484375,
+          102.70849609375
+        ],
+        [
+          66.8212890625,
+          102.70849609375
+        ]
+      ]
+    },
+    {
+      "title": "4.3.14 System control block design hints and tips",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          65.078125,
+          293.1376953125
+        ],
+        [
+          368.6256103515625,
+          293.1376953125
+        ],
+        [
+          368.6256103515625,
+          305.6884765625
+        ],
+        [
+          65.078125,
+          305.6884765625
+        ]
+      ]
+    },
+    {
+      "title": "4.4 System timer, SysTick",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          65.078125,
+          603.54296875
+        ],
+        [
+          271.50775146484375,
+          603.54296875
+        ],
+        [
+          271.50775146484375,
+          619.98828125
+        ],
+        [
+          65.078125,
+          619.98828125
+        ]
+      ]
+    },
+    {
+      "title": "4.4.1 SysTick control and status register",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          65.6591796875,
+          248.6884765625
+        ],
+        [
+          323.757568359375,
+          248.6884765625
+        ],
+        [
+          323.757568359375,
+          260.6884765625
+        ],
+        [
+          65.6591796875,
+          260.6884765625
+        ]
+      ]
+    },
+    {
+      "title": "4.4.2 SysTick reload value register",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          66.240234375,
+          152.5302734375
+        ],
+        [
+          289.74114990234375,
+          152.5302734375
+        ],
+        [
+          289.74114990234375,
+          164.8642578125
+        ],
+        [
+          66.240234375,
+          164.8642578125
+        ]
+      ]
+    },
+    {
+      "title": "Calculating the RELOAD value",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          122.021484375,
+          405.7880859375
+        ],
+        [
+          283.308349609375,
+          405.7880859375
+        ],
+        [
+          283.308349609375,
+          417.4556579589844
+        ],
+        [
+          122.021484375,
+          417.4556579589844
+        ]
+      ]
+    },
+    {
+      "title": "4.4.3 SysTick current value register",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          66.240234375,
+          517.6162109375
+        ],
+        [
+          295.1063537597656,
+          517.6162109375
+        ],
+        [
+          295.1063537597656,
+          530.3285217285156
+        ],
+        [
+          66.240234375,
+          530.3285217285156
+        ]
+      ]
+    },
+    {
+      "title": "4.4.4 SysTick calibration value register",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          65.078125,
+          201.6901157613535
+        ],
+        [
+          316.2342569269522,
+          201.6901157613535
+        ],
+        [
+          316.2342569269522,
+          214.611328125
+        ],
+        [
+          65.078125,
+          214.611328125
+        ]
+      ]
+    },
+    {
+      "title": "4.4.5 SysTick design hints and tips",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          65.6591796875,
+          90.44921875
+        ],
+        [
+          292.3475646972656,
+          90.44921875
+        ],
+        [
+          292.3475646972656,
+          102.70849609375
+        ],
+        [
+          65.6591796875,
+          102.70849609375
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          93
+        ],
+        [
+          "Line",
+          37
+        ],
+        [
+          "Text",
+          11
+        ],
+        [
+          "TableCell",
+          10
+        ],
+        [
+          "ListItem",
+          4
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "Table",
+          2
+        ],
+        [
+          "TableGroup",
+          2
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          109
+        ],
+        [
+          "TableCell",
+          57
+        ],
+        [
+          "Line",
+          44
+        ],
+        [
+          "Caption",
+          4
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Table",
+          2
+        ],
+        [
+          "TableGroup",
+          2
+        ],
+        [
+          "Reference",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          95
+        ],
+        [
+          "Line",
+          34
+        ],
+        [
+          "TableCell",
+          9
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Caption",
+          3
+        ],
+        [
+          "Reference",
+          3
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Figure",
+          2
+        ],
+        [
+          "FigureGroup",
+          2
+        ],
+        [
+          "Table",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          29
+        ],
+        [
+          "TableCell",
+          24
+        ],
+        [
+          "Span",
+          12
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "Caption",
+          3
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Table",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          34
+        ],
+        [
+          "Line",
+          18
+        ],
+        [
+          "TableCell",
+          6
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "ListItem",
+          3
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/29_4.4 System timer, SysTick"
+}

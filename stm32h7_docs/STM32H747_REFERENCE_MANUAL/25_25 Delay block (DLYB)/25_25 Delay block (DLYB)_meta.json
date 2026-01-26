@@ -1,0 +1,625 @@
+{
+  "table_of_contents": [
+    {
+      "title": "25 Delay block (DLYB)",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          65.94458438287154,
+          89.2158203125
+        ],
+        [
+          270.5226700251889,
+          89.2158203125
+        ],
+        [
+          270.5226700251889,
+          105.71861086375779
+        ],
+        [
+          65.94458438287154,
+          105.71861086375779
+        ]
+      ]
+    },
+    {
+      "title": "25.1 Introduction",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          65.6591796875,
+          129.71148708815673
+        ],
+        [
+          206.07682619647358,
+          129.71148708815673
+        ],
+        [
+          206.07682619647358,
+          141.7079252003562
+        ],
+        [
+          65.6591796875,
+          141.7079252003562
+        ]
+      ]
+    },
+    {
+      "title": "25.2 DLYB main features",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          65.94458438287154,
+          254.92430988423862
+        ],
+        [
+          256.28463476070533,
+          254.92430988423862
+        ],
+        [
+          256.28463476070533,
+          266.9207479964381
+        ],
+        [
+          65.94458438287154,
+          266.9207479964381
+        ]
+      ]
+    },
+    {
+      "title": "25.3 DLYB functional description",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          65.6591796875,
+          356.86328125
+        ],
+        [
+          311.73803526448364,
+          356.86328125
+        ],
+        [
+          311.73803526448364,
+          370.01953125
+        ],
+        [
+          65.6591796875,
+          370.01953125
+        ]
+      ]
+    },
+    {
+      "title": "25.3.1 DLYB diagram",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          65.94458438287154,
+          385.3855743544078
+        ],
+        [
+          206.07682619647358,
+          385.3855743544078
+        ],
+        [
+          206.07682619647358,
+          397.3820124666073
+        ],
+        [
+          65.94458438287154,
+          397.3820124666073
+        ]
+      ]
+    },
+    {
+      "title": "25.3.2 DLYB pins and internal signals",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          66.240234375,
+          90.44921875
+        ],
+        [
+          299.555908203125,
+          90.44921875
+        ],
+        [
+          299.555908203125,
+          102.70849609375
+        ],
+        [
+          66.240234375,
+          102.70849609375
+        ]
+      ]
+    },
+    {
+      "title": "25.3.3 General description",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          65.078125,
+          238.728515625
+        ],
+        [
+          236.60281372070312,
+          238.728515625
+        ],
+        [
+          236.60281372070312,
+          250.791015625
+        ],
+        [
+          65.078125,
+          250.791015625
+        ]
+      ]
+    },
+    {
+      "title": "25.3.4 Delay line length configuration procedure",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          66.8212890625,
+          90.44921875
+        ],
+        [
+          361.2359619140625,
+          90.44921875
+        ],
+        [
+          361.2359619140625,
+          102.70849609375
+        ],
+        [
+          66.8212890625,
+          102.70849609375
+        ]
+      ]
+    },
+    {
+      "title": "25.3.5 Output clock phase configuration procedure",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          65.078125,
+          488.42578125
+        ],
+        [
+          377.235595703125,
+          488.42578125
+        ],
+        [
+          377.235595703125,
+          500.7484436035156
+        ],
+        [
+          65.078125,
+          500.7484436035156
+        ]
+      ]
+    },
+    {
+      "title": "SDMMC use case:",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          123.18359375,
+          613.8212890625
+        ],
+        [
+          207.23753356933594,
+          613.8212890625
+        ],
+        [
+          207.23753356933594,
+          624.9828186035156
+        ],
+        [
+          123.18359375,
+          624.9828186035156
+        ]
+      ]
+    },
+    {
+      "title": "25.4 DLYB registers",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          67.25999450683594,
+          90.4228515625
+        ],
+        [
+          223.7060546875,
+          90.4228515625
+        ],
+        [
+          223.7060546875,
+          104.40289306640625
+        ],
+        [
+          67.25999450683594,
+          104.40289306640625
+        ]
+      ]
+    },
+    {
+      "title": "25.4.1 DLYB control register (DLYB_CR)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          66.8212890625,
+          138.5517578125
+        ],
+        [
+          313.7207946777344,
+          138.5517578125
+        ],
+        [
+          313.7207946777344,
+          151.728515625
+        ],
+        [
+          66.8212890625,
+          151.728515625
+        ]
+      ]
+    },
+    {
+      "title": "25.4.2 DLYB configuration register (DLYB_CFGR)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          65.078125,
+          428.400390625
+        ],
+        [
+          366.4416198730469,
+          428.400390625
+        ],
+        [
+          366.4416198730469,
+          441.7085266113281
+        ],
+        [
+          65.078125,
+          441.7085266113281
+        ]
+      ]
+    },
+    {
+      "title": "Bit 31 LNGF: Length valid flag",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          122.6025390625,
+          597.3759765625
+        ],
+        [
+          247.05299377441406,
+          597.3759765625
+        ],
+        [
+          247.05299377441406,
+          608.1813049316406
+        ],
+        [
+          122.6025390625,
+          608.1813049316406
+        ]
+      ]
+    },
+    {
+      "title": "Bits 27:16 LNG[11:0]: Delay line length value",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          105.751953125,
+          679.6025390625
+        ],
+        [
+          290.09100341796875,
+          679.6025390625
+        ],
+        [
+          290.09100341796875,
+          690.1416015625
+        ],
+        [
+          105.751953125,
+          690.1416015625
+        ]
+      ]
+    },
+    {
+      "title": "25.4.3 DLYB register map",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          66.240234375,
+          221.189453125
+        ],
+        [
+          230.90396118164062,
+          221.189453125
+        ],
+        [
+          230.90396118164062,
+          234.70849609375
+        ],
+        [
+          66.240234375,
+          234.70849609375
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          71
+        ],
+        [
+          "Span",
+          50
+        ],
+        [
+          "ListItem",
+          6
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "ListGroup",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          86
+        ],
+        [
+          "TableCell",
+          40
+        ],
+        [
+          "Line",
+          39
+        ],
+        [
+          "Text",
+          12
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "Table",
+          2
+        ],
+        [
+          "Footnote",
+          2
+        ],
+        [
+          "TableGroup",
+          2
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          85
+        ],
+        [
+          "Line",
+          42
+        ],
+        [
+          "ListItem",
+          12
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "ListGroup",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "TableCell",
+          185
+        ],
+        [
+          "Span",
+          107
+        ],
+        [
+          "Line",
+          40
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "ListItem",
+          8
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "Table",
+          2
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "TableCell",
+          170
+        ],
+        [
+          "Span",
+          118
+        ],
+        [
+          "Line",
+          54
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "PageFooter",
+          3
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/25_25 Delay block (DLYB)"
+}

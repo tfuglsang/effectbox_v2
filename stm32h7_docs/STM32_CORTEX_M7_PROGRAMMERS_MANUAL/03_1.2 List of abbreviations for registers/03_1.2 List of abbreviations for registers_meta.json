@@ -1,0 +1,114 @@
+{
+  "table_of_contents": [
+    {
+      "title": "1 About this document",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          66.240234375,
+          87.982421875
+        ],
+        [
+          284.716796875,
+          87.982421875
+        ],
+        [
+          284.716796875,
+          106.09716796875
+        ],
+        [
+          66.240234375,
+          106.09716796875
+        ]
+      ]
+    },
+    {
+      "title": "1.1 Typographical conventions",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          66.240234375,
+          252.8466796875
+        ],
+        [
+          304.81085205078125,
+          252.8466796875
+        ],
+        [
+          304.81085205078125,
+          267.4228515625
+        ],
+        [
+          66.240234375,
+          267.4228515625
+        ]
+      ]
+    },
+    {
+      "title": "1.2 List of abbreviations for registers",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          66.240234375,
+          527.4628601074219
+        ],
+        [
+          346.325927734375,
+          527.4628601074219
+        ],
+        [
+          346.325927734375,
+          543.9287109375
+        ],
+        [
+          66.240234375,
+          543.9287109375
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          77
+        ],
+        [
+          "Line",
+          33
+        ],
+        [
+          "Text",
+          25
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Footnote",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/03_1.2 List of abbreviations for registers"
+}

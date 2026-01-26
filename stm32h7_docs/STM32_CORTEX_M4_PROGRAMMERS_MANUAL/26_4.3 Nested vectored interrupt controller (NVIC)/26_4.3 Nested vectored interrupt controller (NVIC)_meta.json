@@ -1,0 +1,1209 @@
+{
+  "table_of_contents": [
+    {
+      "title": "Nested vectored interrupt controller (NVIC)\n4.3",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          65.078125,
+          89.22350845948353
+        ],
+        [
+          410.65491183879095,
+          89.22350845948353
+        ],
+        [
+          410.65491183879095,
+          104.21905609973285
+        ],
+        [
+          65.078125,
+          104.21905609973285
+        ]
+      ]
+    },
+    {
+      "title": "4.3.1 Accessing the Cortex-M4 NVIC registers using CMSIS",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          65.078125,
+          90.44921875
+        ],
+        [
+          429.8639831542969,
+          90.44921875
+        ],
+        [
+          429.8639831542969,
+          102.70849609375
+        ],
+        [
+          65.078125,
+          102.70849609375
+        ]
+      ]
+    },
+    {
+      "title": "4.3.2 Interrupt set-enable register x (NVIC_ISERx)",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          65.078125,
+          90.0380859375
+        ],
+        [
+          374.5392150878906,
+          90.0380859375
+        ],
+        [
+          374.5392150878906,
+          102.70849609375
+        ],
+        [
+          65.078125,
+          102.70849609375
+        ]
+      ]
+    },
+    {
+      "title": "Write:",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          152.236328125,
+          369.6083984375
+        ],
+        [
+          178.4820098876953,
+          369.6083984375
+        ],
+        [
+          178.4820098876953,
+          380.18157958984375
+        ],
+        [
+          152.236328125,
+          380.18157958984375
+        ]
+      ]
+    },
+    {
+      "title": "Read:",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          152.8173828125,
+          407.021484375
+        ],
+        [
+          178.1219940185547,
+          407.021484375
+        ],
+        [
+          178.1219940185547,
+          417.1418762207031
+        ],
+        [
+          152.8173828125,
+          417.1418762207031
+        ]
+      ]
+    },
+    {
+      "title": "4.3.3 Interrupt clear-enable register x (NVIC_ICERx)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          65.078125,
+          88.3935546875
+        ],
+        [
+          385.8396301269531,
+          88.3935546875
+        ],
+        [
+          385.8396301269531,
+          102.70849609375
+        ],
+        [
+          65.078125,
+          102.70849609375
+        ]
+      ]
+    },
+    {
+      "title": "Write:",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          152.236328125,
+          389.18157958984375
+        ],
+        [
+          178.4820098876953,
+          389.18157958984375
+        ],
+        [
+          178.4820098876953,
+          398.18157958984375
+        ],
+        [
+          152.236328125,
+          398.18157958984375
+        ]
+      ]
+    },
+    {
+      "title": "Read:",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          152.8173828125,
+          426.1418762207031
+        ],
+        [
+          178.1219940185547,
+          426.1418762207031
+        ],
+        [
+          178.1219940185547,
+          435.3896484375
+        ],
+        [
+          152.8173828125,
+          435.3896484375
+        ]
+      ]
+    },
+    {
+      "title": "4.3.4 Interrupt set-pending register x (NVIC_ISPRx)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          66.240234375,
+          88.3935546875
+        ],
+        [
+          383.150390625,
+          88.3935546875
+        ],
+        [
+          383.150390625,
+          102.70849609375
+        ],
+        [
+          66.240234375,
+          102.70849609375
+        ]
+      ]
+    },
+    {
+      "title": "Write:",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          153.3984375,
+          371.18157958984375
+        ],
+        [
+          179.14169311523438,
+          371.18157958984375
+        ],
+        [
+          179.14169311523438,
+          380.18157958984375
+        ],
+        [
+          153.3984375,
+          380.18157958984375
+        ]
+      ]
+    },
+    {
+      "title": "Read:",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          152.52685546875,
+          408.666015625
+        ],
+        [
+          178.7816925048828,
+          408.666015625
+        ],
+        [
+          178.7816925048828,
+          418.1615905761719
+        ],
+        [
+          152.52685546875,
+          418.1615905761719
+        ]
+      ]
+    },
+    {
+      "title": "4.3.5 Interrupt clear-pending register x (NVIC_ICPRx)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          65.078125,
+          90.0380859375
+        ],
+        [
+          395.1171875,
+          90.0380859375
+        ],
+        [
+          395.1171875,
+          102.70849609375
+        ],
+        [
+          65.078125,
+          102.70849609375
+        ]
+      ]
+    },
+    {
+      "title": "Write:",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          150.20263671875,
+          370.841796875
+        ],
+        [
+          177.10169982910156,
+          370.841796875
+        ],
+        [
+          177.10169982910156,
+          380.18157958984375
+        ],
+        [
+          150.20263671875,
+          380.18157958984375
+        ]
+      ]
+    },
+    {
+      "title": "Read:",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          149.62158203125,
+          408.2548828125
+        ],
+        [
+          176.74169921875,
+          408.2548828125
+        ],
+        [
+          176.74169921875,
+          418.1615905761719
+        ],
+        [
+          149.62158203125,
+          418.1615905761719
+        ]
+      ]
+    },
+    {
+      "title": "4.3.6 Interrupt active bit register x (NVIC_IABRx)",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          66.240234375,
+          90.0380859375
+        ],
+        [
+          368.5751647949219,
+          90.0380859375
+        ],
+        [
+          368.5751647949219,
+          102.70849609375
+        ],
+        [
+          66.240234375,
+          102.70849609375
+        ]
+      ]
+    },
+    {
+      "title": "4.3.7 Interrupt priority register x (NVIC_IPRx)",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          67.25999450683594,
+          90.0380859375
+        ],
+        [
+          348.6328125,
+          90.0380859375
+        ],
+        [
+          348.6328125,
+          102.70849609375
+        ],
+        [
+          67.25999450683594,
+          102.70849609375
+        ]
+      ]
+    },
+    {
+      "title": "4.3.8 Software trigger interrupt register (NVIC_STIR)",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          66.240234375,
+          88.3935546875
+        ],
+        [
+          389.83917236328125,
+          88.3935546875
+        ],
+        [
+          389.83917236328125,
+          102.70849609375
+        ],
+        [
+          66.240234375,
+          102.70849609375
+        ]
+      ]
+    },
+    {
+      "title": "Bits 8:0 INTID Software generated interrupt ID",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          115.048828125,
+          317.8056640625
+        ],
+        [
+          305.634765625,
+          317.8056640625
+        ],
+        [
+          305.634765625,
+          327.1416015625
+        ],
+        [
+          115.048828125,
+          327.1416015625
+        ]
+      ]
+    },
+    {
+      "title": "4.3.9 Level-sensitive and pulse interrupts",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          65.6591796875,
+          90.44921875
+        ],
+        [
+          328.52642822265625,
+          90.44921875
+        ],
+        [
+          328.52642822265625,
+          102.70849609375
+        ],
+        [
+          65.6591796875,
+          102.70849609375
+        ]
+      ]
+    },
+    {
+      "title": "Hardware and software control of interrupts",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          123.18359375,
+          289.0263671875
+        ],
+        [
+          352.8655700683594,
+          289.0263671875
+        ],
+        [
+          352.8655700683594,
+          300.87567138671875
+        ],
+        [
+          123.18359375,
+          300.87567138671875
+        ]
+      ]
+    },
+    {
+      "title": "4.3.10 NVIC design hints and tips",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          66.240234375,
+          90.44921875
+        ],
+        [
+          275.930419921875,
+          90.44921875
+        ],
+        [
+          275.930419921875,
+          102.70849609375
+        ],
+        [
+          66.240234375,
+          102.70849609375
+        ]
+      ]
+    },
+    {
+      "title": "NVIC programming hints",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          123.95999908447266,
+          241.3349609375
+        ],
+        [
+          253.39111328125,
+          241.3349609375
+        ],
+        [
+          253.39111328125,
+          252.87567138671875
+        ],
+        [
+          123.95999908447266,
+          252.87567138671875
+        ]
+      ]
+    },
+    {
+      "title": "4.3.11 NVIC register map",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          67.25999450683594,
+          90.44921875
+        ],
+        [
+          228.00953674316406,
+          90.44921875
+        ],
+        [
+          228.00953674316406,
+          102.70849609375
+        ],
+        [
+          67.25999450683594,
+          102.70849609375
+        ]
+      ]
+    },
+    {
+      "title": "Table 49. NVIC register map and reset values (continued)",
+      "heading_level": null,
+      "page_id": 12,
+      "polygon": [
+        [
+          162.1142578125,
+          91.04278564453125
+        ],
+        [
+          432.8857421875,
+          91.04278564453125
+        ],
+        [
+          432.8857421875,
+          101.138671875
+        ],
+        [
+          162.1142578125,
+          101.138671875
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "TableCell",
+          47
+        ],
+        [
+          "Line",
+          23
+        ],
+        [
+          "Span",
+          23
+        ],
+        [
+          "ListItem",
+          7
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          65
+        ],
+        [
+          "Line",
+          30
+        ],
+        [
+          "TableCell",
+          16
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Footnote",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "TableCell",
+          69
+        ],
+        [
+          "Span",
+          66
+        ],
+        [
+          "Line",
+          30
+        ],
+        [
+          "Text",
+          14
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "TableCell",
+          82
+        ],
+        [
+          "Span",
+          60
+        ],
+        [
+          "Line",
+          27
+        ],
+        [
+          "Text",
+          13
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "TableCell",
+          68
+        ],
+        [
+          "Span",
+          66
+        ],
+        [
+          "Line",
+          30
+        ],
+        [
+          "Text",
+          14
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "TableCell",
+          68
+        ],
+        [
+          "Span",
+          62
+        ],
+        [
+          "Line",
+          28
+        ],
+        [
+          "Text",
+          14
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "TableCell",
+          95
+        ],
+        [
+          "Span",
+          56
+        ],
+        [
+          "Line",
+          24
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          105
+        ],
+        [
+          "TableCell",
+          47
+        ],
+        [
+          "Line",
+          33
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "Table",
+          2
+        ],
+        [
+          "TableGroup",
+          2
+        ],
+        [
+          "Reference",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 8,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "TableCell",
+          69
+        ],
+        [
+          "Span",
+          44
+        ],
+        [
+          "Line",
+          19
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 9,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          102
+        ],
+        [
+          "Line",
+          43
+        ],
+        [
+          "ListItem",
+          9
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 10,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          95
+        ],
+        [
+          "Line",
+          35
+        ],
+        [
+          "TableCell",
+          24
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Code",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 11,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "TableCell",
+          983
+        ],
+        [
+          "Span",
+          155
+        ],
+        [
+          "Line",
+          81
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 12,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "TableCell",
+          330
+        ],
+        [
+          "Span",
+          110
+        ],
+        [
+          "Line",
+          58
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/26_4.3 Nested vectored interrupt controller (NVIC)"
+}

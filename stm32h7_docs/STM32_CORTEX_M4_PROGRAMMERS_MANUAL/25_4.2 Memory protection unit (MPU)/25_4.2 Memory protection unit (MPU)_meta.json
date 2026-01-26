@@ -1,0 +1,1521 @@
+{
+  "table_of_contents": [
+    {
+      "title": "4 Core peripherals",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          65.6591796875,
+          88.3935546875
+        ],
+        [
+          251.0122528076172,
+          88.3935546875
+        ],
+        [
+          251.0122528076172,
+          106.09716796875
+        ],
+        [
+          65.6591796875,
+          106.09716796875
+        ]
+      ]
+    },
+    {
+      "title": "4.1 About the STM32 Cortex-M4 core peripherals",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          66.240234375,
+          129.91796875
+        ],
+        [
+          423.21466064453125,
+          129.91796875
+        ],
+        [
+          423.21466064453125,
+          144.4228515625
+        ],
+        [
+          66.240234375,
+          144.4228515625
+        ]
+      ]
+    },
+    {
+      "title": "4.2 Memory protection unit (MPU)",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          65.6591796875,
+          518.4384765625
+        ],
+        [
+          323.79571533203125,
+          518.4384765625
+        ],
+        [
+          323.79571533203125,
+          534.4228515625
+        ],
+        [
+          65.6591796875,
+          534.4228515625
+        ]
+      ]
+    },
+    {
+      "title": "4.2.1 MPU access permission attributes",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          65.6591796875,
+          90.44921875
+        ],
+        [
+          319.28765869140625,
+          90.44921875
+        ],
+        [
+          319.28765869140625,
+          102.70849609375
+        ],
+        [
+          65.6591796875,
+          102.70849609375
+        ]
+      ]
+    },
+    {
+      "title": "4.2.2 MPU mismatch",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          67.25999450683594,
+          357.2744140625
+        ],
+        [
+          209.8727569580078,
+          357.2744140625
+        ],
+        [
+          209.8727569580078,
+          370.728515625
+        ],
+        [
+          67.25999450683594,
+          370.728515625
+        ]
+      ]
+    },
+    {
+      "title": "4.2.3 Updating an MPU region",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          66.240234375,
+          441.7085266113281
+        ],
+        [
+          263.2259521484375,
+          441.7085266113281
+        ],
+        [
+          263.2259521484375,
+          453.7085266113281
+        ],
+        [
+          66.240234375,
+          453.7085266113281
+        ]
+      ]
+    },
+    {
+      "title": "Updating an MPU region using multi-word writes",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          123.7646484375,
+          443.85565185546875
+        ],
+        [
+          377.9449462890625,
+          443.85565185546875
+        ],
+        [
+          377.9449462890625,
+          455.1240234375
+        ],
+        [
+          123.7646484375,
+          455.1240234375
+        ]
+      ]
+    },
+    {
+      "title": "Subregions",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          122.6025390625,
+          258.19140625
+        ],
+        [
+          184.3807373046875,
+          258.19140625
+        ],
+        [
+          184.3807373046875,
+          269.85565185546875
+        ],
+        [
+          122.6025390625,
+          269.85565185546875
+        ]
+      ]
+    },
+    {
+      "title": "Example of SRD use:",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          123.18359375,
+          386.8759765625
+        ],
+        [
+          219.4584503173828,
+          386.8759765625
+        ],
+        [
+          219.4584503173828,
+          396.9810791015625
+        ],
+        [
+          123.18359375,
+          396.9810791015625
+        ]
+      ]
+    },
+    {
+      "title": "4.2.4 MPU design hints and tips",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          65.6591796875,
+          90.44921875
+        ],
+        [
+          273.8843994140625,
+          90.44921875
+        ],
+        [
+          273.8843994140625,
+          102.70849609375
+        ],
+        [
+          65.6591796875,
+          102.70849609375
+        ]
+      ]
+    },
+    {
+      "title": "Recommended MPU configuration",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          122.6025390625,
+          241.3349609375
+        ],
+        [
+          303.3962707519531,
+          241.3349609375
+        ],
+        [
+          303.3962707519531,
+          252.87567138671875
+        ],
+        [
+          122.6025390625,
+          252.87567138671875
+        ]
+      ]
+    },
+    {
+      "title": "4.2.5 MPU type register (MPU_TYPER)",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          66.240234375,
+          90.0380859375
+        ],
+        [
+          310.5695495605469,
+          90.0380859375
+        ],
+        [
+          310.5695495605469,
+          102.70849609375
+        ],
+        [
+          66.240234375,
+          102.70849609375
+        ]
+      ]
+    },
+    {
+      "title": "Bits 31:24 Reserved.",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          106.62353515625,
+          312.0498046875
+        ],
+        [
+          196.6544952392578,
+          312.0498046875
+        ],
+        [
+          196.6544952392578,
+          321.98126220703125
+        ],
+        [
+          106.62353515625,
+          321.98126220703125
+        ]
+      ]
+    },
+    {
+      "title": "Bits 7:1 Reserved.",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          117.08251953125,
+          439.5009765625
+        ],
+        [
+          196.68701171875,
+          439.5009765625
+        ],
+        [
+          196.68701171875,
+          449.0018615722656
+        ],
+        [
+          117.08251953125,
+          449.0018615722656
+        ]
+      ]
+    },
+    {
+      "title": "4.2.6 MPU control register (MPU_CTRL)",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          65.078125,
+          88.3935546875
+        ],
+        [
+          318.5051574707031,
+          88.3935546875
+        ],
+        [
+          318.5051574707031,
+          102.70849609375
+        ],
+        [
+          65.078125,
+          102.70849609375
+        ]
+      ]
+    },
+    {
+      "title": "When ENABLE and PRIVDEFENA are both set to 1:",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          121.4404296875,
+          240.923828125
+        ],
+        [
+          355.5169677734375,
+          240.923828125
+        ],
+        [
+          355.5169677734375,
+          251.000732421875
+        ],
+        [
+          121.4404296875,
+          251.000732421875
+        ]
+      ]
+    },
+    {
+      "title": "Bits 31:3 Reserved, forced by hardware to 0.",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          112.1435546875,
+          98.2607421875
+        ],
+        [
+          303.09869384765625,
+          98.2607421875
+        ],
+        [
+          303.09869384765625,
+          108.14129638671875
+        ],
+        [
+          112.1435546875,
+          108.14129638671875
+        ]
+      ]
+    },
+    {
+      "title": "4.2.7 MPU region number register (MPU_RNR)",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          64.4970703125,
+          345.7085266113281
+        ],
+        [
+          356.1865234375,
+          345.7085266113281
+        ],
+        [
+          356.1865234375,
+          358.0966796875
+        ],
+        [
+          64.4970703125,
+          358.0966796875
+        ]
+      ]
+    },
+    {
+      "title": "Bits 31:8 Reserved, forced by hardware to 0.",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          112.724609375,
+          567.7744140625
+        ],
+        [
+          303.310546875,
+          567.7744140625
+        ],
+        [
+          303.310546875,
+          576.9812927246094
+        ],
+        [
+          112.724609375,
+          576.9812927246094
+        ]
+      ]
+    },
+    {
+      "title": "Bits 7:0 REGION[7:0]: MPU region",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          116.50146484375,
+          584.2197265625
+        ],
+        [
+          262.97760009765625,
+          584.2197265625
+        ],
+        [
+          262.97760009765625,
+          594.0210113525391
+        ],
+        [
+          116.50146484375,
+          594.0210113525391
+        ]
+      ]
+    },
+    {
+      "title": "4.2.8 MPU region base address register (MPU_RBAR)",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          65.078125,
+          90.44921875
+        ],
+        [
+          397.44140625,
+          90.44921875
+        ],
+        [
+          397.44140625,
+          102.70849609375
+        ],
+        [
+          65.078125,
+          102.70849609375
+        ]
+      ]
+    },
+    {
+      "title": "Bits 31:N ADDR[31:N]: Region base address field",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          111.54000091552734,
+          351.9296875
+        ],
+        [
+          314.931640625,
+          351.9296875
+        ],
+        [
+          314.931640625,
+          362.00128173828125
+        ],
+        [
+          111.54000091552734,
+          362.00128173828125
+        ]
+      ]
+    },
+    {
+      "title": "Bits N-1:5 Reserved, forced by hardware to 0.",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          105.751953125,
+          468.0221862792969
+        ],
+        [
+          303.09869384765625,
+          468.0221862792969
+        ],
+        [
+          303.09869384765625,
+          478.1474609375
+        ],
+        [
+          105.751953125,
+          478.1474609375
+        ]
+      ]
+    },
+    {
+      "title": "Bit 4 VALID: MPU region number valid",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          130.0196990966797,
+          485.00250244140625
+        ],
+        [
+          286.3199768066406,
+          485.00250244140625
+        ],
+        [
+          286.3199768066406,
+          494.5927734375
+        ],
+        [
+          130.0196990966797,
+          494.5927734375
+        ]
+      ]
+    },
+    {
+      "title": "Write:",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          147.87841796875,
+          495.4150390625
+        ],
+        [
+          178.4820098876953,
+          495.4150390625
+        ],
+        [
+          178.4820098876953,
+          507.02276611328125
+        ],
+        [
+          147.87841796875,
+          507.02276611328125
+        ]
+      ]
+    },
+    {
+      "title": "Read:",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          153.6599884033203,
+          584.2197265625
+        ],
+        [
+          180.58349609375,
+          584.2197265625
+        ],
+        [
+          180.58349609375,
+          597.023681640625
+        ],
+        [
+          153.6599884033203,
+          597.023681640625
+        ]
+      ]
+    },
+    {
+      "title": "Bits 3:0 REGION[3:0]: MPU region field",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          118.01998901367188,
+          617.1103515625
+        ],
+        [
+          279.4529724121094,
+          617.1103515625
+        ],
+        [
+          279.4529724121094,
+          627.0233917236328
+        ],
+        [
+          118.01998901367188,
+          627.0233917236328
+        ]
+      ]
+    },
+    {
+      "title": "4.2.9 MPU region attribute and size register (MPU_RASR)",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          65.078125,
+          88.8046875
+        ],
+        [
+          418.4508361816406,
+          88.8046875
+        ],
+        [
+          418.4508361816406,
+          102.70849609375
+        ],
+        [
+          65.078125,
+          102.70849609375
+        ]
+      ]
+    },
+    {
+      "title": "Bits 31:29 Reserved, forced by hardware to 0.",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          108.0,
+          409.8994140625
+        ],
+        [
+          303.8916015625,
+          409.8994140625
+        ],
+        [
+          303.8916015625,
+          419.1813049316406
+        ],
+        [
+          108.0,
+          419.1813049316406
+        ]
+      ]
+    },
+    {
+      "title": "Bits 7:6 Reserved, forced by hardware to 0.",
+      "heading_level": null,
+      "page_id": 12,
+      "polygon": [
+        [
+          117.9541015625,
+          188.298828125
+        ],
+        [
+          303.09869384765625,
+          188.298828125
+        ],
+        [
+          303.09869384765625,
+          198.1422119140625
+        ],
+        [
+          117.9541015625,
+          198.1422119140625
+        ]
+      ]
+    },
+    {
+      "title": "SIZE field values",
+      "heading_level": null,
+      "page_id": 12,
+      "polygon": [
+        [
+          122.31201171875,
+          258.8756103515625
+        ],
+        [
+          211.2630615234375,
+          258.8756103515625
+        ],
+        [
+          211.2630615234375,
+          269.85565185546875
+        ],
+        [
+          122.31201171875,
+          269.85565185546875
+        ]
+      ]
+    },
+    {
+      "title": "4.2.10 MPU register map",
+      "heading_level": null,
+      "page_id": 13,
+      "polygon": [
+        [
+          67.25999450683594,
+          90.44921875
+        ],
+        [
+          225.85317993164062,
+          90.44921875
+        ],
+        [
+          225.85317993164062,
+          102.70849609375
+        ],
+        [
+          67.25999450683594,
+          102.70849609375
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          116
+        ],
+        [
+          "Line",
+          38
+        ],
+        [
+          "TableCell",
+          24
+        ],
+        [
+          "ListItem",
+          12
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "ListGroup",
+          3
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          94
+        ],
+        [
+          "Line",
+          43
+        ],
+        [
+          "TableCell",
+          22
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          149
+        ],
+        [
+          "Line",
+          62
+        ],
+        [
+          "TableCell",
+          10
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "Caption",
+          3
+        ],
+        [
+          "Footnote",
+          2
+        ],
+        [
+          "Reference",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          106
+        ],
+        [
+          "Line",
+          45
+        ],
+        [
+          "TableCell",
+          36
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Code",
+          2
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          105
+        ],
+        [
+          "Line",
+          47
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "ListItem",
+          4
+        ],
+        [
+          "Code",
+          3
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          59
+        ],
+        [
+          "Line",
+          28
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Code",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          57
+        ],
+        [
+          "TableCell",
+          31
+        ],
+        [
+          "Line",
+          26
+        ],
+        [
+          "Text",
+          11
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "ListItem",
+          2
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          76
+        ],
+        [
+          "TableCell",
+          70
+        ],
+        [
+          "Line",
+          29
+        ],
+        [
+          "Text",
+          14
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 8,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          97
+        ],
+        [
+          "TableCell",
+          96
+        ],
+        [
+          "Line",
+          41
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "ListItem",
+          5
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 9,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          97
+        ],
+        [
+          "Line",
+          39
+        ],
+        [
+          "Text",
+          16
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "ListItem",
+          2
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 10,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "TableCell",
+          96
+        ],
+        [
+          "Span",
+          90
+        ],
+        [
+          "Line",
+          38
+        ],
+        [
+          "Text",
+          17
+        ],
+        [
+          "SectionHeader",
+          7
+        ],
+        [
+          "ListItem",
+          6
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 11,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          104
+        ],
+        [
+          "TableCell",
+          96
+        ],
+        [
+          "Line",
+          36
+        ],
+        [
+          "Text",
+          18
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 12,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          77
+        ],
+        [
+          "Line",
+          29
+        ],
+        [
+          "TableCell",
+          24
+        ],
+        [
+          "Text",
+          14
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Reference",
+          2
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Footnote",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 13,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "TableCell",
+          646
+        ],
+        [
+          "Span",
+          220
+        ],
+        [
+          "Line",
+          104
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 14,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "TableCell",
+          198
+        ],
+        [
+          "Span",
+          108
+        ],
+        [
+          "Line",
+          55
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "Footnote",
+          2
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/25_4.2 Memory protection unit (MPU)"
+}

@@ -1,0 +1,137 @@
+{
+  "table_of_contents": [
+    {
+      "title": "5 Revision history",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          65.6591796875,
+          88.3935546875
+        ],
+        [
+          248.34695434570312,
+          88.3935546875
+        ],
+        [
+          248.34695434570312,
+          106.09716796875
+        ],
+        [
+          65.6591796875,
+          106.09716796875
+        ]
+      ]
+    },
+    {
+      "title": "IMPORTANT NOTICE \u2013 PLEASE READ CAREFULLY",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          206.2744140625,
+          439.5009765625
+        ],
+        [
+          388.97705078125,
+          439.5009765625
+        ],
+        [
+          388.97705078125,
+          448.5458984375
+        ],
+        [
+          206.2744140625,
+          448.5458984375
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          70
+        ],
+        [
+          "Line",
+          23
+        ],
+        [
+          "TableCell",
+          21
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          32
+        ],
+        [
+          "Line",
+          15
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/36_Table 110. Document revision history"
+}

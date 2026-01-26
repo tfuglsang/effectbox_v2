@@ -1,0 +1,1799 @@
+{
+  "table_of_contents": [
+    {
+      "title": "30 Operational amplifiers (OPAMP)",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          67.25999450683594,
+          89.2158203125
+        ],
+        [
+          367.2265625,
+          89.2158203125
+        ],
+        [
+          367.2265625,
+          106.09716796875
+        ],
+        [
+          67.25999450683594,
+          106.09716796875
+        ]
+      ]
+    },
+    {
+      "title": "30.1 Introduction",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          65.94970703125,
+          130.3291015625
+        ],
+        [
+          205.98388671875,
+          130.3291015625
+        ],
+        [
+          205.98388671875,
+          144.4228515625
+        ],
+        [
+          65.94970703125,
+          144.4228515625
+        ]
+      ]
+    },
+    {
+      "title": "30.2 OPAMP main features",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          66.8212890625,
+          267.4227294921875
+        ],
+        [
+          268.7747497558594,
+          267.4227294921875
+        ],
+        [
+          268.7747497558594,
+          281.40277099609375
+        ],
+        [
+          66.8212890625,
+          281.40277099609375
+        ]
+      ]
+    },
+    {
+      "title": "30.3 OPAMP functional description",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          67.25999450683594,
+          404.4628601074219
+        ],
+        [
+          323.9914245605469,
+          404.4628601074219
+        ],
+        [
+          323.9914245605469,
+          418.4428405761719
+        ],
+        [
+          67.25999450683594,
+          418.4428405761719
+        ]
+      ]
+    },
+    {
+      "title": "30.3.1 OPAMP reset and clocks",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          66.240234375,
+          543.7084350585938
+        ],
+        [
+          264.10321044921875,
+          543.7084350585938
+        ],
+        [
+          264.10321044921875,
+          555.7084350585938
+        ],
+        [
+          66.240234375,
+          555.7084350585938
+        ]
+      ]
+    },
+    {
+      "title": "30.3.2 Initial configuration",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          67.25999450683594,
+          90.44921875
+        ],
+        [
+          235.30682373046875,
+          90.44921875
+        ],
+        [
+          235.30682373046875,
+          102.70849609375
+        ],
+        [
+          67.25999450683594,
+          102.70849609375
+        ]
+      ]
+    },
+    {
+      "title": "30.3.3 Signal routing",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          66.8212890625,
+          305.74847412109375
+        ],
+        [
+          205.1123046875,
+          305.74847412109375
+        ],
+        [
+          205.1123046875,
+          318.216796875
+        ],
+        [
+          66.8212890625,
+          318.216796875
+        ]
+      ]
+    },
+    {
+      "title": "30.3.4 OPAMP modes",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          66.8212890625,
+          90.0380859375
+        ],
+        [
+          208.8299560546875,
+          90.0380859375
+        ],
+        [
+          208.8299560546875,
+          102.70849609375
+        ],
+        [
+          66.8212890625,
+          102.70849609375
+        ]
+      ]
+    },
+    {
+      "title": "Standalone mode (external gain setting mode)",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          123.7646484375,
+          272.5810546875
+        ],
+        [
+          365.0653991699219,
+          272.5810546875
+        ],
+        [
+          365.0653991699219,
+          283.8355712890625
+        ],
+        [
+          123.7646484375,
+          283.8355712890625
+        ]
+      ]
+    },
+    {
+      "title": "Follower configuration mode",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          122.6025390625,
+          90.8603515625
+        ],
+        [
+          274.8388671875,
+          90.8603515625
+        ],
+        [
+          274.8388671875,
+          101.85565185546875
+        ],
+        [
+          122.6025390625,
+          101.85565185546875
+        ]
+      ]
+    },
+    {
+      "title": "Programmable gain amplifier mode",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          122.6025390625,
+          90.8603515625
+        ],
+        [
+          307.7465515136719,
+          90.8603515625
+        ],
+        [
+          307.7465515136719,
+          101.85565185546875
+        ],
+        [
+          122.6025390625,
+          101.85565185546875
+        ]
+      ]
+    },
+    {
+      "title": "Programmable gain amplifier mode with external filtering",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          123.18359375,
+          90.8603515625
+        ],
+        [
+          421.2948303222656,
+          90.8603515625
+        ],
+        [
+          421.2948303222656,
+          101.85565185546875
+        ],
+        [
+          123.18359375,
+          101.85565185546875
+        ]
+      ]
+    },
+    {
+      "title": "Programmable gain amplifier, non-inverting with external bias \nor inverting mode",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          122.021484375,
+          90.44921875
+        ],
+        [
+          449.4808044433594,
+          90.44921875
+        ],
+        [
+          449.4808044433594,
+          114.875732421875
+        ],
+        [
+          122.021484375,
+          114.875732421875
+        ]
+      ]
+    },
+    {
+      "title": "Programmable gain amplifier, non-inverting with external bias \nor inverting mode with filtering",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          122.021484375,
+          90.44921875
+        ],
+        [
+          449.4808044433594,
+          90.44921875
+        ],
+        [
+          449.4808044433594,
+          114.875732421875
+        ],
+        [
+          122.021484375,
+          114.875732421875
+        ]
+      ]
+    },
+    {
+      "title": "30.3.5 Calibration",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          67.11181640625,
+          90.70849609375
+        ],
+        [
+          186.65521240234375,
+          90.70849609375
+        ],
+        [
+          186.65521240234375,
+          102.70849609375
+        ],
+        [
+          67.11181640625,
+          102.70849609375
+        ]
+      ]
+    },
+    {
+      "title": "Calibration procedure",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          122.6025390625,
+          330.1396484375
+        ],
+        [
+          238.153076171875,
+          330.1396484375
+        ],
+        [
+          238.153076171875,
+          341.85565185546875
+        ],
+        [
+          122.6025390625,
+          341.85565185546875
+        ]
+      ]
+    },
+    {
+      "title": "30.4 OPAMP low-power modes",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          66.69395465994963,
+          89.973285841496
+        ],
+        [
+          296.00125944584386,
+          89.973285841496
+        ],
+        [
+          296.00125944584386,
+          103.46927871772039
+        ],
+        [
+          66.69395465994963,
+          103.46927871772039
+        ]
+      ]
+    },
+    {
+      "title": "30.5 OPAMP PGA gain",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          65.6591796875,
+          238.0458984375
+        ],
+        [
+          239.79848866498742,
+          238.0458984375
+        ],
+        [
+          239.79848866498742,
+          252.0244140625
+        ],
+        [
+          65.6591796875,
+          252.0244140625
+        ]
+      ]
+    },
+    {
+      "title": "30.6 OPAMP registers",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          65.6591796875,
+          374.5419921875
+        ],
+        [
+          236.80100755667507,
+          374.5419921875
+        ],
+        [
+          236.80100755667507,
+          388.5205078125
+        ],
+        [
+          65.6591796875,
+          388.5205078125
+        ]
+      ]
+    },
+    {
+      "title": "30.6.1 OPAMP1 control/status register (OPAMP1_CSR)",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          66.240234375,
+          424.2890625
+        ],
+        [
+          397.9156171284635,
+          424.2890625
+        ],
+        [
+          397.9156171284635,
+          437.4453125
+        ],
+        [
+          66.240234375,
+          437.4453125
+        ]
+      ]
+    },
+    {
+      "title": "Bit 18 USERTRIM: User trimming enable",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          123.060302734375,
+          114.1416015625
+        ],
+        [
+          290.52734375,
+          114.1416015625
+        ],
+        [
+          290.52734375,
+          123.1416015625
+        ],
+        [
+          123.060302734375,
+          123.1416015625
+        ]
+      ]
+    },
+    {
+      "title": "Bits 17:14 PGA_GAIN: Operational amplifier Programmable amplifier gain value",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          104.58984375,
+          191.9990234375
+        ],
+        [
+          428.4014892578125,
+          191.9990234375
+        ],
+        [
+          428.4014892578125,
+          202.16162109375
+        ],
+        [
+          104.58984375,
+          202.16162109375
+        ]
+      ]
+    },
+    {
+      "title": "Bits 13:12 CALSEL: Calibration selection",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          105.1708984375,
+          446.0791015625
+        ],
+        [
+          274.068603515625,
+          446.0791015625
+        ],
+        [
+          274.068603515625,
+          456.13800048828125
+        ],
+        [
+          105.1708984375,
+          456.13800048828125
+        ]
+      ]
+    },
+    {
+      "title": "Bit 11 CALON: Calibration mode enabled",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          123.18359375,
+          534.8837890625
+        ],
+        [
+          292.8515625,
+          534.8837890625
+        ],
+        [
+          292.8515625,
+          546.1380615234375
+        ],
+        [
+          123.18359375,
+          546.1380615234375
+        ]
+      ]
+    },
+    {
+      "title": "Bit 8 OPAHSM: Operational amplifier high-speed mode",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          128.04002380371094,
+          596.1781158447266
+        ],
+        [
+          350.95703125,
+          596.1781158447266
+        ],
+        [
+          350.95703125,
+          606.4208984375
+        ],
+        [
+          128.04002380371094,
+          606.4208984375
+        ]
+      ]
+    },
+    {
+      "title": "Bits 6:5 VM_SEL: Inverting input selection",
+      "heading_level": null,
+      "page_id": 12,
+      "polygon": [
+        [
+          116.0999984741211,
+          96.6162109375
+        ],
+        [
+          288.203125,
+          96.6162109375
+        ],
+        [
+          288.203125,
+          106.16131591796875
+        ],
+        [
+          116.0999984741211,
+          106.16131591796875
+        ]
+      ]
+    },
+    {
+      "title": "Bits 3:2 VP_SEL: Non inverted input selection",
+      "heading_level": null,
+      "page_id": 12,
+      "polygon": [
+        [
+          116.10000610351562,
+          191.121337890625
+        ],
+        [
+          302.4765319824219,
+          191.121337890625
+        ],
+        [
+          302.4765319824219,
+          200.121337890625
+        ],
+        [
+          116.10000610351562,
+          200.121337890625
+        ]
+      ]
+    },
+    {
+      "title": "Bit 1 FORCE_VP: Force internal reference on VP (reserved for test)",
+      "heading_level": null,
+      "page_id": 12,
+      "polygon": [
+        [
+          127.2509765625,
+          256.9580078125
+        ],
+        [
+          402.6708984375,
+          256.9580078125
+        ],
+        [
+          402.6708984375,
+          266.12103271484375
+        ],
+        [
+          127.2509765625,
+          266.12103271484375
+        ]
+      ]
+    },
+    {
+      "title": "30.6.2 OPAMP1 trimming register in normal mode (OPAMP1_OTR)",
+      "heading_level": null,
+      "page_id": 12,
+      "polygon": [
+        [
+          66.240234375,
+          383.5869140625
+        ],
+        [
+          461.357421875,
+          383.5869140625
+        ],
+        [
+          461.357421875,
+          395.9208984375
+        ],
+        [
+          66.240234375,
+          395.9208984375
+        ]
+      ]
+    },
+    {
+      "title": "30.6.3 OPAMP1 trimming register in high-speed mode (OPAMP1_HSOTR)",
+      "heading_level": null,
+      "page_id": 13,
+      "polygon": [
+        [
+          65.94458438287154,
+          89.22350845948353
+        ],
+        [
+          503.5768261964736,
+          89.22350845948353
+        ],
+        [
+          503.5768261964736,
+          102.3720703125
+        ],
+        [
+          65.94458438287154,
+          102.3720703125
+        ]
+      ]
+    },
+    {
+      "title": "30.6.4 OPAMP option register (OPAMP_OR)",
+      "heading_level": null,
+      "page_id": 13,
+      "polygon": [
+        [
+          65.6591796875,
+          324.3837890625
+        ],
+        [
+          334.21914357682624,
+          324.3837890625
+        ],
+        [
+          334.21914357682624,
+          337.39982190560994
+        ],
+        [
+          65.6591796875,
+          337.39982190560994
+        ]
+      ]
+    },
+    {
+      "title": "30.6.5 OPAMP2 control/status register (OPAMP2_CSR)",
+      "heading_level": null,
+      "page_id": 13,
+      "polygon": [
+        [
+          65.94458438287154,
+          509.0988423864648
+        ],
+        [
+          397.9156171284635,
+          509.0988423864648
+        ],
+        [
+          397.9156171284635,
+          521.8450578806768
+        ],
+        [
+          65.94458438287154,
+          521.8450578806768
+        ]
+      ]
+    },
+    {
+      "title": "Bit 8 OPAHSM: Operational amplifier high-speed mode",
+      "heading_level": null,
+      "page_id": 15,
+      "polygon": [
+        [
+          131.8994140625,
+          96.6162109375
+        ],
+        [
+          354.6878662109375,
+          96.6162109375
+        ],
+        [
+          354.6878662109375,
+          106.16131591796875
+        ],
+        [
+          131.8994140625,
+          106.16131591796875
+        ]
+      ]
+    },
+    {
+      "title": "30.6.6 OPAMP2 trimming register in normal mode (OPAMP2_OTR)",
+      "heading_level": null,
+      "page_id": 15,
+      "polygon": [
+        [
+          65.078125,
+          454.3017578125
+        ],
+        [
+          461.3459167480469,
+          454.3017578125
+        ],
+        [
+          461.3459167480469,
+          467.74853515625
+        ],
+        [
+          65.078125,
+          467.74853515625
+        ]
+      ]
+    },
+    {
+      "title": "30.6.7 OPAMP2 trimming register in high-speed mode (OPAMP2_HSOTR)",
+      "heading_level": null,
+      "page_id": 16,
+      "polygon": [
+        [
+          65.078125,
+          90.44921875
+        ],
+        [
+          502.1376037597656,
+          90.44921875
+        ],
+        [
+          502.1376037597656,
+          102.70849609375
+        ],
+        [
+          65.078125,
+          102.70849609375
+        ]
+      ]
+    },
+    {
+      "title": "30.6.8 OPAMP register map",
+      "heading_level": null,
+      "page_id": 17,
+      "polygon": [
+        [
+          66.8212890625,
+          90.44921875
+        ],
+        [
+          242.2998046875,
+          90.44921875
+        ],
+        [
+          242.2998046875,
+          102.70849609375
+        ],
+        [
+          66.8212890625,
+          102.70849609375
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          89
+        ],
+        [
+          "Line",
+          37
+        ],
+        [
+          "Text",
+          11
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "ListItem",
+          5
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          127
+        ],
+        [
+          "Line",
+          56
+        ],
+        [
+          "TableCell",
+          28
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Reference",
+          2
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Footnote",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          77
+        ],
+        [
+          "Line",
+          32
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "ListItem",
+          5
+        ],
+        [
+          "PageFooter",
+          3
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "PictureGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          55
+        ],
+        [
+          "Line",
+          24
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "ListItem",
+          3
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          51
+        ],
+        [
+          "Line",
+          22
+        ],
+        [
+          "ListItem",
+          3
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          66
+        ],
+        [
+          "Line",
+          27
+        ],
+        [
+          "ListItem",
+          3
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          91
+        ],
+        [
+          "Line",
+          41
+        ],
+        [
+          "ListItem",
+          3
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "Picture",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PictureGroup",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          104
+        ],
+        [
+          "Line",
+          48
+        ],
+        [
+          "ListItem",
+          3
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "PictureGroup",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 8,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          101
+        ],
+        [
+          "Line",
+          47
+        ],
+        [
+          "Text",
+          12
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "ListItem",
+          2
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "Reference",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 9,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          105
+        ],
+        [
+          "Line",
+          48
+        ],
+        [
+          "Text",
+          12
+        ],
+        [
+          "ListItem",
+          7
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 10,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "TableCell",
+          104
+        ],
+        [
+          "Line",
+          49
+        ],
+        [
+          "Span",
+          22
+        ],
+        [
+          "Text",
+          14
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Table",
+          2
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 11,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          106
+        ],
+        [
+          "Line",
+          46
+        ],
+        [
+          "Text",
+          34
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Picture",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 12,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          97
+        ],
+        [
+          "TableCell",
+          93
+        ],
+        [
+          "Line",
+          35
+        ],
+        [
+          "ListItem",
+          18
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "ListGroup",
+          4
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Table",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 13,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "TableCell",
+          287
+        ],
+        [
+          "Line",
+          36
+        ],
+        [
+          "Span",
+          17
+        ],
+        [
+          "Text",
+          11
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Table",
+          3
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 14,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          115
+        ],
+        [
+          "Line",
+          49
+        ],
+        [
+          "ListItem",
+          36
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "ListGroup",
+          4
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Picture",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 15,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          110
+        ],
+        [
+          "TableCell",
+          76
+        ],
+        [
+          "Line",
+          40
+        ],
+        [
+          "ListItem",
+          24
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "Table",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 16,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "TableCell",
+          96
+        ],
+        [
+          "Span",
+          43
+        ],
+        [
+          "Line",
+          14
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "PageFooter",
+          3
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 17,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "TableCell",
+          486
+        ],
+        [
+          "Span",
+          209
+        ],
+        [
+          "Line",
+          95
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Footnote",
+          1
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/30_30 Operational amplifiers (OPAMP)"
+}

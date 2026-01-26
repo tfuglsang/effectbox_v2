@@ -1,0 +1,771 @@
+{
+  "table_of_contents": [
+    {
+      "title": "47 System window watchdog (WWDG)",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          67.25999450683594,
+          89.2158203125
+        ],
+        [
+          392.79296875,
+          89.2158203125
+        ],
+        [
+          392.79296875,
+          106.09716796875
+        ],
+        [
+          67.25999450683594,
+          106.09716796875
+        ]
+      ]
+    },
+    {
+      "title": "47.1 Introduction",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          66.240234375,
+          130.3291015625
+        ],
+        [
+          205.62425231933594,
+          130.3291015625
+        ],
+        [
+          205.62425231933594,
+          144.4228515625
+        ],
+        [
+          66.240234375,
+          144.4228515625
+        ]
+      ]
+    },
+    {
+      "title": "47.2 WWDG main features",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          64.4970703125,
+          339.4228515625
+        ],
+        [
+          266.2400817871094,
+          339.4228515625
+        ],
+        [
+          266.2400817871094,
+          353.40283203125
+        ],
+        [
+          64.4970703125,
+          353.40283203125
+        ]
+      ]
+    },
+    {
+      "title": "47.3 WWDG functional description",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          64.4970703125,
+          492.1259765625
+        ],
+        [
+          321.4400634765625,
+          492.1259765625
+        ],
+        [
+          321.4400634765625,
+          508.4428405761719
+        ],
+        [
+          64.4970703125,
+          508.4428405761719
+        ]
+      ]
+    },
+    {
+      "title": "47.3.1 WWDG block diagram",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          65.6591796875,
+          90.44921875
+        ],
+        [
+          249.3071746826172,
+          90.44921875
+        ],
+        [
+          249.3071746826172,
+          102.70849609375
+        ],
+        [
+          65.6591796875,
+          102.70849609375
+        ]
+      ]
+    },
+    {
+      "title": "47.3.2 WWDG internal signals",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          65.6591796875,
+          339.595703125
+        ],
+        [
+          255.9791717529297,
+          339.595703125
+        ],
+        [
+          255.9791717529297,
+          353.1485290527344
+        ],
+        [
+          65.6591796875,
+          353.1485290527344
+        ]
+      ]
+    },
+    {
+      "title": "47.3.3 Enabling the watchdog",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          66.240234375,
+          486.78125
+        ],
+        [
+          255.3096160888672,
+          486.78125
+        ],
+        [
+          255.3096160888672,
+          501.16851806640625
+        ],
+        [
+          66.240234375,
+          501.16851806640625
+        ]
+      ]
+    },
+    {
+      "title": "47.3.4 Controlling the down-counter",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          66.8212890625,
+          547.62890625
+        ],
+        [
+          291.9923400878906,
+          547.62890625
+        ],
+        [
+          291.9923400878906,
+          560.1484375
+        ],
+        [
+          66.8212890625,
+          560.1484375
+        ]
+      ]
+    },
+    {
+      "title": "47.3.5 How to program the watchdog timeout",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          66.240234375,
+          90.44921875
+        ],
+        [
+          345.146484375,
+          90.44921875
+        ],
+        [
+          345.146484375,
+          102.70849609375
+        ],
+        [
+          66.240234375,
+          102.70849609375
+        ]
+      ]
+    },
+    {
+      "title": "47.3.6 Debug mode",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          66.8212890625,
+          175.142578125
+        ],
+        [
+          196.60079956054688,
+          175.142578125
+        ],
+        [
+          196.60079956054688,
+          187.90838623046875
+        ],
+        [
+          66.8212890625,
+          187.90838623046875
+        ]
+      ]
+    },
+    {
+      "title": "47.4 WWDG interrupts",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          65.6591796875,
+          256.546875
+        ],
+        [
+          240.55743408203125,
+          256.546875
+        ],
+        [
+          240.55743408203125,
+          270.6029052734375
+        ],
+        [
+          65.6591796875,
+          270.6029052734375
+        ]
+      ]
+    },
+    {
+      "title": "47.5 WWDG registers",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          64.4970703125,
+          521.7275390625
+        ],
+        [
+          234.37966918945312,
+          521.7275390625
+        ],
+        [
+          234.37966918945312,
+          537.6028442382812
+        ],
+        [
+          64.4970703125,
+          537.6028442382812
+        ]
+      ]
+    },
+    {
+      "title": "47.5.1 WWDG control register (WWDG_CR)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          66.240234375,
+          90.44921875
+        ],
+        [
+          331.8096008300781,
+          90.44921875
+        ],
+        [
+          331.8096008300781,
+          102.70849609375
+        ],
+        [
+          66.240234375,
+          102.70849609375
+        ]
+      ]
+    },
+    {
+      "title": "Bit 7 WDGA: Activation bit",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          127.54150390625,
+          270.9365234375
+        ],
+        [
+          240.04470825195312,
+          270.9365234375
+        ],
+        [
+          240.04470825195312,
+          280.16094970703125
+        ],
+        [
+          127.54150390625,
+          280.16094970703125
+        ]
+      ]
+    },
+    {
+      "title": "Bits 6:0 T[6:0]: 7-bit counter (MSB to LSB)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          115.6298828125,
+          334.2509765625
+        ],
+        [
+          290.45281982421875,
+          334.2509765625
+        ],
+        [
+          290.45281982421875,
+          344.1806640625
+        ],
+        [
+          115.6298828125,
+          344.1806640625
+        ]
+      ]
+    },
+    {
+      "title": "47.5.2 WWDG configuration register (WWDG_CFR)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          63.916015625,
+          393.4541015625
+        ],
+        [
+          375.1080017089844,
+          393.4541015625
+        ],
+        [
+          375.1080017089844,
+          406.728515625
+        ],
+        [
+          63.916015625,
+          406.728515625
+        ]
+      ]
+    },
+    {
+      "title": "Bits 13:11 WDGTB[2:0]: Timer base",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          108.23970031738281,
+          571.0634765625
+        ],
+        [
+          256.53564453125,
+          571.0634765625
+        ],
+        [
+          256.53564453125,
+          582.1416015625
+        ],
+        [
+          108.23970031738281,
+          582.1416015625
+        ]
+      ]
+    },
+    {
+      "title": "Bit 9 EWI: Early wake-up interrupt enable",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          128.994140625,
+          96.205078125
+        ],
+        [
+          297.6596984863281,
+          96.205078125
+        ],
+        [
+          297.6596984863281,
+          106.16131591796875
+        ],
+        [
+          128.994140625,
+          106.16131591796875
+        ]
+      ]
+    },
+    {
+      "title": "47.5.3 WWDG status register (WWDG_SR)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          66.240234375,
+          192.41015625
+        ],
+        [
+          326.01123046875,
+          192.41015625
+        ],
+        [
+          326.01123046875,
+          204.70849609375
+        ],
+        [
+          66.240234375,
+          204.70849609375
+        ]
+      ]
+    },
+    {
+      "title": "47.5.4 WWDG register map",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          66.8212890625,
+          428.74853515625
+        ],
+        [
+          239.9755859375,
+          428.74853515625
+        ],
+        [
+          239.9755859375,
+          440.74853515625
+        ],
+        [
+          66.8212890625,
+          440.74853515625
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          83
+        ],
+        [
+          "Line",
+          36
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "ListItem",
+          5
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "PageFooter",
+          3
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          112
+        ],
+        [
+          "Line",
+          50
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "Caption",
+          4
+        ],
+        [
+          "Reference",
+          3
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Picture",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          89
+        ],
+        [
+          "Line",
+          30
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "PageFooter",
+          3
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Equation",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          90
+        ],
+        [
+          "Line",
+          29
+        ],
+        [
+          "Text",
+          11
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "ListItem",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "Equation",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "TableCell",
+          186
+        ],
+        [
+          "Span",
+          104
+        ],
+        [
+          "Line",
+          40
+        ],
+        [
+          "Text",
+          15
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "Caption",
+          3
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Table",
+          2
+        ],
+        [
+          "TableGroup",
+          2
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "TableCell",
+          339
+        ],
+        [
+          "Span",
+          157
+        ],
+        [
+          "Line",
+          69
+        ],
+        [
+          "Text",
+          11
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Table",
+          2
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "TableGroup",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/47_47 System window watchdog (WWDG)"
+}

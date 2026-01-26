@@ -1,0 +1,46 @@
+
+## **REVISION HISTORY**
+
+| DATE     | REV | DESCRIPTION OF CHANGES                                                                                                                                                                        | CHANGED BY |
+|----------|-----|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------|
+| 16/11/10 | 3.5 | DRC Signal Detect registers DRC_SIG_DET_RMS, DRC_SIG_DET_PK and<br>DRC_SIG_DET_MODE updated.                                                                                                  | PH         |
+|          |     | Additional details provided on pull-up / pull-down functions.                                                                                                                                 |            |
+|          |     | Added notes that the Output Path HPF should be enabled when DRC is used on a<br>record (ADC) path.                                                                                            |            |
+|          |     | Noted that DRC Anti-Clip and Quick Release features should not be used at the<br>same time.                                                                                                   |            |
+| 4/01/11  | 3.5 | Speaker driver performance graphs added.                                                                                                                                                      | PH         |
+|          |     | SPKAB_REF_SEL added to 'Registers By Address' section.                                                                                                                                        |            |
+|          |     | VMID soft-start descriptions updated, including requirement to reset soft-start<br>circuit before re-enabling VMID.                                                                           |            |
+|          |     | Added note that LDOs are not suitable for external loads.                                                                                                                                     |            |
+|          |     | Noted RF suppression on analogue inputs.                                                                                                                                                      |            |
+|          |     | Pin description list re-sorted by Name, in order to draw attention to any multiple<br>pins with a common name.                                                                                |            |
+|          |     | Updates noting that Ultrasonic (4FS) mode uses ADCLRCLK (not LRCLK).<br>GPIO1/GPIO6 must be configured for AIF1/AIF2 respectively.                                                            |            |
+|          |     | Input Path drawing updated, showing VMID as PGA reference.                                                                                                                                    |            |
+| 8/02/11  | 3.5 | 2W Stereo (into 4ohms) now specified.                                                                                                                                                         | PH         |
+|          |     | Applications Information (MICBIAS) enhanced to incorporate Digital Microphone<br>connections.                                                                                                 |            |
+|          |     | Interrupts section updated to improve clarity.                                                                                                                                                |            |
+| 14/02/11 | 3.5 | Updated speaker inductive load in electrical characteristics to 22uH.                                                                                                                         | KOL        |
+| 24/02/11 | 4.0 | Product Status updated to Production Data                                                                                                                                                     | KOL        |
+|          |     | Updated bypass path speaker load in electrical characteristics to include 22uH<br>inductor.                                                                                                   |            |
+|          |     | Updated mic detect threshold tolerance in electrical characteristics.                                                                                                                         |            |
+|          |     | Updated DMICCLK I/O voltage threshold test conditions.                                                                                                                                        |            |
+| 18/05/11 | 4.1 | Notes added requiring VMID_BUF_ENA is enabled for direct signal paths from<br>input pins to Input Mixers, Output Mixers or Speaker Mixers. Descriptions of<br>affected register bits updated. | PH         |
+|          |     | Ultrasonic (4FS) mode deleted on AIF2.                                                                                                                                                        |            |
+|          |     | Clarification of MICBIAS external component requirements.                                                                                                                                     |            |
+| 26/09/11 | 4.2 | Pin descriptions updated (power domain information)                                                                                                                                           | PH         |
+|          |     | Clarification of DAC_OSR128 modes in DAC playback path Electrical<br>Characteristics.                                                                                                         |            |
+|          |     | Input PGA Mute behaviour description updated.                                                                                                                                                 |            |
+|          |     | Updates to FLL Input Frequency range.                                                                                                                                                         |            |
+|          |     | Minimum headphone load resistance updated.                                                                                                                                                    |            |
+|          |     | Clarifications and formatting updates to Electrical Characteristics and<br>Recommended Operating Conditions.                                                                                  |            |
+|          |     | Noted phase inversion in 'Direct Voice' paths.                                                                                                                                                |            |
+|          |     | Clarification to the usage of the INPUTS_CLAMP register.                                                                                                                                      |            |
+| 21/10/11 | 4.3 | PSRR specifications added for LDO1 and LDO2.                                                                                                                                                  | PH         |
+|          |     | Drop-out voltage specification added for LDO1.                                                                                                                                                |            |
+|          |     | TSHUT_ENA default corrected in Power Management section (default is 1).                                                                                                                       |            |
+| 24/11/11 | 4.3 | Specifications added for LINEOUTFB and HPOUT1FB ground noise rejection.                                                                                                                       | PH         |
+| 19/03/12 | 4.4 | Additional details in Absolute Maximum Ratings.                                                                                                                                               | PH         |
+|          |     | Clarification of Line Output discharge functions and associated Electrical<br>Characteristics.                                                                                                |            |
+| 11/11/16 | 4.5 | Package Drawing updated to DM 68.D                                                                                                                                                            | PH         |
+| 04/07/18 | 4.6 | Package Drawing updated to POD 00130.A                                                                                                                                                        | PH         |
+
+**Rev 4.6 363**

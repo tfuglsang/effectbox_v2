@@ -1,0 +1,2831 @@
+{
+  "table_of_contents": [
+    {
+      "title": "21 Extended interrupt and event controller (EXTI)",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          66.240234375,
+          89.2158203125
+        ],
+        [
+          474.0418395996094,
+          89.2158203125
+        ],
+        [
+          474.0418395996094,
+          106.09716796875
+        ],
+        [
+          66.240234375,
+          106.09716796875
+        ]
+      ]
+    },
+    {
+      "title": "21.1 EXTI main features",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          65.6591796875,
+          250.44281005859375
+        ],
+        [
+          249.953369140625,
+          250.44281005859375
+        ],
+        [
+          249.953369140625,
+          264.4228515625
+        ],
+        [
+          65.6591796875,
+          264.4228515625
+        ]
+      ]
+    },
+    {
+      "title": "21.2 EXTI block diagram",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          67.25999450683594,
+          620.3994140625
+        ],
+        [
+          253.84129333496094,
+          620.3994140625
+        ],
+        [
+          253.84129333496094,
+          636.0224609375
+        ],
+        [
+          67.25999450683594,
+          636.0224609375
+        ]
+      ]
+    },
+    {
+      "title": "21.2.1 EXTI connections between peripherals, CPU, and D3 domain",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          66.240234375,
+          388.931640625
+        ],
+        [
+          468.6239013671875,
+          388.931640625
+        ],
+        [
+          468.6239013671875,
+          401.3885498046875
+        ],
+        [
+          66.240234375,
+          401.3885498046875
+        ]
+      ]
+    },
+    {
+      "title": "21.3 EXTI functional description",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          66.8212890625,
+          90.4228515625
+        ],
+        [
+          305.1925354003906,
+          90.4228515625
+        ],
+        [
+          305.1925354003906,
+          104.40289306640625
+        ],
+        [
+          66.8212890625,
+          104.40289306640625
+        ]
+      ]
+    },
+    {
+      "title": "21.3.1 EXTI Configurable event input CPU wakeup",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          65.94458438287154,
+          88.8046875
+        ],
+        [
+          371.6876574307305,
+          88.8046875
+        ],
+        [
+          371.6876574307305,
+          101.21994657168298
+        ],
+        [
+          65.94458438287154,
+          101.21994657168298
+        ]
+      ]
+    },
+    {
+      "title": "21.3.2 EXTI configurable event input Any wakeup",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          67.25999450683594,
+          272.169921875
+        ],
+        [
+          366.1919860839844,
+          272.169921875
+        ],
+        [
+          366.1919860839844,
+          284.6884765625
+        ],
+        [
+          67.25999450683594,
+          284.6884765625
+        ]
+      ]
+    },
+    {
+      "title": "21.3.3 EXTI direct event input CPU wakeup",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          65.6591796875,
+          545.0881567230632
+        ],
+        [
+          330.47229219143577,
+          545.0881567230632
+        ],
+        [
+          330.47229219143577,
+          557.49609375
+        ],
+        [
+          65.6591796875,
+          557.49609375
+        ]
+      ]
+    },
+    {
+      "title": "21.3.4 EXTI direct event input Any wakeup",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          66.240234375,
+          90.44921875
+        ],
+        [
+          326.8296203613281,
+          90.44921875
+        ],
+        [
+          326.8296203613281,
+          102.70849609375
+        ],
+        [
+          66.240234375,
+          102.70849609375
+        ]
+      ]
+    },
+    {
+      "title": "21.3.5 EXTI D3 pending request clear selection",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          66.240234375,
+          90.44921875
+        ],
+        [
+          352.5624084472656,
+          90.44921875
+        ],
+        [
+          352.5624084472656,
+          102.70849609375
+        ],
+        [
+          66.240234375,
+          102.70849609375
+        ]
+      ]
+    },
+    {
+      "title": "21.4 EXTI event input mapping",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          65.6591796875,
+          495.4150390625
+        ],
+        [
+          295.7825622558594,
+          495.4150390625
+        ],
+        [
+          295.7825622558594,
+          511.0380859375
+        ],
+        [
+          65.6591796875,
+          511.0380859375
+        ]
+      ]
+    },
+    {
+      "title": "21.5 EXTI functional behavior",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          65.94458438287154,
+          312.6571682991986
+        ],
+        [
+          289.25692695214104,
+          312.6571682991986
+        ],
+        [
+          289.25692695214104,
+          324.3837890625
+        ],
+        [
+          65.94458438287154,
+          324.3837890625
+        ]
+      ]
+    },
+    {
+      "title": "21.5.1 EXTI CPU interrupt procedure",
+      "heading_level": null,
+      "page_id": 12,
+      "polygon": [
+        [
+          65.6591796875,
+          488.42578125
+        ],
+        [
+          293.972412109375,
+          488.42578125
+        ],
+        [
+          293.972412109375,
+          500.7484436035156
+        ],
+        [
+          65.6591796875,
+          500.7484436035156
+        ]
+      ]
+    },
+    {
+      "title": "21.5.2 EXTI CPU event procedure",
+      "heading_level": null,
+      "page_id": 13,
+      "polygon": [
+        [
+          67.25999450683594,
+          90.70849609375
+        ],
+        [
+          276.58203125,
+          90.70849609375
+        ],
+        [
+          276.58203125,
+          102.70849609375
+        ],
+        [
+          67.25999450683594,
+          102.70849609375
+        ]
+      ]
+    },
+    {
+      "title": "21.5.3 EXTI CPU wakeup procedure",
+      "heading_level": null,
+      "page_id": 13,
+      "polygon": [
+        [
+          66.8212890625,
+          206.6884765625
+        ],
+        [
+          288.6131591796875,
+          206.6884765625
+        ],
+        [
+          288.6131591796875,
+          219.544921875
+        ],
+        [
+          66.8212890625,
+          219.544921875
+        ]
+      ]
+    },
+    {
+      "title": "21.5.4 EXTI D3 domain wakeup for autonomous Run mode procedure",
+      "heading_level": null,
+      "page_id": 13,
+      "polygon": [
+        [
+          65.078125,
+          318.216796875
+        ],
+        [
+          481.2779541015625,
+          318.216796875
+        ],
+        [
+          481.2779541015625,
+          331.7285461425781
+        ],
+        [
+          65.078125,
+          331.7285461425781
+        ]
+      ]
+    },
+    {
+      "title": "21.5.5 EXTI software interrupt/event trigger procedure",
+      "heading_level": null,
+      "page_id": 14,
+      "polygon": [
+        [
+          66.240234375,
+          90.44921875
+        ],
+        [
+          393.955078125,
+          90.44921875
+        ],
+        [
+          393.955078125,
+          102.70849609375
+        ],
+        [
+          66.240234375,
+          102.70849609375
+        ]
+      ]
+    },
+    {
+      "title": "21.6 EXTI registers",
+      "heading_level": null,
+      "page_id": 15,
+      "polygon": [
+        [
+          67.25999450683594,
+          90.4228515625
+        ],
+        [
+          218.02590942382812,
+          90.4228515625
+        ],
+        [
+          218.02590942382812,
+          104.40289306640625
+        ],
+        [
+          67.25999450683594,
+          104.40289306640625
+        ]
+      ]
+    },
+    {
+      "title": "21.6.1 EXTI rising trigger selection register (EXTI_RTSR1)",
+      "heading_level": null,
+      "page_id": 15,
+      "polygon": [
+        [
+          65.078125,
+          150.0634765625
+        ],
+        [
+          414.5495910644531,
+          150.0634765625
+        ],
+        [
+          414.5495910644531,
+          163.728515625
+        ],
+        [
+          65.078125,
+          163.728515625
+        ]
+      ]
+    },
+    {
+      "title": "21.6.2 EXTI falling trigger selection register (EXTI_FTSR1)",
+      "heading_level": null,
+      "page_id": 15,
+      "polygon": [
+        [
+          65.078125,
+          427.24853515625
+        ],
+        [
+          416.03515625,
+          427.24853515625
+        ],
+        [
+          416.03515625,
+          439.5009765625
+        ],
+        [
+          65.078125,
+          439.5009765625
+        ]
+      ]
+    },
+    {
+      "title": "21.6.3 EXTI software interrupt event register (EXTI_SWIER1)",
+      "heading_level": null,
+      "page_id": 16,
+      "polygon": [
+        [
+          67.25999450683594,
+          90.44921875
+        ],
+        [
+          428.5427551269531,
+          90.44921875
+        ],
+        [
+          428.5427551269531,
+          102.70849609375
+        ],
+        [
+          67.25999450683594,
+          102.70849609375
+        ]
+      ]
+    },
+    {
+      "title": "21.6.4 EXTI D3 pending mask register (EXTI_D3PMR1)",
+      "heading_level": null,
+      "page_id": 16,
+      "polygon": [
+        [
+          66.240234375,
+          340.8291015625
+        ],
+        [
+          393.955078125,
+          340.8291015625
+        ],
+        [
+          393.955078125,
+          353.74853515625
+        ],
+        [
+          66.240234375,
+          353.74853515625
+        ]
+      ]
+    },
+    {
+      "title": "21.6.5 EXTI D3 pending clear selection register low (EXTI_D3PCR1L)",
+      "heading_level": null,
+      "page_id": 17,
+      "polygon": [
+        [
+          66.240234375,
+          247.501953125
+        ],
+        [
+          476.0147399902344,
+          247.501953125
+        ],
+        [
+          476.0147399902344,
+          259.728515625
+        ],
+        [
+          66.240234375,
+          259.728515625
+        ]
+      ]
+    },
+    {
+      "title": "21.6.6 EXTI D3 pending clear selection register high (EXTI_D3PCR1H)",
+      "heading_level": null,
+      "page_id": 17,
+      "polygon": [
+        [
+          67.25999450683594,
+          492.408447265625
+        ],
+        [
+          482.7036437988281,
+          492.408447265625
+        ],
+        [
+          482.7036437988281,
+          506.1044921875
+        ],
+        [
+          67.25999450683594,
+          506.1044921875
+        ]
+      ]
+    },
+    {
+      "title": "21.6.7 EXTI rising trigger selection register (EXTI_RTSR2)",
+      "heading_level": null,
+      "page_id": 18,
+      "polygon": [
+        [
+          65.078125,
+          287.6884765625
+        ],
+        [
+          414.5495910644531,
+          287.6884765625
+        ],
+        [
+          414.5495910644531,
+          300.126953125
+        ],
+        [
+          65.078125,
+          300.126953125
+        ]
+      ]
+    },
+    {
+      "title": "21.6.8 EXTI falling trigger selection register (EXTI FTSR2)",
+      "heading_level": null,
+      "page_id": 19,
+      "polygon": [
+        [
+          65.94458438287154,
+          89.973285841496
+        ],
+        [
+          417.197265625,
+          89.973285841496
+        ],
+        [
+          417.197265625,
+          101.96972395369545
+        ],
+        [
+          65.94458438287154,
+          101.96972395369545
+        ]
+      ]
+    },
+    {
+      "title": "21.6.9 EXTI software interrupt event register (EXTI SWIER2)",
+      "heading_level": null,
+      "page_id": 19,
+      "polygon": [
+        [
+          65.078125,
+          440.1193232413179
+        ],
+        [
+          429.3891687657431,
+          440.1193232413179
+        ],
+        [
+          429.3891687657431,
+          452.24609375
+        ],
+        [
+          65.078125,
+          452.24609375
+        ]
+      ]
+    },
+    {
+      "title": "21.6.10 EXTI D3 pending mask register (EXTI_D3PMR2)",
+      "heading_level": null,
+      "page_id": 20,
+      "polygon": [
+        [
+          67.25999450683594,
+          190.765625
+        ],
+        [
+          393.8268127441406,
+          190.765625
+        ],
+        [
+          393.8268127441406,
+          203.6884765625
+        ],
+        [
+          67.25999450683594,
+          203.6884765625
+        ]
+      ]
+    },
+    {
+      "title": "21.6.11 EXTI D3 pending clear selection register low (EXTI_D3PCR2L)",
+      "heading_level": null,
+      "page_id": 21,
+      "polygon": [
+        [
+          67.25999450683594,
+          90.0380859375
+        ],
+        [
+          476.46484375,
+          90.0380859375
+        ],
+        [
+          476.46484375,
+          102.70849609375
+        ],
+        [
+          67.25999450683594,
+          102.70849609375
+        ]
+      ]
+    },
+    {
+      "title": "21.6.12 EXTI D3 pending clear selection register high (EXTI_D3PCR2H)",
+      "heading_level": null,
+      "page_id": 21,
+      "polygon": [
+        [
+          65.078125,
+          451.0126953125
+        ],
+        [
+          482.7252502441406,
+          451.0126953125
+        ],
+        [
+          482.7252502441406,
+          464.3885498046875
+        ],
+        [
+          65.078125,
+          464.3885498046875
+        ]
+      ]
+    },
+    {
+      "title": "21.6.13 EXTI rising trigger selection register (EXTI_RTSR3)",
+      "heading_level": null,
+      "page_id": 22,
+      "polygon": [
+        [
+          66.240234375,
+          90.0380859375
+        ],
+        [
+          414.873046875,
+          90.0380859375
+        ],
+        [
+          414.873046875,
+          102.70849609375
+        ],
+        [
+          66.240234375,
+          102.70849609375
+        ]
+      ]
+    },
+    {
+      "title": "21.6.14 EXTI falling trigger selection register (EXTI_FTSR3)",
+      "heading_level": null,
+      "page_id": 22,
+      "polygon": [
+        [
+          65.078125,
+          441.228515625
+        ],
+        [
+          416.03515625,
+          441.228515625
+        ],
+        [
+          416.03515625,
+          453.228515625
+        ],
+        [
+          65.078125,
+          453.228515625
+        ]
+      ]
+    },
+    {
+      "title": "21.6.15 EXTI software interrupt event register (EXTI_SWIER3)",
+      "heading_level": null,
+      "page_id": 23,
+      "polygon": [
+        [
+          65.078125,
+          224.93321460373997
+        ],
+        [
+          429.3891687657431,
+          224.93321460373997
+        ],
+        [
+          429.3891687657431,
+          238.0458984375
+        ],
+        [
+          65.078125,
+          238.0458984375
+        ]
+      ]
+    },
+    {
+      "title": "21.6.16 EXTI D3 pending mask register (EXTI_D3PMR3)",
+      "heading_level": null,
+      "page_id": 23,
+      "polygon": [
+        [
+          65.078125,
+          561.5832591273374
+        ],
+        [
+          394.91813602015117,
+          561.5832591273374
+        ],
+        [
+          394.91813602015117,
+          574.763671875
+        ],
+        [
+          65.078125,
+          574.763671875
+        ]
+      ]
+    },
+    {
+      "title": "21.6.17 EXTI D3 pending clear selection register low (EXTI_D3PCR3L)",
+      "heading_level": null,
+      "page_id": 24,
+      "polygon": [
+        [
+          67.25999450683594,
+          200.2216796875
+        ],
+        [
+          476.46484375,
+          200.2216796875
+        ],
+        [
+          476.46484375,
+          213.70849609375
+        ],
+        [
+          67.25999450683594,
+          213.70849609375
+        ]
+      ]
+    },
+    {
+      "title": "21.6.18 EXTI D3 pending clear selection register high (EXTI_D3PCR3H)",
+      "heading_level": null,
+      "page_id": 24,
+      "polygon": [
+        [
+          66.240234375,
+          397.154296875
+        ],
+        [
+          482.7252502441406,
+          397.154296875
+        ],
+        [
+          482.7252502441406,
+          409.42852783203125
+        ],
+        [
+          66.240234375,
+          409.42852783203125
+        ]
+      ]
+    },
+    {
+      "title": "21.6.19 EXTI interrupt mask register (EXTI_CnIMR1)",
+      "heading_level": null,
+      "page_id": 25,
+      "polygon": [
+        [
+          67.25999450683594,
+          90.44921875
+        ],
+        [
+          374.19921875,
+          90.44921875
+        ],
+        [
+          374.19921875,
+          102.70849609375
+        ],
+        [
+          67.25999450683594,
+          102.70849609375
+        ]
+      ]
+    },
+    {
+      "title": "21.6.20 EXTI event mask register (EXTI_CnEMR1)",
+      "heading_level": null,
+      "page_id": 25,
+      "polygon": [
+        [
+          66.240234375,
+          377.0087890625
+        ],
+        [
+          360.63958740234375,
+          377.0087890625
+        ],
+        [
+          360.63958740234375,
+          389.92852783203125
+        ],
+        [
+          66.240234375,
+          389.92852783203125
+        ]
+      ]
+    },
+    {
+      "title": "21.6.21 EXTI pending register (EXTI_CnPR1)",
+      "heading_level": null,
+      "page_id": 26,
+      "polygon": [
+        [
+          66.240234375,
+          90.44921875
+        ],
+        [
+          331.8528137207031,
+          90.44921875
+        ],
+        [
+          331.8528137207031,
+          102.70849609375
+        ],
+        [
+          66.240234375,
+          102.70849609375
+        ]
+      ]
+    },
+    {
+      "title": "21.6.22 EXTI interrupt mask register (EXTI_CnIMR2)",
+      "heading_level": null,
+      "page_id": 26,
+      "polygon": [
+        [
+          66.240234375,
+          349.0517578125
+        ],
+        [
+          373.9643859863281,
+          349.0517578125
+        ],
+        [
+          373.9643859863281,
+          362.5685119628906
+        ],
+        [
+          66.240234375,
+          362.5685119628906
+        ]
+      ]
+    },
+    {
+      "title": "21.6.23 EXTI event mask register (EXTI_CnEMR2)",
+      "heading_level": null,
+      "page_id": 27,
+      "polygon": [
+        [
+          65.6591796875,
+          231.0484619140625
+        ],
+        [
+          360.63958740234375,
+          231.0484619140625
+        ],
+        [
+          360.63958740234375,
+          243.0484619140625
+        ],
+        [
+          65.6591796875,
+          243.0484619140625
+        ]
+      ]
+    },
+    {
+      "title": "21.6.24 EXTI pending register (EXTI_CnPR2)",
+      "heading_level": null,
+      "page_id": 27,
+      "polygon": [
+        [
+          65.6591796875,
+          507.7490234375
+        ],
+        [
+          331.8528137207031,
+          507.7490234375
+        ],
+        [
+          331.8528137207031,
+          519.8885498046875
+        ],
+        [
+          65.6591796875,
+          519.8885498046875
+        ]
+      ]
+    },
+    {
+      "title": "21.6.25 EXTI interrupt mask register (EXTI_CnIMR3)",
+      "heading_level": null,
+      "page_id": 28,
+      "polygon": [
+        [
+          66.240234375,
+          279.9814453125
+        ],
+        [
+          373.9643859863281,
+          279.9814453125
+        ],
+        [
+          373.9643859863281,
+          293.6884765625
+        ],
+        [
+          66.240234375,
+          293.6884765625
+        ]
+      ]
+    },
+    {
+      "title": "21.6.26 EXTI event mask register (EXTI_CnEMR3)",
+      "heading_level": null,
+      "page_id": 29,
+      "polygon": [
+        [
+          67.25999450683594,
+          90.44921875
+        ],
+        [
+          360.5688781738281,
+          90.44921875
+        ],
+        [
+          360.5688781738281,
+          102.70849609375
+        ],
+        [
+          67.25999450683594,
+          102.70849609375
+        ]
+      ]
+    },
+    {
+      "title": "21.6.27 EXTI pending register (EXTI_CnPR3)",
+      "heading_level": null,
+      "page_id": 29,
+      "polygon": [
+        [
+          65.6591796875,
+          326.0283203125
+        ],
+        [
+          331.8528137207031,
+          326.0283203125
+        ],
+        [
+          331.8528137207031,
+          338.5685119628906
+        ],
+        [
+          65.6591796875,
+          338.5685119628906
+        ]
+      ]
+    },
+    {
+      "title": "21.6.28 EXTI register map",
+      "heading_level": null,
+      "page_id": 30,
+      "polygon": [
+        [
+          66.8212890625,
+          90.70849609375
+        ],
+        [
+          225.89756774902344,
+          90.70849609375
+        ],
+        [
+          225.89756774902344,
+          102.70849609375
+        ],
+        [
+          66.8212890625,
+          102.70849609375
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          87
+        ],
+        [
+          "Line",
+          39
+        ],
+        [
+          "ListItem",
+          14
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "Picture",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          105
+        ],
+        [
+          "Line",
+          49
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "ListItem",
+          2
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          167
+        ],
+        [
+          "Line",
+          60
+        ],
+        [
+          "TableCell",
+          33
+        ],
+        [
+          "ListItem",
+          8
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "Reference",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          91
+        ],
+        [
+          "Span",
+          34
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          95
+        ],
+        [
+          "Line",
+          41
+        ],
+        [
+          "TableCell",
+          17
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Footnote",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          105
+        ],
+        [
+          "Span",
+          22
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          97
+        ],
+        [
+          "Line",
+          48
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          138
+        ],
+        [
+          "Line",
+          65
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Footnote",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 8,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          104
+        ],
+        [
+          "Line",
+          44
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "PageFooter",
+          3
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 9,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "TableCell",
+          174
+        ],
+        [
+          "Span",
+          84
+        ],
+        [
+          "Line",
+          39
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 10,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "TableCell",
+          180
+        ],
+        [
+          "Span",
+          118
+        ],
+        [
+          "Line",
+          39
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 11,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "TableCell",
+          73
+        ],
+        [
+          "Line",
+          45
+        ],
+        [
+          "Span",
+          18
+        ],
+        [
+          "ListItem",
+          8
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "Reference",
+          3
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Table",
+          2
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "TableGroup",
+          2
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 12,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          89
+        ],
+        [
+          "Line",
+          40
+        ],
+        [
+          "ListItem",
+          10
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "PageFooter",
+          3
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 13,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          87
+        ],
+        [
+          "Line",
+          33
+        ],
+        [
+          "ListItem",
+          16
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "ListGroup",
+          3
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 14,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          42
+        ],
+        [
+          "Line",
+          17
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "ListItem",
+          4
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 15,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "TableCell",
+          192
+        ],
+        [
+          "Span",
+          96
+        ],
+        [
+          "Line",
+          41
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "ListItem",
+          6
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Table",
+          2
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "TableGroup",
+          2
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "Reference",
+          2
+        ],
+        [
+          "Picture",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 16,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "TableCell",
+          192
+        ],
+        [
+          "Span",
+          165
+        ],
+        [
+          "Line",
+          74
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Table",
+          2
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "TableGroup",
+          2
+        ],
+        [
+          "Reference",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 17,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "TableCell",
+          185
+        ],
+        [
+          "Span",
+          90
+        ],
+        [
+          "Line",
+          36
+        ],
+        [
+          "Text",
+          14
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Table",
+          2
+        ],
+        [
+          "Reference",
+          2
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 18,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          98
+        ],
+        [
+          "TableCell",
+          96
+        ],
+        [
+          "Line",
+          37
+        ],
+        [
+          "Text",
+          21
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Reference",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 19,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "TableCell",
+          192
+        ],
+        [
+          "Line",
+          52
+        ],
+        [
+          "Span",
+          30
+        ],
+        [
+          "Text",
+          16
+        ],
+        [
+          "Reference",
+          3
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Table",
+          2
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "TableGroup",
+          2
+        ],
+        [
+          "Picture",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 20,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "TableCell",
+          96
+        ],
+        [
+          "Span",
+          95
+        ],
+        [
+          "Line",
+          36
+        ],
+        [
+          "Text",
+          20
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 21,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "TableCell",
+          188
+        ],
+        [
+          "Span",
+          98
+        ],
+        [
+          "Line",
+          38
+        ],
+        [
+          "Text",
+          14
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Table",
+          2
+        ],
+        [
+          "Reference",
+          2
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 22,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "TableCell",
+          192
+        ],
+        [
+          "Span",
+          102
+        ],
+        [
+          "Line",
+          36
+        ],
+        [
+          "Text",
+          11
+        ],
+        [
+          "ListItem",
+          6
+        ],
+        [
+          "ListGroup",
+          3
+        ],
+        [
+          "Reference",
+          3
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Table",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 23,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "TableCell",
+          192
+        ],
+        [
+          "Line",
+          57
+        ],
+        [
+          "Span",
+          27
+        ],
+        [
+          "Text",
+          21
+        ],
+        [
+          "Reference",
+          3
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Table",
+          2
+        ],
+        [
+          "Picture",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 24,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "TableCell",
+          192
+        ],
+        [
+          "Span",
+          81
+        ],
+        [
+          "Line",
+          33
+        ],
+        [
+          "Text",
+          11
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Table",
+          2
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "TableGroup",
+          2
+        ],
+        [
+          "Reference",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 25,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "TableCell",
+          192
+        ],
+        [
+          "Span",
+          75
+        ],
+        [
+          "Line",
+          31
+        ],
+        [
+          "Text",
+          12
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Table",
+          2
+        ],
+        [
+          "ListItem",
+          2
+        ],
+        [
+          "Reference",
+          2
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 26,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "TableCell",
+          192
+        ],
+        [
+          "Span",
+          100
+        ],
+        [
+          "Line",
+          38
+        ],
+        [
+          "Text",
+          21
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Table",
+          2
+        ],
+        [
+          "Reference",
+          2
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 27,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "TableCell",
+          192
+        ],
+        [
+          "Span",
+          103
+        ],
+        [
+          "Line",
+          35
+        ],
+        [
+          "Text",
+          19
+        ],
+        [
+          "Reference",
+          4
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Table",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 28,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          112
+        ],
+        [
+          "TableCell",
+          96
+        ],
+        [
+          "Line",
+          41
+        ],
+        [
+          "Text",
+          29
+        ],
+        [
+          "Reference",
+          3
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "ListItem",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 29,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "TableCell",
+          192
+        ],
+        [
+          "Span",
+          103
+        ],
+        [
+          "Line",
+          36
+        ],
+        [
+          "Text",
+          18
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Table",
+          2
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "TableGroup",
+          2
+        ],
+        [
+          "Reference",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 30,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "TableCell",
+          918
+        ],
+        [
+          "Span",
+          245
+        ],
+        [
+          "Line",
+          112
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 31,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "TableCell",
+          1054
+        ],
+        [
+          "Span",
+          228
+        ],
+        [
+          "Line",
+          97
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 32,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "TableCell",
+          698
+        ],
+        [
+          "Span",
+          181
+        ],
+        [
+          "Line",
+          78
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/21_21 Extended interrupt and event controller (EXTI)"
+}

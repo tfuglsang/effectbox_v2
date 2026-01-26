@@ -1,0 +1,179 @@
+{
+  "table_of_contents": [
+    {
+      "title": "1 About this document",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          66.8212890625,
+          90.0380859375
+        ],
+        [
+          284.1357421875,
+          90.0380859375
+        ],
+        [
+          284.1357421875,
+          106.09716796875
+        ],
+        [
+          66.8212890625,
+          106.09716796875
+        ]
+      ]
+    },
+    {
+      "title": "1.1 Typographical conventions",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          66.240234375,
+          249.84283447265625
+        ],
+        [
+          304.81085205078125,
+          249.84283447265625
+        ],
+        [
+          304.81085205078125,
+          263.8228759765625
+        ],
+        [
+          66.240234375,
+          263.8228759765625
+        ]
+      ]
+    },
+    {
+      "title": "1.2 List of abbreviations for registers",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          66.240234375,
+          538.1728515625
+        ],
+        [
+          346.325927734375,
+          538.1728515625
+        ],
+        [
+          346.325927734375,
+          553.7958984375
+        ],
+        [
+          66.240234375,
+          553.7958984375
+        ]
+      ]
+    },
+    {
+      "title": "List of figures",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          66.8212890625,
+          89.2158203125
+        ],
+        [
+          179.66079711914062,
+          89.2158203125
+        ],
+        [
+          179.66079711914062,
+          107.01007080078125
+        ],
+        [
+          66.8212890625,
+          107.01007080078125
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          74
+        ],
+        [
+          "Line",
+          31
+        ],
+        [
+          "Text",
+          24
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "Footnote",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          47
+        ],
+        [
+          "TableCell",
+          42
+        ],
+        [
+          "Line",
+          23
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "TableOfContents",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/02_1.1 Typographical conventions"
+}

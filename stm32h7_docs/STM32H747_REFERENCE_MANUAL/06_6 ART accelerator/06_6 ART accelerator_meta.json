@@ -1,0 +1,620 @@
+{
+  "table_of_contents": [
+    {
+      "title": "6 ART accelerator",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          66.8212890625,
+          90.0380859375
+        ],
+        [
+          246.9482421875,
+          90.0380859375
+        ],
+        [
+          246.9482421875,
+          106.09716796875
+        ],
+        [
+          66.8212890625,
+          106.09716796875
+        ]
+      ]
+    },
+    {
+      "title": "6.1 Introduction",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          65.94970703125,
+          130.3291015625
+        ],
+        [
+          205.98388671875,
+          130.3291015625
+        ],
+        [
+          205.98388671875,
+          144.4228515625
+        ],
+        [
+          65.94970703125,
+          144.4228515625
+        ]
+      ]
+    },
+    {
+      "title": "6.2 ART accelerator features",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          66.240234375,
+          297.2490234375
+        ],
+        [
+          289.6006164550781,
+          297.2490234375
+        ],
+        [
+          289.6006164550781,
+          311.40277099609375
+        ],
+        [
+          66.240234375,
+          311.40277099609375
+        ]
+      ]
+    },
+    {
+      "title": "6.3 ART accelerator functional description",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          65.94458438287154,
+          89.22350845948353
+        ],
+        [
+          382.333984375,
+          89.22350845948353
+        ],
+        [
+          382.333984375,
+          104.21905609973285
+        ],
+        [
+          65.94458438287154,
+          104.21905609973285
+        ]
+      ]
+    },
+    {
+      "title": "6.3.1 Block diagram",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          65.94458438287154,
+          119.21460373998218
+        ],
+        [
+          206.82619647355165,
+          119.21460373998218
+        ],
+        [
+          206.82619647355165,
+          132.384765625
+        ],
+        [
+          65.94458438287154,
+          132.384765625
+        ]
+      ]
+    },
+    {
+      "title": "6.3.2 ART accelerator blocks and operation",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          65.6591796875,
+          602.0712377560106
+        ],
+        [
+          340.963476070529,
+          602.0712377560106
+        ],
+        [
+          340.963476070529,
+          617.9326171875
+        ],
+        [
+          65.6591796875,
+          617.9326171875
+        ]
+      ]
+    },
+    {
+      "title": "Cache",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          122.89306640625,
+          682.2974176313446
+        ],
+        [
+          157.367758186398,
+          682.2974176313446
+        ],
+        [
+          157.367758186398,
+          692.34765625
+        ],
+        [
+          122.89306640625,
+          692.34765625
+        ]
+      ]
+    },
+    {
+      "title": "Cache manager",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          122.6025390625,
+          196.1103515625
+        ],
+        [
+          205.75331115722656,
+          196.1103515625
+        ],
+        [
+          205.75331115722656,
+          207.87567138671875
+        ],
+        [
+          122.6025390625,
+          207.87567138671875
+        ]
+      ]
+    },
+    {
+      "title": "Check for cacheable access",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          122.89306640625,
+          293.9599609375
+        ],
+        [
+          257.21478271484375,
+          293.9599609375
+        ],
+        [
+          257.21478271484375,
+          305.0015869140625
+        ],
+        [
+          122.89306640625,
+          305.0015869140625
+        ]
+      ]
+    },
+    {
+      "title": "Check for cache hit",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          123.47412109375,
+          429.6337890625
+        ],
+        [
+          216.12185668945312,
+          429.6337890625
+        ],
+        [
+          216.12185668945312,
+          439.9993896484375
+        ],
+        [
+          123.47412109375,
+          439.9993896484375
+        ]
+      ]
+    },
+    {
+      "title": "Cache refill",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          123.95995330810547,
+          580.9306640625
+        ],
+        [
+          177.79673767089844,
+          580.9306640625
+        ],
+        [
+          177.79673767089844,
+          592.5228271484375
+        ],
+        [
+          123.95995330810547,
+          592.5228271484375
+        ]
+      ]
+    },
+    {
+      "title": "Cache consistency",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          122.89306640625,
+          166.5087890625
+        ],
+        [
+          223.4827117919922,
+          166.5087890625
+        ],
+        [
+          223.4827117919922,
+          177.87567138671875
+        ],
+        [
+          122.89306640625,
+          177.87567138671875
+        ]
+      ]
+    },
+    {
+      "title": "6.4 ART accelerator registers",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          65.6591796875,
+          356.4521484375
+        ],
+        [
+          294.2755126953125,
+          356.4521484375
+        ],
+        [
+          294.2755126953125,
+          371.40283203125
+        ],
+        [
+          65.6591796875,
+          371.40283203125
+        ]
+      ]
+    },
+    {
+      "title": "6.4.1 ART accelerator - control register (ART_CTR)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          65.078125,
+          386.8759765625
+        ],
+        [
+          381.8855895996094,
+          386.8759765625
+        ],
+        [
+          381.8855895996094,
+          399.7085266113281
+        ],
+        [
+          65.078125,
+          399.7085266113281
+        ]
+      ]
+    },
+    {
+      "title": "Bits 19:8 PCACHEADDR[11:0]: cacheable page index",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          110.9814453125,
+          96.6162109375
+        ],
+        [
+          332.9443359375,
+          96.6162109375
+        ],
+        [
+          332.9443359375,
+          106.16131591796875
+        ],
+        [
+          110.9814453125,
+          106.16131591796875
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          57
+        ],
+        [
+          "Line",
+          21
+        ],
+        [
+          "ListItem",
+          7
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          62
+        ],
+        [
+          "Span",
+          48
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          99
+        ],
+        [
+          "Line",
+          40
+        ],
+        [
+          "Text",
+          14
+        ],
+        [
+          "ListItem",
+          9
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "ListGroup",
+          3
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          259
+        ],
+        [
+          "Line",
+          81
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "ListItem",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "TableCell",
+          86
+        ],
+        [
+          "Span",
+          78
+        ],
+        [
+          "Line",
+          30
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "ListItem",
+          3
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          41
+        ],
+        [
+          "Line",
+          16
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/06_6 ART accelerator"
+}

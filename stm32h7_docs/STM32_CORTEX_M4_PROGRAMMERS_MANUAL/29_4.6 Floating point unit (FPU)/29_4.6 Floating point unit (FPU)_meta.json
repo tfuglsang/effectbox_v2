@@ -1,0 +1,839 @@
+{
+  "table_of_contents": [
+    {
+      "title": "4.6 Floating point unit (FPU)",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          64.4970703125,
+          89.626953125
+        ],
+        [
+          287.2674255371094,
+          89.626953125
+        ],
+        [
+          287.2674255371094,
+          104.40289306640625
+        ],
+        [
+          64.4970703125,
+          104.40289306640625
+        ]
+      ]
+    },
+    {
+      "title": "4.6.1 Coprocessor access control register (CPACR)",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          65.078125,
+          90.0380859375
+        ],
+        [
+          385.8203125,
+          90.0380859375
+        ],
+        [
+          385.8203125,
+          102.70849609375
+        ],
+        [
+          65.078125,
+          102.70849609375
+        ]
+      ]
+    },
+    {
+      "title": "4.6.2 Floating-point context control register (FPCCR)",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          63.916015625,
+          390.1650390625
+        ],
+        [
+          393.8111877441406,
+          390.1650390625
+        ],
+        [
+          393.8111877441406,
+          403.728515625
+        ],
+        [
+          63.916015625,
+          403.728515625
+        ]
+      ]
+    },
+    {
+      "title": "Bit 30 LSPEN:",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          124.9267578125,
+          160.7529296875
+        ],
+        [
+          189.34347534179688,
+          160.7529296875
+        ],
+        [
+          189.34347534179688,
+          171.1422119140625
+        ],
+        [
+          124.9267578125,
+          171.1422119140625
+        ]
+      ]
+    },
+    {
+      "title": "Bits 29:9 Reserved.",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          111.27197265625,
+          205.1552734375
+        ],
+        [
+          195.3131866455078,
+          205.1552734375
+        ],
+        [
+          195.3131866455078,
+          214.1622314453125
+        ],
+        [
+          111.27197265625,
+          214.1622314453125
+        ]
+      ]
+    },
+    {
+      "title": "Bit 8 MONRDY:",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          130.15625,
+          221.6005859375
+        ],
+        [
+          199.3046875,
+          221.6005859375
+        ],
+        [
+          199.3046875,
+          231.14251708984375
+        ],
+        [
+          130.15625,
+          231.14251708984375
+        ]
+      ]
+    },
+    {
+      "title": "Bit 7 Reserved.",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          129.28466796875,
+          287.1234130859375
+        ],
+        [
+          195.2285919189453,
+          287.1234130859375
+        ],
+        [
+          195.2285919189453,
+          296.1234130859375
+        ],
+        [
+          129.28466796875,
+          296.1234130859375
+        ]
+      ]
+    },
+    {
+      "title": "Bit 6 BFRDY:",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          130.6805877685547,
+          303.8271484375
+        ],
+        [
+          190.244384765625,
+          303.8271484375
+        ],
+        [
+          190.244384765625,
+          313.1630859375
+        ],
+        [
+          130.6805877685547,
+          313.1630859375
+        ]
+      ]
+    },
+    {
+      "title": "Bit 5 MMRDY:",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          129.5751953125,
+          367.9638671875
+        ],
+        [
+          193.2440948486328,
+          367.9638671875
+        ],
+        [
+          193.2440948486328,
+          378.14398193359375
+        ],
+        [
+          129.5751953125,
+          378.14398193359375
+        ]
+      ]
+    },
+    {
+      "title": "Bit 4 HFRDY:",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          130.44677734375,
+          432.9228515625
+        ],
+        [
+          190.244384765625,
+          432.9228515625
+        ],
+        [
+          190.244384765625,
+          443.18426513671875
+        ],
+        [
+          130.44677734375,
+          443.18426513671875
+        ]
+      ]
+    },
+    {
+      "title": "Bit 3 THREAD:",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          129.86572265625,
+          495.4150390625
+        ],
+        [
+          196.72439575195312,
+          495.4150390625
+        ],
+        [
+          196.72439575195312,
+          508.1651306152344
+        ],
+        [
+          129.86572265625,
+          508.1651306152344
+        ]
+      ]
+    },
+    {
+      "title": "Bit 2 Reserved.",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          130.44677734375,
+          541.4619140625
+        ],
+        [
+          195.2285919189453,
+          541.4619140625
+        ],
+        [
+          195.2285919189453,
+          551.1851196289062
+        ],
+        [
+          130.44677734375,
+          551.1851196289062
+        ]
+      ]
+    },
+    {
+      "title": "Bit 1 USER:",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          129.28466796875,
+          557.9072265625
+        ],
+        [
+          184.30438232421875,
+          557.9072265625
+        ],
+        [
+          184.30438232421875,
+          568.1654357910156
+        ],
+        [
+          129.28466796875,
+          568.1654357910156
+        ]
+      ]
+    },
+    {
+      "title": "Bit 1 LSPACT:",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          130.68057250976562,
+          600.6650390625
+        ],
+        [
+          194.5643768310547,
+          600.6650390625
+        ],
+        [
+          194.5643768310547,
+          611.1854400634766
+        ],
+        [
+          130.68057250976562,
+          611.1854400634766
+        ]
+      ]
+    },
+    {
+      "title": "4.6.3 Floating-point context address register (FPCAR)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          65.078125,
+          88.3935546875
+        ],
+        [
+          400.1637279596978,
+          88.3935546875
+        ],
+        [
+          400.1637279596978,
+          101.96972395369545
+        ],
+        [
+          65.078125,
+          101.96972395369545
+        ]
+      ]
+    },
+    {
+      "title": "4.6.4 Floating-point status control register (FPSCR)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          66.240234375,
+          349.3962600178094
+        ],
+        [
+          386.6750629722922,
+          349.3962600178094
+        ],
+        [
+          386.6750629722922,
+          363.0302734375
+        ],
+        [
+          66.240234375,
+          363.0302734375
+        ]
+      ]
+    },
+    {
+      "title": "4.6.5 Floating-point default status control register (FPDSCR)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          65.078125,
+          90.44921875
+        ],
+        [
+          437.1551818847656,
+          90.44921875
+        ],
+        [
+          437.1551818847656,
+          102.70849609375
+        ],
+        [
+          65.078125,
+          102.70849609375
+        ]
+      ]
+    },
+    {
+      "title": "4.6.6 Enabling the FPU",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          65.6591796875,
+          382.353515625
+        ],
+        [
+          223.23721313476562,
+          382.353515625
+        ],
+        [
+          223.23721313476562,
+          394.728515625
+        ],
+        [
+          65.6591796875,
+          394.728515625
+        ]
+      ]
+    },
+    {
+      "title": "Example",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          123.95999908447266,
+          478.9697265625
+        ],
+        [
+          169.1273193359375,
+          478.9697265625
+        ],
+        [
+          169.1273193359375,
+          490.8956604003906
+        ],
+        [
+          123.95999908447266,
+          490.8956604003906
+        ]
+      ]
+    },
+    {
+      "title": "4.6.7 Enabling and clearing FPU exception interrupts",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          66.240234375,
+          90.44921875
+        ],
+        [
+          394.5732421875,
+          90.44921875
+        ],
+        [
+          394.5732421875,
+          102.70849609375
+        ],
+        [
+          66.240234375,
+          102.70849609375
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          70
+        ],
+        [
+          "TableCell",
+          34
+        ],
+        [
+          "Line",
+          30
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "TableCell",
+          157
+        ],
+        [
+          "Span",
+          90
+        ],
+        [
+          "Line",
+          41
+        ],
+        [
+          "Text",
+          15
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Table",
+          2
+        ],
+        [
+          "Reference",
+          2
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          112
+        ],
+        [
+          "Line",
+          43
+        ],
+        [
+          "ListItem",
+          18
+        ],
+        [
+          "SectionHeader",
+          11
+        ],
+        [
+          "ListGroup",
+          9
+        ],
+        [
+          "Text",
+          3
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "TableCell",
+          143
+        ],
+        [
+          "Line",
+          52
+        ],
+        [
+          "Span",
+          34
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "ListItem",
+          9
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Table",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "Reference",
+          2
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          124
+        ],
+        [
+          "Line",
+          44
+        ],
+        [
+          "ListItem",
+          29
+        ],
+        [
+          "TableCell",
+          25
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          89
+        ],
+        [
+          "TableCell",
+          57
+        ],
+        [
+          "Line",
+          37
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Code",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          105
+        ],
+        [
+          "Line",
+          49
+        ],
+        [
+          "Text",
+          18
+        ],
+        [
+          "Code",
+          3
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          51
+        ],
+        [
+          "Line",
+          25
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "Code",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/29_4.6 Floating point unit (FPU)"
+}

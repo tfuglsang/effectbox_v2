@@ -1,0 +1,920 @@
+{
+  "table_of_contents": [
+    {
+      "title": "SIGNAL TIMING REQUIREMENTS",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          72.0,
+          96.2200927734375
+        ],
+        [
+          262.6759948730469,
+          96.2200927734375
+        ],
+        [
+          262.6759948730469,
+          108.2200927734375
+        ],
+        [
+          72.0,
+          108.2200927734375
+        ]
+      ]
+    },
+    {
+      "title": "SYSTEM CLOCKS & FREQUENCY LOCKED LOOP (FLL)",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          71.71875,
+          119.0679931640625
+        ],
+        [
+          363.51629638671875,
+          119.0679931640625
+        ],
+        [
+          363.51629638671875,
+          130.0479736328125
+        ],
+        [
+          71.71875,
+          130.0479736328125
+        ]
+      ]
+    },
+    {
+      "title": "Test Conditions",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          78.591796875,
+          261.421875
+        ],
+        [
+          138.95716857910156,
+          261.421875
+        ],
+        [
+          138.95716857910156,
+          269.42291259765625
+        ],
+        [
+          78.591796875,
+          269.42291259765625
+        ]
+      ]
+    },
+    {
+      "title": "AUDIO INTERFACE TIMING",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          70.822265625,
+          95.0679931640625
+        ],
+        [
+          214.857421875,
+          95.0679931640625
+        ],
+        [
+          214.857421875,
+          106.0479736328125
+        ],
+        [
+          70.822265625,
+          106.0479736328125
+        ]
+      ]
+    },
+    {
+      "title": "DIGITAL MICROPHONE (DMIC) INTERFACE TIMING",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          178.5800018310547,
+          112.53515625
+        ],
+        [
+          398.63671875,
+          112.53515625
+        ],
+        [
+          398.63671875,
+          122.11505126953125
+        ],
+        [
+          178.5800018310547,
+          122.11505126953125
+        ]
+      ]
+    },
+    {
+      "title": "Test Conditions",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          77.6953125,
+          276.50390625
+        ],
+        [
+          138.95716857910156,
+          276.50390625
+        ],
+        [
+          138.95716857910156,
+          285.8029479980469
+        ],
+        [
+          77.6953125,
+          285.8029479980469
+        ]
+      ]
+    },
+    {
+      "title": "DIGITAL AUDIO INTERFACE - MASTER MODE",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          176.25,
+          91.5
+        ],
+        [
+          375.75,
+          91.5
+        ],
+        [
+          375.75,
+          101.25
+        ],
+        [
+          176.25,
+          101.25
+        ]
+      ]
+    },
+    {
+      "title": "Test Conditions",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          76.5,
+          356.25
+        ],
+        [
+          139.5,
+          356.25
+        ],
+        [
+          139.5,
+          366.0
+        ],
+        [
+          76.5,
+          366.0
+        ]
+      ]
+    },
+    {
+      "title": "DIGITAL AUDIO INTERFACE - SLAVE MODE",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          178.5800018310547,
+          92.8125
+        ],
+        [
+          366.7519836425781,
+          92.8125
+        ],
+        [
+          366.7519836425781,
+          102.0750732421875
+        ],
+        [
+          178.5800018310547,
+          102.0750732421875
+        ]
+      ]
+    },
+    {
+      "title": "Test Conditions",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          77.396484375,
+          367.76953125
+        ],
+        [
+          138.95716857910156,
+          367.76953125
+        ],
+        [
+          138.95716857910156,
+          375.98297119140625
+        ],
+        [
+          77.396484375,
+          375.98297119140625
+        ]
+      ]
+    },
+    {
+      "title": "DIGITAL AUDIO INTERFACE - TDM MODE",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          178.1015625,
+          92.8125
+        ],
+        [
+          356.4739990234375,
+          92.8125
+        ],
+        [
+          356.4739990234375,
+          102.0750732421875
+        ],
+        [
+          178.1015625,
+          102.0750732421875
+        ]
+      ]
+    },
+    {
+      "title": "Test Conditions",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          77.396484375,
+          373.5703125
+        ],
+        [
+          138.95716857910156,
+          373.5703125
+        ],
+        [
+          138.95716857910156,
+          381.98297119140625
+        ],
+        [
+          77.396484375,
+          381.98297119140625
+        ]
+      ]
+    },
+    {
+      "title": "CONTROL INTERFACE TIMING",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          70.5234375,
+          95.0679931640625
+        ],
+        [
+          234.28125,
+          95.0679931640625
+        ],
+        [
+          234.28125,
+          106.0479736328125
+        ],
+        [
+          70.5234375,
+          106.0479736328125
+        ]
+      ]
+    },
+    {
+      "title": "2-WIRE (I2C) CONTROL MODE",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          177.802734375,
+          112.53515625
+        ],
+        [
+          309.1400146484375,
+          112.53515625
+        ],
+        [
+          309.1400146484375,
+          122.11505126953125
+        ],
+        [
+          177.802734375,
+          122.11505126953125
+        ]
+      ]
+    },
+    {
+      "title": "Test Conditions",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          77.09765625,
+          297.9829406738281
+        ],
+        [
+          138.95716857910156,
+          297.9829406738281
+        ],
+        [
+          138.95716857910156,
+          305.96295166015625
+        ],
+        [
+          77.09765625,
+          305.96295166015625
+        ]
+      ]
+    },
+    {
+      "title": "3-WIRE (SPI) CONTROL MODE",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          176.90625,
+          92.42578125
+        ],
+        [
+          309.67999267578125,
+          92.42578125
+        ],
+        [
+          309.67999267578125,
+          102.0750732421875
+        ],
+        [
+          176.90625,
+          102.0750732421875
+        ]
+      ]
+    },
+    {
+      "title": "Test Conditions",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          75.90234375,
+          530.96484375
+        ],
+        [
+          139.25390625,
+          530.96484375
+        ],
+        [
+          139.25390625,
+          539.8629608154297
+        ],
+        [
+          75.90234375,
+          539.8629608154297
+        ]
+      ]
+    },
+    {
+      "title": "4-WIRE (SPI) CONTROL MODE",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          176.90625,
+          92.42578125
+        ],
+        [
+          309.67999267578125,
+          92.42578125
+        ],
+        [
+          309.67999267578125,
+          102.0750732421875
+        ],
+        [
+          176.90625,
+          102.0750732421875
+        ]
+      ]
+    },
+    {
+      "title": "Test Conditions",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          76.201171875,
+          530.96484375
+        ],
+        [
+          138.97157287597656,
+          530.96484375
+        ],
+        [
+          138.97157287597656,
+          539.6829528808594
+        ],
+        [
+          76.201171875,
+          539.6829528808594
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          140
+        ],
+        [
+          "TableCell",
+          118
+        ],
+        [
+          "Line",
+          35
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          125
+        ],
+        [
+          "TableCell",
+          43
+        ],
+        [
+          "Line",
+          17
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "TableCell",
+          55
+        ],
+        [
+          "Line",
+          28
+        ],
+        [
+          "Span",
+          8
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          177
+        ],
+        [
+          "TableCell",
+          55
+        ],
+        [
+          "Line",
+          38
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          124
+        ],
+        [
+          "TableCell",
+          31
+        ],
+        [
+          "Line",
+          21
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          168
+        ],
+        [
+          "TableCell",
+          72
+        ],
+        [
+          "Line",
+          26
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          174
+        ],
+        [
+          "TableCell",
+          60
+        ],
+        [
+          "Line",
+          35
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Figure",
+          2
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "FigureGroup",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "Table",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          170
+        ],
+        [
+          "TableCell",
+          60
+        ],
+        [
+          "Line",
+          35
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Figure",
+          2
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "FigureGroup",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "Table",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/11_Signal Timing Requirements"
+}

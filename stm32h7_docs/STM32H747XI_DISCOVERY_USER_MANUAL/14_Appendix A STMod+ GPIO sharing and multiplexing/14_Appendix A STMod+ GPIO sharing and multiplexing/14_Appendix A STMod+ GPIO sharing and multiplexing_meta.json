@@ -1,0 +1,115 @@
+{
+  "table_of_contents": [
+    {
+      "title": "",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          774.57421875,
+          479.07958984375
+        ],
+        [
+          784.44140625,
+          479.07958984375
+        ],
+        [
+          784.44140625,
+          524.98291015625
+        ],
+        [
+          774.57421875,
+          524.98291015625
+        ]
+      ]
+    },
+    {
+      "title": "Appendix A\nSTMod+ GPIO sharing and multiplexing",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          115.1171875,
+          59.55810546875
+        ],
+        [
+          535.3410507569012,
+          59.55810546875
+        ],
+        [
+          535.3410507569012,
+          77.93450881612091
+        ],
+        [
+          115.1171875,
+          77.93450881612091
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "TableCell",
+          223
+        ],
+        [
+          "Span",
+          21
+        ],
+        [
+          "Line",
+          20
+        ],
+        [
+          "PageHeader",
+          3
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "ListItem",
+          2
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/14_Appendix A STMod+ GPIO sharing and multiplexing"
+}

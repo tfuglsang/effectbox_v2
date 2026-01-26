@@ -1,0 +1,107 @@
+{
+  "table_of_contents": [
+    {
+      "title": "RECOMMENDED OPERATING CONDITIONS",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          70.5234375,
+          96.2200927734375
+        ],
+        [
+          321.8840026855469,
+          96.2200927734375
+        ],
+        [
+          321.8840026855469,
+          108.2200927734375
+        ],
+        [
+          70.5234375,
+          108.2200927734375
+        ]
+      ]
+    },
+    {
+      "title": "Notes",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          71.71875,
+          324.84375
+        ],
+        [
+          94.13652038574219,
+          324.84375
+        ],
+        [
+          94.13652038574219,
+          333.262939453125
+        ],
+        [
+          71.71875,
+          333.262939453125
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          216
+        ],
+        [
+          "TableCell",
+          90
+        ],
+        [
+          "Line",
+          40
+        ],
+        [
+          "ListItem",
+          11
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/07_Recommended Operating Conditions"
+}

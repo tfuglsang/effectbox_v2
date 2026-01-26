@@ -1,0 +1,1170 @@
+{
+  "table_of_contents": [
+    {
+      "title": "7 Connectors",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          66.8212890625,
+          90.0380859375
+        ],
+        [
+          212.74179077148438,
+          90.0380859375
+        ],
+        [
+          212.74179077148438,
+          106.09716796875
+        ],
+        [
+          66.8212890625,
+          106.09716796875
+        ]
+      ]
+    },
+    {
+      "title": "7.1 USB OTG HS Micro-AB connector CN1",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          65.078125,
+          130.3291015625
+        ],
+        [
+          380.48046875,
+          130.3291015625
+        ],
+        [
+          380.48046875,
+          144.4228515625
+        ],
+        [
+          65.078125,
+          144.4228515625
+        ]
+      ]
+    },
+    {
+      "title": "7.2 STLINK-V3E USB Micro-B connector CN2",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          66.240234375,
+          90.4228515625
+        ],
+        [
+          398.603515625,
+          90.4228515625
+        ],
+        [
+          398.603515625,
+          104.40289306640625
+        ],
+        [
+          66.240234375,
+          104.40289306640625
+        ]
+      ]
+    },
+    {
+      "title": "7.3 SPDIF input RCA connector CN3",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          65.6591796875,
+          433.7451171875
+        ],
+        [
+          340.3802490234375,
+          433.7451171875
+        ],
+        [
+          340.3802490234375,
+          449.5228576660156
+        ],
+        [
+          65.6591796875,
+          449.5228576660156
+        ]
+      ]
+    },
+    {
+      "title": "7.4 STLINK-V3E MCU programming header CN4",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          66.240234375,
+          554.6181640625
+        ],
+        [
+          417.197265625,
+          554.6181640625
+        ],
+        [
+          417.197265625,
+          570.2412109375
+        ],
+        [
+          66.240234375,
+          570.2412109375
+        ]
+      ]
+    },
+    {
+      "title": "7.5 ARDUINO\u00ae Uno V3 connectors CN5, CN6, CN8 and CN9",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          65.19521410579345,
+          86.22439893143365
+        ],
+        [
+          493.08564231738035,
+          86.22439893143365
+        ],
+        [
+          493.08564231738035,
+          104.21905609973285
+        ],
+        [
+          65.19521410579345,
+          104.21905609973285
+        ]
+      ]
+    },
+    {
+      "title": "7.6 Ethernet RJ45 connector CN7",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          66.240234375,
+          180.4228515625
+        ],
+        [
+          321.904296875,
+          180.4228515625
+        ],
+        [
+          321.904296875,
+          194.40289306640625
+        ],
+        [
+          66.240234375,
+          194.40289306640625
+        ]
+      ]
+    },
+    {
+      "title": "7.7 Audio blue jack (Line In) connector CN10",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          66.240234375,
+          541.4619140625
+        ],
+        [
+          396.8426513671875,
+          541.4619140625
+        ],
+        [
+          396.8426513671875,
+          557.1628723144531
+        ],
+        [
+          66.240234375,
+          557.1628723144531
+        ]
+      ]
+    },
+    {
+      "title": "7.8 Audio green jack (Line Out) connector CN11",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          66.240234375,
+          90.0380859375
+        ],
+        [
+          417.08282470703125,
+          90.0380859375
+        ],
+        [
+          417.08282470703125,
+          104.40289306640625
+        ],
+        [
+          66.240234375,
+          104.40289306640625
+        ]
+      ]
+    },
+    {
+      "title": "7.9 microSD\u2122 card connector CN12",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          65.6591796875,
+          90.4228515625
+        ],
+        [
+          340.0740966796875,
+          90.4228515625
+        ],
+        [
+          340.0740966796875,
+          104.40289306640625
+        ],
+        [
+          65.6591796875,
+          104.40289306640625
+        ]
+      ]
+    },
+    {
+      "title": "7.10 STDC14 connector CN13",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          65.6591796875,
+          88.8046875
+        ],
+        [
+          288.76605224609375,
+          88.8046875
+        ],
+        [
+          288.76605224609375,
+          104.40289306640625
+        ],
+        [
+          65.6591796875,
+          104.40289306640625
+        ]
+      ]
+    },
+    {
+      "title": "7.11 External 5 V USB Micro-B connector CN14",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          66.240234375,
+          90.4228515625
+        ],
+        [
+          404.65185546875,
+          90.4228515625
+        ],
+        [
+          404.65185546875,
+          104.40289306640625
+        ],
+        [
+          66.240234375,
+          104.40289306640625
+        ]
+      ]
+    },
+    {
+      "title": "7.12 DSI\u00ae LCD connector CN15 (MIPI\u00ae)",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          65.6591796875,
+          431.689453125
+        ],
+        [
+          350.3759765625,
+          431.689453125
+        ],
+        [
+          350.3759765625,
+          449.779296875
+        ],
+        [
+          65.6591796875,
+          449.779296875
+        ]
+      ]
+    },
+    {
+      "title": "7.13 TAG connector CN16",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          66.8212890625,
+          90.4228515625
+        ],
+        [
+          263.6426086425781,
+          90.4228515625
+        ],
+        [
+          263.6426086425781,
+          104.40289306640625
+        ],
+        [
+          66.8212890625,
+          104.40289306640625
+        ]
+      ]
+    },
+    {
+      "title": "7.14 Audio connector CN17",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          66.8212890625,
+          429.22265625
+        ],
+        [
+          274.7357177734375,
+          429.22265625
+        ],
+        [
+          274.7357177734375,
+          443.8228759765625
+        ],
+        [
+          66.8212890625,
+          443.8228759765625
+        ]
+      ]
+    },
+    {
+      "title": "7.15 Camera module connector P1",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          66.240234375,
+          90.4228515625
+        ],
+        [
+          321.4610900878906,
+          90.4228515625
+        ],
+        [
+          321.4610900878906,
+          104.40289306640625
+        ],
+        [
+          66.240234375,
+          104.40289306640625
+        ]
+      ]
+    },
+    {
+      "title": "GPIO assignment and sharing:",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          123.95999908447266,
+          191.587890625
+        ],
+        [
+          260.632080078125,
+          191.587890625
+        ],
+        [
+          260.632080078125,
+          201.9827880859375
+        ],
+        [
+          123.95999908447266,
+          201.9827880859375
+        ]
+      ]
+    },
+    {
+      "title": "7.16 STMod+ connector P2",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          65.19521410579345,
+          89.973285841496
+        ],
+        [
+          272.0214105793451,
+          89.973285841496
+        ],
+        [
+          272.0214105793451,
+          101.5498046875
+        ],
+        [
+          65.19521410579345,
+          101.5498046875
+        ]
+      ]
+    },
+    {
+      "title": "7.17 Pmod\u2122 connector P3",
+      "heading_level": null,
+      "page_id": 12,
+      "polygon": [
+        [
+          66.240234375,
+          90.4228515625
+        ],
+        [
+          269.430419921875,
+          90.4228515625
+        ],
+        [
+          269.430419921875,
+          104.40289306640625
+        ],
+        [
+          66.240234375,
+          104.40289306640625
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          27
+        ],
+        [
+          "TableCell",
+          16
+        ],
+        [
+          "Line",
+          13
+        ],
+        [
+          "PageFooter",
+          3
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "PictureGroup",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          53
+        ],
+        [
+          "TableCell",
+          40
+        ],
+        [
+          "Line",
+          26
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "Caption",
+          5
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Table",
+          3
+        ],
+        [
+          "TableGroup",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "TableCell",
+          198
+        ],
+        [
+          "Line",
+          22
+        ],
+        [
+          "Span",
+          15
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "Footnote",
+          3
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          59
+        ],
+        [
+          "TableCell",
+          28
+        ],
+        [
+          "Line",
+          23
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Picture",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          45
+        ],
+        [
+          "TableCell",
+          27
+        ],
+        [
+          "Line",
+          20
+        ],
+        [
+          "PageFooter",
+          3
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "PictureGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          33
+        ],
+        [
+          "TableCell",
+          24
+        ],
+        [
+          "Line",
+          15
+        ],
+        [
+          "PageFooter",
+          3
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "PictureGroup",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          33
+        ],
+        [
+          "TableCell",
+          32
+        ],
+        [
+          "Line",
+          16
+        ],
+        [
+          "PageFooter",
+          3
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          51
+        ],
+        [
+          "Line",
+          22
+        ],
+        [
+          "TableCell",
+          16
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "Caption",
+          4
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ],
+        [
+          "PictureGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 8,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "TableCell",
+          187
+        ],
+        [
+          "Span",
+          90
+        ],
+        [
+          "Line",
+          40
+        ],
+        [
+          "PageFooter",
+          3
+        ],
+        [
+          "Reference",
+          2
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Footnote",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 9,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "TableCell",
+          68
+        ],
+        [
+          "Span",
+          59
+        ],
+        [
+          "Line",
+          28
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "Caption",
+          3
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Table",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "PictureGroup",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 10,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          78
+        ],
+        [
+          "TableCell",
+          64
+        ],
+        [
+          "Line",
+          34
+        ],
+        [
+          "ListItem",
+          4
+        ],
+        [
+          "PageFooter",
+          3
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "PictureGroup",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 11,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "TableCell",
+          44
+        ],
+        [
+          "Line",
+          34
+        ],
+        [
+          "Span",
+          14
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "PictureGroup",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 12,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          67
+        ],
+        [
+          "TableCell",
+          28
+        ],
+        [
+          "Line",
+          21
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "PageFooter",
+          3
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "PictureGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/07_7 Connectors"
+}

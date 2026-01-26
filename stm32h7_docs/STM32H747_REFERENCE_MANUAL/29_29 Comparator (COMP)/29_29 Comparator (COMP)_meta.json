@@ -1,0 +1,1966 @@
+{
+  "table_of_contents": [
+    {
+      "title": "29 Comparator (COMP)",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          66.8212890625,
+          89.2158203125
+        ],
+        [
+          277.646240234375,
+          89.2158203125
+        ],
+        [
+          277.646240234375,
+          106.09716796875
+        ],
+        [
+          66.8212890625,
+          106.09716796875
+        ]
+      ]
+    },
+    {
+      "title": "29.1 Introduction",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          66.53076171875,
+          130.3291015625
+        ],
+        [
+          205.62425231933594,
+          130.3291015625
+        ],
+        [
+          205.62425231933594,
+          144.4228515625
+        ],
+        [
+          66.53076171875,
+          144.4228515625
+        ]
+      ]
+    },
+    {
+      "title": "29.2 COMP main features",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          67.25999450683594,
+          246.2685546875
+        ],
+        [
+          260.54461669921875,
+          246.2685546875
+        ],
+        [
+          260.54461669921875,
+          260.40277099609375
+        ],
+        [
+          67.25999450683594,
+          260.40277099609375
+        ]
+      ]
+    },
+    {
+      "title": "29.3 COMP functional description",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          65.94458438287154,
+          89.22350845948353
+        ],
+        [
+          316.2342569269522,
+          89.22350845948353
+        ],
+        [
+          316.2342569269522,
+          103.46927871772039
+        ],
+        [
+          65.94458438287154,
+          103.46927871772039
+        ]
+      ]
+    },
+    {
+      "title": "29.3.1 COMP block diagram",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          65.94458438287154,
+          119.21460373998218
+        ],
+        [
+          244.29471032745593,
+          119.21460373998218
+        ],
+        [
+          244.29471032745593,
+          132.384765625
+        ],
+        [
+          65.94458438287154,
+          132.384765625
+        ]
+      ]
+    },
+    {
+      "title": "29.3.2 COMP pins and internal signals",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          65.94458438287154,
+          613.3178984861977
+        ],
+        [
+          304.2443324937028,
+          613.3178984861977
+        ],
+        [
+          304.2443324937028,
+          626.9775390625
+        ],
+        [
+          65.94458438287154,
+          626.9775390625
+        ]
+      ]
+    },
+    {
+      "title": "29.3.3 COMP reset and clocks",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          66.8212890625,
+          90.0380859375
+        ],
+        [
+          257.0051574707031,
+          90.0380859375
+        ],
+        [
+          257.0051574707031,
+          102.70849609375
+        ],
+        [
+          66.8212890625,
+          102.70849609375
+        ]
+      ]
+    },
+    {
+      "title": "29.3.4 Comparator LOCK mechanism",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          66.240234375,
+          191.1767578125
+        ],
+        [
+          298.662109375,
+          191.1767578125
+        ],
+        [
+          298.662109375,
+          203.6884765625
+        ],
+        [
+          66.240234375,
+          203.6884765625
+        ]
+      ]
+    },
+    {
+      "title": "29.3.5 Window comparator",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          65.078125,
+          370.728515625
+        ],
+        [
+          239.39453125,
+          370.728515625
+        ],
+        [
+          239.39453125,
+          382.728515625
+        ],
+        [
+          65.078125,
+          382.728515625
+        ]
+      ]
+    },
+    {
+      "title": "29.3.6 Hysteresis",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          64.78759765625,
+          507.70843505859375
+        ],
+        [
+          184.65838623046875,
+          507.70843505859375
+        ],
+        [
+          184.65838623046875,
+          519.7084350585938
+        ],
+        [
+          64.78759765625,
+          519.7084350585938
+        ]
+      ]
+    },
+    {
+      "title": "29.3.7 Comparator output blanking function",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          65.078125,
+          290.259765625
+        ],
+        [
+          335.8378601074219,
+          290.259765625
+        ],
+        [
+          335.8378601074219,
+          304.00848388671875
+        ],
+        [
+          65.078125,
+          304.00848388671875
+        ]
+      ]
+    },
+    {
+      "title": "29.3.8 Comparator output on GPIOs",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          66.8212890625,
+          90.44921875
+        ],
+        [
+          291.1083984375,
+          90.44921875
+        ],
+        [
+          291.1083984375,
+          102.70849609375
+        ],
+        [
+          66.8212890625,
+          102.70849609375
+        ]
+      ]
+    },
+    {
+      "title": "29.3.9 Comparator output redirection",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          67.25999450683594,
+          139.78515625
+        ],
+        [
+          297.8303527832031,
+          139.78515625
+        ],
+        [
+          297.8303527832031,
+          152.6884765625
+        ],
+        [
+          67.25999450683594,
+          152.6884765625
+        ]
+      ]
+    },
+    {
+      "title": "29.3.10 COMP power and speed modes",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          67.25999450683594,
+          458.001953125
+        ],
+        [
+          303.0203857421875,
+          458.001953125
+        ],
+        [
+          303.0203857421875,
+          470.80853271484375
+        ],
+        [
+          67.25999450683594,
+          470.80853271484375
+        ]
+      ]
+    },
+    {
+      "title": "29.4 COMP low-power modes",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          66.240234375,
+          89.626953125
+        ],
+        [
+          287.7077331542969,
+          89.626953125
+        ],
+        [
+          287.7077331542969,
+          104.40289306640625
+        ],
+        [
+          66.240234375,
+          104.40289306640625
+        ]
+      ]
+    },
+    {
+      "title": "29.5 COMP interrupts",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          65.6591796875,
+          281.21484375
+        ],
+        [
+          234.86199951171875,
+          281.21484375
+        ],
+        [
+          234.86199951171875,
+          295.682861328125
+        ],
+        [
+          65.6591796875,
+          295.682861328125
+        ]
+      ]
+    },
+    {
+      "title": "29.5.1 Interrupt through EXTI block",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          65.078125,
+          401.6767578125
+        ],
+        [
+          286.59234619140625,
+          401.6767578125
+        ],
+        [
+          286.59234619140625,
+          414.94854736328125
+        ],
+        [
+          65.078125,
+          414.94854736328125
+        ]
+      ]
+    },
+    {
+      "title": "29.5.2 Interrupt through NVIC of the CPU",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          66.69395465994963,
+          89.973285841496
+        ],
+        [
+          319.23173803526447,
+          89.973285841496
+        ],
+        [
+          319.23173803526447,
+          101.96972395369545
+        ],
+        [
+          66.69395465994963,
+          101.96972395369545
+        ]
+      ]
+    },
+    {
+      "title": "29.6 SCALER function",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          65.078125,
+          350.89581478183436
+        ],
+        [
+          241.2972292191436,
+          350.89581478183436
+        ],
+        [
+          241.2972292191436,
+          362.619140625
+        ],
+        [
+          65.078125,
+          362.619140625
+        ]
+      ]
+    },
+    {
+      "title": "29.7 COMP registers",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          66.240234375,
+          89.626953125
+        ],
+        [
+          227.80508422851562,
+          89.626953125
+        ],
+        [
+          227.80508422851562,
+          104.40289306640625
+        ],
+        [
+          66.240234375,
+          104.40289306640625
+        ]
+      ]
+    },
+    {
+      "title": "29.7.1 Comparator status register (COMP_SR)",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          66.8212890625,
+          120.306396484375
+        ],
+        [
+          339.9169921875,
+          120.306396484375
+        ],
+        [
+          339.9169921875,
+          131.9736328125
+        ],
+        [
+          66.8212890625,
+          131.9736328125
+        ]
+      ]
+    },
+    {
+      "title": "29.7.2 Comparator interrupt clear flag register (COMP_ICFR)",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          67.25999450683594,
+          491.3463439941406
+        ],
+        [
+          417.0395202636719,
+          491.3463439941406
+        ],
+        [
+          417.0395202636719,
+          502.80633544921875
+        ],
+        [
+          67.25999450683594,
+          502.80633544921875
+        ]
+      ]
+    },
+    {
+      "title": "29.7.3 Comparator option register (COMP_OR)",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          66.240234375,
+          198.166015625
+        ],
+        [
+          341.5939636230469,
+          198.166015625
+        ],
+        [
+          341.5939636230469,
+          209.76641845703125
+        ],
+        [
+          66.240234375,
+          209.76641845703125
+        ]
+      ]
+    },
+    {
+      "title": "29.7.4 Comparator configuration register 1 (COMP_CFGR1)",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          65.078125,
+          500.3463439941406
+        ],
+        [
+          411.38671875,
+          500.3463439941406
+        ],
+        [
+          411.38671875,
+          511.8603515625
+        ],
+        [
+          65.078125,
+          511.8603515625
+        ]
+      ]
+    },
+    {
+      "title": "Bit 31 LOCK: Lock bit",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          122.6025390625,
+          96.6162109375
+        ],
+        [
+          214.98931884765625,
+          96.6162109375
+        ],
+        [
+          214.98931884765625,
+          106.16131591796875
+        ],
+        [
+          122.6025390625,
+          106.16131591796875
+        ]
+      ]
+    },
+    {
+      "title": "Bits 27:24 BLANKING[3:0]: COMP channel 1 blanking source selection bits",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          104.58984375,
+          179.25390625
+        ],
+        [
+          413.025390625,
+          179.25390625
+        ],
+        [
+          413.025390625,
+          189.14129638671875
+        ],
+        [
+          104.58984375,
+          189.14129638671875
+        ]
+      ]
+    },
+    {
+      "title": "Bits 23:21 Reserved, must be kept at reset value.",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          105.751953125,
+          318.13922119140625
+        ],
+        [
+          306.91534423828125,
+          318.13922119140625
+        ],
+        [
+          306.91534423828125,
+          327.13922119140625
+        ],
+        [
+          105.751953125,
+          327.13922119140625
+        ]
+      ]
+    },
+    {
+      "title": "Bit 20 INPSEL: COMP channel 1 non-inverting input selection bit",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          119.1162109375,
+          332.6064453125
+        ],
+        [
+          385.200927734375,
+          332.6064453125
+        ],
+        [
+          385.200927734375,
+          344.17889404296875
+        ],
+        [
+          119.1162109375,
+          344.17889404296875
+        ]
+      ]
+    },
+    {
+      "title": "Bits 18:16 INMSEL[2:0]: COMP channel 1 inverting input selection field",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          107.40153503417969,
+          404.9658203125
+        ],
+        [
+          394.8524475097656,
+          404.9658203125
+        ],
+        [
+          394.8524475097656,
+          416.17889404296875
+        ],
+        [
+          107.40153503417969,
+          416.17889404296875
+        ]
+      ]
+    },
+    {
+      "title": "Bits 15:14 Reserved, must be kept at reset value.",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          105.751953125,
+          544.7509765625
+        ],
+        [
+          306.9140930175781,
+          544.7509765625
+        ],
+        [
+          306.9140930175781,
+          554.1799926757812
+        ],
+        [
+          105.751953125,
+          554.1799926757812
+        ]
+      ]
+    },
+    {
+      "title": "Bits 13:12 PWRMODE[1:0]: Power Mode of the COMP channel 1",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          105.1708984375,
+          561.1962890625
+        ],
+        [
+          371.6916198730469,
+          561.1962890625
+        ],
+        [
+          371.6916198730469,
+          571.1603088378906
+        ],
+        [
+          105.1708984375,
+          571.1603088378906
+        ]
+      ]
+    },
+    {
+      "title": "Bits 9:8 HYST[1:0]: COMP channel 1 hysteresis selection bits",
+      "heading_level": null,
+      "page_id": 12,
+      "polygon": [
+        [
+          116.2109375,
+          95.7939453125
+        ],
+        [
+          367.25555419921875,
+          95.7939453125
+        ],
+        [
+          367.25555419921875,
+          106.16131591796875
+        ],
+        [
+          116.2109375,
+          106.16131591796875
+        ]
+      ]
+    },
+    {
+      "title": "Bit 6 ITEN: COMP channel 1 interrupt enable",
+      "heading_level": null,
+      "page_id": 12,
+      "polygon": [
+        [
+          127.2509765625,
+          203.099609375
+        ],
+        [
+          312.1422119140625,
+          203.099609375
+        ],
+        [
+          312.1422119140625,
+          213.14068603515625
+        ],
+        [
+          127.2509765625,
+          213.14068603515625
+        ]
+      ]
+    },
+    {
+      "title": "Bits 5:4 Reserved, must be kept at reset value.",
+      "heading_level": null,
+      "page_id": 12,
+      "polygon": [
+        [
+          117.42001342773438,
+          268.880859375
+        ],
+        [
+          306.9042663574219,
+          268.880859375
+        ],
+        [
+          306.9042663574219,
+          279.14129638671875
+        ],
+        [
+          117.42001342773438,
+          279.14129638671875
+        ]
+      ]
+    },
+    {
+      "title": "Bit 3 POLARITY: COMP channel 1 polarity selection bit",
+      "heading_level": null,
+      "page_id": 12,
+      "polygon": [
+        [
+          127.83203125,
+          286.5595703125
+        ],
+        [
+          352.89874267578125,
+          286.5595703125
+        ],
+        [
+          352.89874267578125,
+          296.12164306640625
+        ],
+        [
+          127.83203125,
+          296.12164306640625
+        ]
+      ]
+    },
+    {
+      "title": "Bit 2 SCALEN: Voltage scaler enable bit",
+      "heading_level": null,
+      "page_id": 12,
+      "polygon": [
+        [
+          128.4130859375,
+          352.3408203125
+        ],
+        [
+          292.9181823730469,
+          352.3408203125
+        ],
+        [
+          292.9181823730469,
+          362.18157958984375
+        ],
+        [
+          128.4130859375,
+          362.18157958984375
+        ]
+      ]
+    },
+    {
+      "title": "Bit 1 BRGEN: Scaler bridge enable",
+      "heading_level": null,
+      "page_id": 12,
+      "polygon": [
+        [
+          128.12255859375,
+          419.1809997558594
+        ],
+        [
+          276.29150390625,
+          419.1809997558594
+        ],
+        [
+          276.29150390625,
+          428.8115234375
+        ],
+        [
+          128.12255859375,
+          428.8115234375
+        ]
+      ]
+    },
+    {
+      "title": "Bit 0 EN: COMP channel 1 enable bit",
+      "heading_level": null,
+      "page_id": 12,
+      "polygon": [
+        [
+          127.2509765625,
+          531.5947265625
+        ],
+        [
+          280.7333679199219,
+          531.5947265625
+        ],
+        [
+          280.7333679199219,
+          542.180908203125
+        ],
+        [
+          127.2509765625,
+          542.180908203125
+        ]
+      ]
+    },
+    {
+      "title": "29.7.5 Comparator configuration register 2 (COMP_CFGR2)",
+      "heading_level": null,
+      "page_id": 12,
+      "polygon": [
+        [
+          66.240234375,
+          595.326416015625
+        ],
+        [
+          411.2789001464844,
+          595.326416015625
+        ],
+        [
+          411.2789001464844,
+          607.2431640625
+        ],
+        [
+          66.240234375,
+          607.2431640625
+        ]
+      ]
+    },
+    {
+      "title": "Bit 31 LOCK: Lock bit",
+      "heading_level": null,
+      "page_id": 13,
+      "polygon": [
+        [
+          121.14990234375,
+          152.119140625
+        ],
+        [
+          214.98931884765625,
+          152.119140625
+        ],
+        [
+          214.98931884765625,
+          163.16131591796875
+        ],
+        [
+          121.14990234375,
+          163.16131591796875
+        ]
+      ]
+    },
+    {
+      "title": "Bits 27:24 BLANKING[3:0]: COMP channel 2 blanking source selection bits",
+      "heading_level": null,
+      "page_id": 13,
+      "polygon": [
+        [
+          106.9140625,
+          237.14129638671875
+        ],
+        [
+          413.025390625,
+          237.14129638671875
+        ],
+        [
+          413.025390625,
+          246.2685546875
+        ],
+        [
+          106.9140625,
+          246.2685546875
+        ]
+      ]
+    },
+    {
+      "title": "Bit 20 INPSEL: COMP channel 2 non-inverting input selection bit",
+      "heading_level": null,
+      "page_id": 13,
+      "polygon": [
+        [
+          118.53515625,
+          391.8095703125
+        ],
+        [
+          385.8203125,
+          391.8095703125
+        ],
+        [
+          385.8203125,
+          401.1798095703125
+        ],
+        [
+          118.53515625,
+          401.1798095703125
+        ]
+      ]
+    },
+    {
+      "title": "Bits 18:16 INMSEL[2:0]: COMP channel 2 inverting input selection field",
+      "heading_level": null,
+      "page_id": 13,
+      "polygon": [
+        [
+          107.40153503417969,
+          464.1798095703125
+        ],
+        [
+          394.8524475097656,
+          464.1798095703125
+        ],
+        [
+          394.8524475097656,
+          474.8583984375
+        ],
+        [
+          107.40153503417969,
+          474.8583984375
+        ]
+      ]
+    },
+    {
+      "title": "Bits 15:14 Reserved, must be kept at reset value.",
+      "heading_level": null,
+      "page_id": 13,
+      "polygon": [
+        [
+          105.1708984375,
+          602.1800231933594
+        ],
+        [
+          306.9140930175781,
+          602.1800231933594
+        ],
+        [
+          306.9140930175781,
+          612.9990234375
+        ],
+        [
+          105.1708984375,
+          612.9990234375
+        ]
+      ]
+    },
+    {
+      "title": "Bits 13:12 PWRMODE[1:0]: Power Mode of the COMP channel 2",
+      "heading_level": null,
+      "page_id": 13,
+      "polygon": [
+        [
+          107.40030670166016,
+          619.1603240966797
+        ],
+        [
+          371.6916198730469,
+          619.1603240966797
+        ],
+        [
+          371.6916198730469,
+          629.4443359375
+        ],
+        [
+          107.40030670166016,
+          629.4443359375
+        ]
+      ]
+    },
+    {
+      "title": "Bits 9:8 HYST[1:0]: COMP channel 2 hysteresis selection bits",
+      "heading_level": null,
+      "page_id": 14,
+      "polygon": [
+        [
+          116.2109375,
+          96.6162109375
+        ],
+        [
+          367.25555419921875,
+          96.6162109375
+        ],
+        [
+          367.25555419921875,
+          106.16131591796875
+        ],
+        [
+          116.2109375,
+          106.16131591796875
+        ]
+      ]
+    },
+    {
+      "title": "Bit 6 ITEN: COMP channel 2 interrupt enable",
+      "heading_level": null,
+      "page_id": 14,
+      "polygon": [
+        [
+          127.83203125,
+          202.27734375
+        ],
+        [
+          312.1422119140625,
+          202.27734375
+        ],
+        [
+          312.1422119140625,
+          213.14068603515625
+        ],
+        [
+          127.83203125,
+          213.14068603515625
+        ]
+      ]
+    },
+    {
+      "title": "Bit 4 WINMODE: Window comparator mode selection bit",
+      "heading_level": null,
+      "page_id": 14,
+      "polygon": [
+        [
+          128.4130859375,
+          286.970703125
+        ],
+        [
+          359.85479736328125,
+          286.970703125
+        ],
+        [
+          359.85479736328125,
+          296.12164306640625
+        ],
+        [
+          128.4130859375,
+          296.12164306640625
+        ]
+      ]
+    },
+    {
+      "title": "Bit 3 POLARITY: COMP channel 2 polarity selection bit",
+      "heading_level": null,
+      "page_id": 14,
+      "polygon": [
+        [
+          129.36119079589844,
+          377.181884765625
+        ],
+        [
+          352.8996276855469,
+          377.181884765625
+        ],
+        [
+          352.8996276855469,
+          386.181884765625
+        ],
+        [
+          129.36119079589844,
+          386.181884765625
+        ]
+      ]
+    },
+    {
+      "title": "Bit 2 SCALEN: Voltage scaler enable bit",
+      "heading_level": null,
+      "page_id": 14,
+      "polygon": [
+        [
+          127.83203125,
+          442.7900390625
+        ],
+        [
+          292.9190673828125,
+          442.7900390625
+        ],
+        [
+          292.9190673828125,
+          452.1815490722656
+        ],
+        [
+          127.83203125,
+          452.1815490722656
+        ]
+      ]
+    },
+    {
+      "title": "Bit 1 BRGEN: Scaler bridge enable",
+      "heading_level": null,
+      "page_id": 14,
+      "polygon": [
+        [
+          127.83203125,
+          508.5712890625
+        ],
+        [
+          276.58203125,
+          508.5712890625
+        ],
+        [
+          276.58203125,
+          518.180908203125
+        ],
+        [
+          127.83203125,
+          518.180908203125
+        ]
+      ]
+    },
+    {
+      "title": "Bit 0 EN: COMP channel 2 enable bit",
+      "heading_level": null,
+      "page_id": 14,
+      "polygon": [
+        [
+          128.994140625,
+          623.1810150146484
+        ],
+        [
+          280.7333679199219,
+          623.1810150146484
+        ],
+        [
+          280.7333679199219,
+          632.7333984375
+        ],
+        [
+          128.994140625,
+          632.7333984375
+        ]
+      ]
+    },
+    {
+      "title": "29.7.6 COMP register map",
+      "heading_level": null,
+      "page_id": 15,
+      "polygon": [
+        [
+          67.25999450683594,
+          90.44921875
+        ],
+        [
+          234.9827423095703,
+          90.44921875
+        ],
+        [
+          234.9827423095703,
+          102.70849609375
+        ],
+        [
+          67.25999450683594,
+          102.70849609375
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          83
+        ],
+        [
+          "Line",
+          28
+        ],
+        [
+          "ListItem",
+          19
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageFooter",
+          3
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "ListGroup",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          95
+        ],
+        [
+          "Span",
+          11
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          91
+        ],
+        [
+          "TableCell",
+          78
+        ],
+        [
+          "Line",
+          38
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "ListItem",
+          3
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "Table",
+          2
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          71
+        ],
+        [
+          "Line",
+          33
+        ],
+        [
+          "Text",
+          13
+        ],
+        [
+          "SectionHeader",
+          4
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          78
+        ],
+        [
+          "Line",
+          37
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "Figure",
+          2
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "FigureGroup",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          73
+        ],
+        [
+          "TableCell",
+          56
+        ],
+        [
+          "Line",
+          36
+        ],
+        [
+          "Reference",
+          3
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "Table",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          76
+        ],
+        [
+          "Line",
+          35
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "PageFooter",
+          3
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          79
+        ],
+        [
+          "Line",
+          36
+        ],
+        [
+          "TableCell",
+          24
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "ListItem",
+          3
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "Table",
+          2
+        ],
+        [
+          "TableGroup",
+          2
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 8,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          50
+        ],
+        [
+          "Span",
+          23
+        ],
+        [
+          "TableCell",
+          18
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "ListItem",
+          3
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ],
+        [
+          "PictureGroup",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 9,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "TableCell",
+          192
+        ],
+        [
+          "Span",
+          93
+        ],
+        [
+          "Line",
+          36
+        ],
+        [
+          "Text",
+          19
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Table",
+          2
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 10,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "TableCell",
+          170
+        ],
+        [
+          "Span",
+          126
+        ],
+        [
+          "Line",
+          37
+        ],
+        [
+          "Text",
+          21
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Table",
+          2
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 11,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          106
+        ],
+        [
+          "Line",
+          45
+        ],
+        [
+          "Text",
+          35
+        ],
+        [
+          "SectionHeader",
+          7
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 12,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          110
+        ],
+        [
+          "Line",
+          46
+        ],
+        [
+          "TableCell",
+          44
+        ],
+        [
+          "Text",
+          26
+        ],
+        [
+          "SectionHeader",
+          8
+        ],
+        [
+          "ListItem",
+          2
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 13,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          122
+        ],
+        [
+          "Line",
+          51
+        ],
+        [
+          "TableCell",
+          48
+        ],
+        [
+          "Text",
+          35
+        ],
+        [
+          "SectionHeader",
+          6
+        ],
+        [
+          "Table",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 14,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          112
+        ],
+        [
+          "Line",
+          46
+        ],
+        [
+          "Text",
+          29
+        ],
+        [
+          "SectionHeader",
+          7
+        ],
+        [
+          "ListItem",
+          2
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 15,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "TableCell",
+          469
+        ],
+        [
+          "Span",
+          433
+        ],
+        [
+          "Line",
+          218
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/29_29 Comparator (COMP)"
+}

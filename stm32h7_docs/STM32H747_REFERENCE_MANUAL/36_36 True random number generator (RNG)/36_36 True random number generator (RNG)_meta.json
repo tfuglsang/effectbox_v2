@@ -1,0 +1,1552 @@
+{
+  "table_of_contents": [
+    {
+      "title": "36 True random number generator (RNG)",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          66.240234375,
+          89.2158203125
+        ],
+        [
+          412.9030226700252,
+          89.2158203125
+        ],
+        [
+          412.9030226700252,
+          105.71861086375779
+        ],
+        [
+          66.240234375,
+          105.71861086375779
+        ]
+      ]
+    },
+    {
+      "title": "36.1 Introduction",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          65.94970703125,
+          129.5068359375
+        ],
+        [
+          206.07682619647358,
+          129.5068359375
+        ],
+        [
+          206.07682619647358,
+          141.7079252003562
+        ],
+        [
+          65.94970703125,
+          141.7079252003562
+        ]
+      ]
+    },
+    {
+      "title": "36.2 RNG main features",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          65.94458438287154,
+          272.1691896705254
+        ],
+        [
+          250.28967254408062,
+          272.1691896705254
+        ],
+        [
+          250.28967254408062,
+          284.9150390625
+        ],
+        [
+          65.94458438287154,
+          284.9150390625
+        ]
+      ]
+    },
+    {
+      "title": "36.3 RNG functional description",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          66.8212890625,
+          90.0380859375
+        ],
+        [
+          305.05706787109375,
+          90.0380859375
+        ],
+        [
+          305.05706787109375,
+          104.40289306640625
+        ],
+        [
+          66.8212890625,
+          104.40289306640625
+        ]
+      ]
+    },
+    {
+      "title": "36.3.1 RNG block diagram",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          67.25999450683594,
+          120.70849609375
+        ],
+        [
+          235.3632049560547,
+          120.70849609375
+        ],
+        [
+          235.3632049560547,
+          132.70849609375
+        ],
+        [
+          67.25999450683594,
+          132.70849609375
+        ]
+      ]
+    },
+    {
+      "title": "36.3.2 RNG internal signals",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          65.6591796875,
+          470.7470703125
+        ],
+        [
+          242.01480102539062,
+          470.7470703125
+        ],
+        [
+          242.01480102539062,
+          483.8285217285156
+        ],
+        [
+          65.6591796875,
+          483.8285217285156
+        ]
+      ]
+    },
+    {
+      "title": "36.3.3 Random number generation",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          67.25999450683594,
+          90.44921875
+        ],
+        [
+          283.9703674316406,
+          90.44921875
+        ],
+        [
+          283.9703674316406,
+          102.70849609375
+        ],
+        [
+          67.25999450683594,
+          102.70849609375
+        ]
+      ]
+    },
+    {
+      "title": "Noise source",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          122.021484375,
+          492.1259765625
+        ],
+        [
+          192.9473419189453,
+          492.1259765625
+        ],
+        [
+          192.9473419189453,
+          503.73565673828125
+        ],
+        [
+          122.021484375,
+          503.73565673828125
+        ]
+      ]
+    },
+    {
+      "title": "Post processing",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          123.18359375,
+          90.8603515625
+        ],
+        [
+          209.38441467285156,
+          90.8603515625
+        ],
+        [
+          209.38441467285156,
+          101.85565185546875
+        ],
+        [
+          123.18359375,
+          101.85565185546875
+        ]
+      ]
+    },
+    {
+      "title": "Conditioning",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          122.89306640625,
+          198.5771484375
+        ],
+        [
+          191.7054901123047,
+          198.5771484375
+        ],
+        [
+          191.7054901123047,
+          209.85565185546875
+        ],
+        [
+          122.89306640625,
+          209.85565185546875
+        ]
+      ]
+    },
+    {
+      "title": "Output buffer",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          123.18359375,
+          354.8076171875
+        ],
+        [
+          194.12879943847656,
+          354.8076171875
+        ],
+        [
+          194.12879943847656,
+          365.85565185546875
+        ],
+        [
+          123.18359375,
+          365.85565185546875
+        ]
+      ]
+    },
+    {
+      "title": "Health checks",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          123.95999908447266,
+          90.44921875
+        ],
+        [
+          197.8026885986328,
+          90.44921875
+        ],
+        [
+          197.8026885986328,
+          101.85565185546875
+        ],
+        [
+          123.95999908447266,
+          101.85565185546875
+        ]
+      ]
+    },
+    {
+      "title": "36.3.4 RNG initialization",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          65.6591796875,
+          375.3642578125
+        ],
+        [
+          223.40151977539062,
+          375.3642578125
+        ],
+        [
+          223.40151977539062,
+          388.728515625
+        ],
+        [
+          65.6591796875,
+          388.728515625
+        ]
+      ]
+    },
+    {
+      "title": "36.3.5 RNG operation",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          66.240234375,
+          396.7431640625
+        ],
+        [
+          208.64036560058594,
+          396.7431640625
+        ],
+        [
+          208.64036560058594,
+          409.0771484375
+        ],
+        [
+          66.240234375,
+          409.0771484375
+        ]
+      ]
+    },
+    {
+      "title": "Normal operations",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          123.47412109375,
+          421.2356872558594
+        ],
+        [
+          221.03306579589844,
+          421.2356872558594
+        ],
+        [
+          221.03306579589844,
+          432.2156677246094
+        ],
+        [
+          123.47412109375,
+          432.2156677246094
+        ]
+      ]
+    },
+    {
+      "title": "Low-power operations",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          122.31201171875,
+          313.6943359375
+        ],
+        [
+          241.15061950683594,
+          313.6943359375
+        ],
+        [
+          241.15061950683594,
+          324.87567138671875
+        ],
+        [
+          122.31201171875,
+          324.87567138671875
+        ]
+      ]
+    },
+    {
+      "title": "Software post-processing",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          123.18359375,
+          367.8956604003906
+        ],
+        [
+          258.9228515625,
+          367.8956604003906
+        ],
+        [
+          258.9228515625,
+          378.8756408691406
+        ],
+        [
+          123.18359375,
+          378.8756408691406
+        ]
+      ]
+    },
+    {
+      "title": "36.3.6 RNG clocking",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          65.078125,
+          443.74853515625
+        ],
+        [
+          202.63438415527344,
+          443.74853515625
+        ],
+        [
+          202.63438415527344,
+          455.74853515625
+        ],
+        [
+          65.078125,
+          455.74853515625
+        ]
+      ]
+    },
+    {
+      "title": "36.3.7 Error management",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          65.6591796875,
+          592.728515625
+        ],
+        [
+          230.6787109375,
+          592.728515625
+        ],
+        [
+          230.6787109375,
+          604.728515625
+        ],
+        [
+          65.6591796875,
+          604.728515625
+        ]
+      ]
+    },
+    {
+      "title": "Clock error detection",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          123.7646484375,
+          659.8681640625
+        ],
+        [
+          234.5198516845703,
+          659.8681640625
+        ],
+        [
+          234.5198516845703,
+          670.8956604003906
+        ],
+        [
+          123.7646484375,
+          670.8956604003906
+        ]
+      ]
+    },
+    {
+      "title": "Noise source error detection",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          123.18359375,
+          171.853515625
+        ],
+        [
+          273.5295104980469,
+          171.853515625
+        ],
+        [
+          273.5295104980469,
+          183.87567138671875
+        ],
+        [
+          123.18359375,
+          183.87567138671875
+        ]
+      ]
+    },
+    {
+      "title": "36.3.8 RNG low-power use",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          65.6591796875,
+          353.74853515625
+        ],
+        [
+          240.02398681640625,
+          353.74853515625
+        ],
+        [
+          240.02398681640625,
+          365.908203125
+        ],
+        [
+          65.6591796875,
+          365.908203125
+        ]
+      ]
+    },
+    {
+      "title": "36.4 RNG interrupts",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          66.240234375,
+          90.0380859375
+        ],
+        [
+          224.06171284634763,
+          90.0380859375
+        ],
+        [
+          224.06171284634763,
+          103.46927871772039
+        ],
+        [
+          66.240234375,
+          103.46927871772039
+        ]
+      ]
+    },
+    {
+      "title": "36.5 RNG processing time",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          66.69395465994963,
+          385.642578125
+        ],
+        [
+          266.02644836272043,
+          385.642578125
+        ],
+        [
+          266.02644836272043,
+          400.443359375
+        ],
+        [
+          66.69395465994963,
+          400.443359375
+        ]
+      ]
+    },
+    {
+      "title": "36.6 RNG entropy source validation",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          66.69395465994963,
+          541.4619140625
+        ],
+        [
+          329.7229219143577,
+          541.4619140625
+        ],
+        [
+          329.7229219143577,
+          557.0849609375
+        ],
+        [
+          66.69395465994963,
+          557.0849609375
+        ]
+      ]
+    },
+    {
+      "title": "36.6.1 Introduction",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          66.69395465994963,
+          571.0634765625
+        ],
+        [
+          194.83627204030228,
+          571.0634765625
+        ],
+        [
+          194.83627204030228,
+          581.8272484416741
+        ],
+        [
+          66.69395465994963,
+          581.8272484416741
+        ]
+      ]
+    },
+    {
+      "title": "36.6.2 Validation conditions",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          66.240234375,
+          643.3089937666963
+        ],
+        [
+          245.04408060453403,
+          643.3089937666963
+        ],
+        [
+          245.04408060453403,
+          653.8058771148709
+        ],
+        [
+          66.240234375,
+          653.8058771148709
+        ]
+      ]
+    },
+    {
+      "title": "36.6.3 Data collection",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          66.53076171875,
+          90.0380859375
+        ],
+        [
+          210.05126953125,
+          90.0380859375
+        ],
+        [
+          210.05126953125,
+          102.70849609375
+        ],
+        [
+          66.53076171875,
+          102.70849609375
+        ]
+      ]
+    },
+    {
+      "title": "36.7 RNG registers",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          66.8212890625,
+          171.4228515625
+        ],
+        [
+          217.98675537109375,
+          171.4228515625
+        ],
+        [
+          217.98675537109375,
+          185.40289306640625
+        ],
+        [
+          66.8212890625,
+          185.40289306640625
+        ]
+      ]
+    },
+    {
+      "title": "36.7.1 RNG control register (RNG_CR)",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          66.240234375,
+          219.544921875
+        ],
+        [
+          303.9047546386719,
+          219.544921875
+        ],
+        [
+          303.9047546386719,
+          232.728515625
+        ],
+        [
+          66.240234375,
+          232.728515625
+        ]
+      ]
+    },
+    {
+      "title": "36.7.2 RNG status register (RNG_SR)",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          67.25999450683594,
+          90.44921875
+        ],
+        [
+          298.02960205078125,
+          90.44921875
+        ],
+        [
+          298.02960205078125,
+          102.70849609375
+        ],
+        [
+          67.25999450683594,
+          102.70849609375
+        ]
+      ]
+    },
+    {
+      "title": "Bit 6 SEIS: Seed error interrupt status",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          124.345703125,
+          265.591796875
+        ],
+        [
+          284.716796875,
+          265.591796875
+        ],
+        [
+          284.716796875,
+          276.1416015625
+        ],
+        [
+          124.345703125,
+          276.1416015625
+        ]
+      ]
+    },
+    {
+      "title": "Bit 5 CEIS: Clock error interrupt status",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          128.4130859375,
+          331.373046875
+        ],
+        [
+          285.87896728515625,
+          331.373046875
+        ],
+        [
+          285.87896728515625,
+          341.1810302734375
+        ],
+        [
+          128.4130859375,
+          341.1810302734375
+        ]
+      ]
+    },
+    {
+      "title": "Bits 4:3 Reserved, must be kept at reset value.",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          117.9541015625,
+          397.154296875
+        ],
+        [
+          307.5129089355469,
+          397.154296875
+        ],
+        [
+          307.5129089355469,
+          406.16131591796875
+        ],
+        [
+          117.9541015625,
+          406.16131591796875
+        ]
+      ]
+    },
+    {
+      "title": "Bit 2 SECS: Seed error current status",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          129.5751953125,
+          413.1884765625
+        ],
+        [
+          282.9699401855469,
+          413.1884765625
+        ],
+        [
+          282.9699401855469,
+          423.1416015625
+        ],
+        [
+          129.5751953125,
+          423.1416015625
+        ]
+      ]
+    },
+    {
+      "title": "Bit 1 CECS: Clock error current status",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          128.4130859375,
+          534.8837890625
+        ],
+        [
+          285.2978515625,
+          534.8837890625
+        ],
+        [
+          285.2978515625,
+          546.1427917480469
+        ],
+        [
+          128.4130859375,
+          546.1427917480469
+        ]
+      ]
+    },
+    {
+      "title": "Bit 0 DRDY: Data ready",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          128.994140625,
+          600.6650390625
+        ],
+        [
+          227.97901916503906,
+          600.6650390625
+        ],
+        [
+          227.97901916503906,
+          611.1810150146484
+        ],
+        [
+          128.994140625,
+          611.1810150146484
+        ]
+      ]
+    },
+    {
+      "title": "36.7.3 RNG data register (RNG_DR)",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          66.240234375,
+          90.44921875
+        ],
+        [
+          287.9903259277344,
+          90.44921875
+        ],
+        [
+          287.9903259277344,
+          102.70849609375
+        ],
+        [
+          66.240234375,
+          102.70849609375
+        ]
+      ]
+    },
+    {
+      "title": "36.7.4 RNG register map",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          66.8212890625,
+          408.666015625
+        ],
+        [
+          225.95516967773438,
+          408.666015625
+        ],
+        [
+          225.95516967773438,
+          421.728515625
+        ],
+        [
+          66.8212890625,
+          421.728515625
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          41
+        ],
+        [
+          "Span",
+          17
+        ],
+        [
+          "ListItem",
+          6
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "PageFooter",
+          3
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          103
+        ],
+        [
+          "Line",
+          50
+        ],
+        [
+          "TableCell",
+          15
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "Caption",
+          3
+        ],
+        [
+          "Reference",
+          3
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          81
+        ],
+        [
+          "Line",
+          36
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "ListItem",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "Reference",
+          2
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          61
+        ],
+        [
+          "Line",
+          30
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Picture",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          67
+        ],
+        [
+          "Line",
+          32
+        ],
+        [
+          "ListItem",
+          10
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "PageFooter",
+          3
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          79
+        ],
+        [
+          "Line",
+          36
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "ListItem",
+          5
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          105
+        ],
+        [
+          "Line",
+          42
+        ],
+        [
+          "Text",
+          15
+        ],
+        [
+          "ListItem",
+          5
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Reference",
+          2
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          80
+        ],
+        [
+          "Line",
+          38
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "ListItem",
+          5
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 8,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          61
+        ],
+        [
+          "Span",
+          28
+        ],
+        [
+          "TableCell",
+          20
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "ListItem",
+          5
+        ],
+        [
+          "Reference",
+          3
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 9,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "TableCell",
+          96
+        ],
+        [
+          "Span",
+          84
+        ],
+        [
+          "Line",
+          32
+        ],
+        [
+          "ListItem",
+          9
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 10,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          117
+        ],
+        [
+          "TableCell",
+          96
+        ],
+        [
+          "Line",
+          45
+        ],
+        [
+          "Text",
+          21
+        ],
+        [
+          "SectionHeader",
+          7
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "ListItem",
+          2
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 11,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          148
+        ],
+        [
+          "Line",
+          71
+        ],
+        [
+          "TableCell",
+          69
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/36_36 True random number generator (RNG)"
+}

@@ -1,0 +1,2352 @@
+{
+  "table_of_contents": [
+    {
+      "title": "4.4 System control block (SCB)",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          65.94458438287154,
+          88.47373107747106
+        ],
+        [
+          309.48992443324937,
+          88.47373107747106
+        ],
+        [
+          309.48992443324937,
+          106.46838824577026
+        ],
+        [
+          65.94458438287154,
+          106.46838824577026
+        ]
+      ]
+    },
+    {
+      "title": "4.4.1 Auxiliary control register (ACTLR)",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          65.6591796875,
+          90.0380859375
+        ],
+        [
+          317.8608093261719,
+          90.0380859375
+        ],
+        [
+          317.8608093261719,
+          102.70849609375
+        ],
+        [
+          65.6591796875,
+          102.70849609375
+        ]
+      ]
+    },
+    {
+      "title": "Bit 2 DISFOLD",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          129.28466796875,
+          96.6162109375
+        ],
+        [
+          199.7698211669922,
+          96.6162109375
+        ],
+        [
+          199.7698211669922,
+          107.0028076171875
+        ],
+        [
+          129.28466796875,
+          107.0028076171875
+        ]
+      ]
+    },
+    {
+      "title": "Bit 1 DISDEFWBUF",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          128.4130859375,
+          197.7548828125
+        ],
+        [
+          222.54833984375,
+          197.7548828125
+        ],
+        [
+          222.54833984375,
+          209.0028076171875
+        ],
+        [
+          128.4130859375,
+          209.0028076171875
+        ]
+      ]
+    },
+    {
+      "title": "Bit 0 DISMCYCINT",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          128.70361328125,
+          290.06268310546875
+        ],
+        [
+          218.45477294921875,
+          290.06268310546875
+        ],
+        [
+          218.45477294921875,
+          300.022705078125
+        ],
+        [
+          128.70361328125,
+          300.022705078125
+        ]
+      ]
+    },
+    {
+      "title": "4.4.2 CPUID base register (CPUID)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          65.078125,
+          88.8046875
+        ],
+        [
+          288.203125,
+          88.8046875
+        ],
+        [
+          288.203125,
+          102.70849609375
+        ],
+        [
+          65.078125,
+          102.70849609375
+        ]
+      ]
+    },
+    {
+      "title": "4.4.3 Interrupt control and state register (ICSR)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          65.078125,
+          90.0380859375
+        ],
+        [
+          360.5268859863281,
+          90.0380859375
+        ],
+        [
+          360.5268859863281,
+          102.70849609375
+        ],
+        [
+          65.078125,
+          102.70849609375
+        ]
+      ]
+    },
+    {
+      "title": "Bit 31 NMIPENDSET: NMI set-pending bit.",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          123.18359375,
+          521.1812133789062
+        ],
+        [
+          298.7142333984375,
+          521.1812133789062
+        ],
+        [
+          298.7142333984375,
+          530.7724609375
+        ],
+        [
+          123.18359375,
+          530.7724609375
+        ]
+      ]
+    },
+    {
+      "title": "Read:",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          153.10791015625,
+          571.0634765625
+        ],
+        [
+          178.2932891845703,
+          571.0634765625
+        ],
+        [
+          178.2932891845703,
+          581.1815185546875
+        ],
+        [
+          153.10791015625,
+          581.1815185546875
+        ]
+      ]
+    },
+    {
+      "title": "Read:",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          154.319091796875,
+          295.6044921875
+        ],
+        [
+          178.78109741210938,
+          295.6044921875
+        ],
+        [
+          178.78109741210938,
+          305.12249755859375
+        ],
+        [
+          154.319091796875,
+          305.12249755859375
+        ]
+      ]
+    },
+    {
+      "title": "4.4.4 Vector table offset register (VTOR)",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          66.240234375,
+          90.0380859375
+        ],
+        [
+          319.6296081542969,
+          90.0380859375
+        ],
+        [
+          319.6296081542969,
+          102.70849609375
+        ],
+        [
+          66.240234375,
+          102.70849609375
+        ]
+      ]
+    },
+    {
+      "title": "4.4.5 Application interrupt and reset control register (AIRCR)",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          65.078125,
+          90.0380859375
+        ],
+        [
+          439.27734375,
+          90.0380859375
+        ],
+        [
+          439.27734375,
+          102.70849609375
+        ],
+        [
+          65.078125,
+          102.70849609375
+        ]
+      ]
+    },
+    {
+      "title": "Bits 31:16 VECTKEYSTAT/ VECTKEY Register key",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          107.4951171875,
+          358.9189453125
+        ],
+        [
+          320.1611328125,
+          358.9189453125
+        ],
+        [
+          320.1611328125,
+          369.14129638671875
+        ],
+        [
+          107.4951171875,
+          369.14129638671875
+        ]
+      ]
+    },
+    {
+      "title": "Bits 14:11 Reserved, must be kept cleared",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          109.38060760498047,
+          446.0791015625
+        ],
+        [
+          281.07269287109375,
+          446.0791015625
+        ],
+        [
+          281.07269287109375,
+          455.18218994140625
+        ],
+        [
+          109.38060760498047,
+          455.18218994140625
+        ]
+      ]
+    },
+    {
+      "title": "Bits 10:8 PRIGROUP: Interrupt priority grouping field",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          110.400390625,
+          459.2353515625
+        ],
+        [
+          329.15972900390625,
+          459.2353515625
+        ],
+        [
+          329.15972900390625,
+          472.1625061035156
+        ],
+        [
+          110.400390625,
+          472.1625061035156
+        ]
+      ]
+    },
+    {
+      "title": "Bits 7:3 Reserved, must be kept cleared",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          117.373046875,
+          492.1259765625
+        ],
+        [
+          281.1312255859375,
+          492.1259765625
+        ],
+        [
+          281.1312255859375,
+          502.1630859375
+        ],
+        [
+          117.373046875,
+          502.1630859375
+        ]
+      ]
+    },
+    {
+      "title": "Bit 2 SYSRESETREQ System reset request",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          130.15625,
+          508.5712890625
+        ],
+        [
+          309.12109375,
+          508.5712890625
+        ],
+        [
+          309.12109375,
+          519.1434020996094
+        ],
+        [
+          130.15625,
+          519.1434020996094
+        ]
+      ]
+    },
+    {
+      "title": "Bit 1 VECTCLRACTIVE",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          129.5751953125,
+          579.1445922851562
+        ],
+        [
+          231.1983184814453,
+          579.1445922851562
+        ],
+        [
+          231.1983184814453,
+          589.9755859375
+        ],
+        [
+          129.5751953125,
+          589.9755859375
+        ]
+      ]
+    },
+    {
+      "title": "Bit 0 VECTRESET",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          129.86572265625,
+          620.1845855712891
+        ],
+        [
+          210.56849670410156,
+          620.1845855712891
+        ],
+        [
+          210.56849670410156,
+          629.4443359375
+        ],
+        [
+          129.86572265625,
+          629.4443359375
+        ]
+      ]
+    },
+    {
+      "title": "Binary point",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          122.89306640625,
+          666.4462890625
+        ],
+        [
+          188.0458526611328,
+          666.4462890625
+        ],
+        [
+          188.0458526611328,
+          677.8556671142578
+        ],
+        [
+          122.89306640625,
+          677.8556671142578
+        ]
+      ]
+    },
+    {
+      "title": "4.4.6 System control register (SCR)",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          65.078125,
+          88.3935546875
+        ],
+        [
+          295.17578125,
+          88.3935546875
+        ],
+        [
+          295.17578125,
+          102.70849609375
+        ],
+        [
+          65.078125,
+          102.70849609375
+        ]
+      ]
+    },
+    {
+      "title": "Bit 4 SEVEONPEND Send Event on Pending bit",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          127.83203125,
+          306.1416015625
+        ],
+        [
+          325.390625,
+          306.1416015625
+        ],
+        [
+          325.390625,
+          315.3388671875
+        ],
+        [
+          127.83203125,
+          315.3388671875
+        ]
+      ]
+    },
+    {
+      "title": "Bit 2 SLEEPDEEP",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          130.02059936523438,
+          435.14312744140625
+        ],
+        [
+          209.5112762451172,
+          435.14312744140625
+        ],
+        [
+          209.5112762451172,
+          445.2568359375
+        ],
+        [
+          130.02059936523438,
+          445.2568359375
+        ]
+      ]
+    },
+    {
+      "title": "Bit 1 SLEEPONEXIT",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          127.83203125,
+          488.8369140625
+        ],
+        [
+          218.46360778808594,
+          488.8369140625
+        ],
+        [
+          218.46360778808594,
+          499.1636962890625
+        ],
+        [
+          127.83203125,
+          499.1636962890625
+        ]
+      ]
+    },
+    {
+      "title": "4.4.7 Configuration and control register (CCR)",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          65.6591796875,
+          88.3935546875
+        ],
+        [
+          357.3486328125,
+          88.3935546875
+        ],
+        [
+          357.3486328125,
+          102.70849609375
+        ],
+        [
+          65.6591796875,
+          102.70849609375
+        ]
+      ]
+    },
+    {
+      "title": "Bit 9 STKALIGN",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          127.54150390625,
+          382.7646484375
+        ],
+        [
+          202.49755859375,
+          382.7646484375
+        ],
+        [
+          202.49755859375,
+          393.0228271484375
+        ],
+        [
+          127.54150390625,
+          393.0228271484375
+        ]
+      ]
+    },
+    {
+      "title": "Bit 8 BFHFNMIGN",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          129.28466796875,
+          461.0628356933594
+        ],
+        [
+          215.09934997558594,
+          461.0628356933594
+        ],
+        [
+          215.09934997558594,
+          471.5693359375
+        ],
+        [
+          129.28466796875,
+          471.5693359375
+        ]
+      ]
+    },
+    {
+      "title": "Bits 7:5 Reserved, must be kept cleared",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          116.2109375,
+          561.1418762207031
+        ],
+        [
+          279.7167053222656,
+          561.1418762207031
+        ],
+        [
+          279.7167053222656,
+          570.2412109375
+        ],
+        [
+          116.2109375,
+          570.2412109375
+        ]
+      ]
+    },
+    {
+      "title": "Bit 4 DIV_0_TRP",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          127.54150390625,
+          577.6416015625
+        ],
+        [
+          208.8723602294922,
+          577.6416015625
+        ],
+        [
+          208.8723602294922,
+          588.0227203369141
+        ],
+        [
+          127.54150390625,
+          588.0227203369141
+        ]
+      ]
+    },
+    {
+      "title": "Bit 3 UNALIGN_ TRP",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          128.12255859375,
+          96.6162109375
+        ],
+        [
+          228.11805725097656,
+          96.6162109375
+        ],
+        [
+          228.11805725097656,
+          107.0028076171875
+        ],
+        [
+          128.12255859375,
+          107.0028076171875
+        ]
+      ]
+    },
+    {
+      "title": "Bit 2 Reserved, must be kept cleared",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          128.994140625,
+          189.943359375
+        ],
+        [
+          280.068359375,
+          189.943359375
+        ],
+        [
+          280.068359375,
+          199.16131591796875
+        ],
+        [
+          128.994140625,
+          199.16131591796875
+        ]
+      ]
+    },
+    {
+      "title": "Bit 1 USERSETMPEND",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          128.70361328125,
+          206.7998046875
+        ],
+        [
+          238.96849060058594,
+          206.7998046875
+        ],
+        [
+          238.96849060058594,
+          216.9827880859375
+        ],
+        [
+          128.70361328125,
+          216.9827880859375
+        ]
+      ]
+    },
+    {
+      "title": "Bit 0 NONBASETHRDENA",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          129.28466796875,
+          274.04278564453125
+        ],
+        [
+          250.1565704345703,
+          274.04278564453125
+        ],
+        [
+          250.1565704345703,
+          284.0028076171875
+        ],
+        [
+          129.28466796875,
+          284.0028076171875
+        ]
+      ]
+    },
+    {
+      "title": "4.4.8 System handler priority registers (SHPRx)",
+      "heading_level": null,
+      "page_id": 12,
+      "polygon": [
+        [
+          65.078125,
+          90.0380859375
+        ],
+        [
+          363.22198486328125,
+          90.0380859375
+        ],
+        [
+          363.22198486328125,
+          102.70849609375
+        ],
+        [
+          65.078125,
+          102.70849609375
+        ]
+      ]
+    },
+    {
+      "title": "System handler priority register 1 (SHPR1)",
+      "heading_level": null,
+      "page_id": 12,
+      "polygon": [
+        [
+          122.021484375,
+          380.02850341796875
+        ],
+        [
+          349.55633544921875,
+          380.02850341796875
+        ],
+        [
+          349.55633544921875,
+          392.6318359375
+        ],
+        [
+          122.021484375,
+          392.6318359375
+        ]
+      ]
+    },
+    {
+      "title": "System handler priority register 2 (SHPR2)",
+      "heading_level": null,
+      "page_id": 12,
+      "polygon": [
+        [
+          121.4404296875,
+          633.14453125
+        ],
+        [
+          346.2028503417969,
+          633.14453125
+        ],
+        [
+          346.2028503417969,
+          644.8556671142578
+        ],
+        [
+          121.4404296875,
+          644.8556671142578
+        ]
+      ]
+    },
+    {
+      "title": "System handler priority register 3 (SHPR3)",
+      "heading_level": null,
+      "page_id": 13,
+      "polygon": [
+        [
+          122.6025390625,
+          216.6669921875
+        ],
+        [
+          346.2028503417969,
+          216.6669921875
+        ],
+        [
+          346.2028503417969,
+          227.85565185546875
+        ],
+        [
+          122.6025390625,
+          227.85565185546875
+        ]
+      ]
+    },
+    {
+      "title": "4.4.9 System handler control and state register (SHCSR)",
+      "heading_level": null,
+      "page_id": 14,
+      "polygon": [
+        [
+          65.078125,
+          88.3935546875
+        ],
+        [
+          413.8848571777344,
+          88.3935546875
+        ],
+        [
+          413.8848571777344,
+          102.70849609375
+        ],
+        [
+          65.078125,
+          102.70849609375
+        ]
+      ]
+    },
+    {
+      "title": "4.4.10\nConfigurable fault status register (CFSR; UFSR+BFSR+MMFSR)",
+      "heading_level": null,
+      "page_id": 16,
+      "polygon": [
+        [
+          66.240234375,
+          89.973285841496
+        ],
+        [
+          488.58942065491186,
+          89.973285841496
+        ],
+        [
+          488.58942065491186,
+          102.3720703125
+        ],
+        [
+          66.240234375,
+          102.3720703125
+        ]
+      ]
+    },
+    {
+      "title": "4.4.11 Usage fault status register (UFSR)",
+      "heading_level": null,
+      "page_id": 17,
+      "polygon": [
+        [
+          65.6591796875,
+          88.8046875
+        ],
+        [
+          318.6492004394531,
+          88.8046875
+        ],
+        [
+          318.6492004394531,
+          102.70849609375
+        ],
+        [
+          65.6591796875,
+          102.70849609375
+        ]
+      ]
+    },
+    {
+      "title": "4.4.12 Bus fault status register (BFSR)",
+      "heading_level": null,
+      "page_id": 18,
+      "polygon": [
+        [
+          66.8212890625,
+          90.44921875
+        ],
+        [
+          305.2308044433594,
+          90.44921875
+        ],
+        [
+          305.2308044433594,
+          102.70849609375
+        ],
+        [
+          66.8212890625,
+          102.70849609375
+        ]
+      ]
+    },
+    {
+      "title": "4.4.13 Memory management fault address register (MMFSR)",
+      "heading_level": null,
+      "page_id": 19,
+      "polygon": [
+        [
+          65.078125,
+          90.0380859375
+        ],
+        [
+          427.8132019042969,
+          90.0380859375
+        ],
+        [
+          427.8132019042969,
+          102.70849609375
+        ],
+        [
+          65.078125,
+          102.70849609375
+        ]
+      ]
+    },
+    {
+      "title": "4.4.14 Hard fault status register (HFSR)",
+      "heading_level": null,
+      "page_id": 20,
+      "polygon": [
+        [
+          65.6591796875,
+          90.44921875
+        ],
+        [
+          309.8555908203125,
+          90.44921875
+        ],
+        [
+          309.8555908203125,
+          102.70849609375
+        ],
+        [
+          65.6591796875,
+          102.70849609375
+        ]
+      ]
+    },
+    {
+      "title": "4.4.15 Memory management fault address register (MMFAR)",
+      "heading_level": null,
+      "page_id": 21,
+      "polygon": [
+        [
+          63.916015625,
+          90.0380859375
+        ],
+        [
+          428.818359375,
+          90.0380859375
+        ],
+        [
+          428.818359375,
+          102.70849609375
+        ],
+        [
+          63.916015625,
+          102.70849609375
+        ]
+      ]
+    },
+    {
+      "title": "4.4.16 Bus fault address register (BFAR)",
+      "heading_level": null,
+      "page_id": 21,
+      "polygon": [
+        [
+          65.078125,
+          400.0322265625
+        ],
+        [
+          315.82080078125,
+          400.0322265625
+        ],
+        [
+          315.82080078125,
+          412.42852783203125
+        ],
+        [
+          65.078125,
+          412.42852783203125
+        ]
+      ]
+    },
+    {
+      "title": "4.4.17 Auxiliary fault status register (AFSR)",
+      "heading_level": null,
+      "page_id": 22,
+      "polygon": [
+        [
+          65.6591796875,
+          88.3935546875
+        ],
+        [
+          333.2171936035156,
+          88.3935546875
+        ],
+        [
+          333.2171936035156,
+          102.70849609375
+        ],
+        [
+          65.6591796875,
+          102.70849609375
+        ]
+      ]
+    },
+    {
+      "title": "4.4.18 System control block design hints and tips",
+      "heading_level": null,
+      "page_id": 22,
+      "polygon": [
+        [
+          65.078125,
+          386.74853515625
+        ],
+        [
+          368.6256103515625,
+          386.74853515625
+        ],
+        [
+          368.6256103515625,
+          398.798828125
+        ],
+        [
+          65.078125,
+          398.798828125
+        ]
+      ]
+    },
+    {
+      "title": "4.4.19 SCB register map",
+      "heading_level": null,
+      "page_id": 23,
+      "polygon": [
+        [
+          66.240234375,
+          90.44921875
+        ],
+        [
+          224.58718872070312,
+          90.44921875
+        ],
+        [
+          224.58718872070312,
+          102.70849609375
+        ],
+        [
+          66.240234375,
+          102.70849609375
+        ]
+      ]
+    },
+    {
+      "title": "Table 53. SCB register map and reset values (continued)",
+      "heading_level": null,
+      "page_id": 24,
+      "polygon": [
+        [
+          162.1142578125,
+          89.626953125
+        ],
+        [
+          431.1015930175781,
+          89.626953125
+        ],
+        [
+          431.1015930175781,
+          101.0028076171875
+        ],
+        [
+          162.1142578125,
+          101.0028076171875
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "TableCell",
+          120
+        ],
+        [
+          "Line",
+          18
+        ],
+        [
+          "Span",
+          9
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "Footnote",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          77
+        ],
+        [
+          "TableCell",
+          56
+        ],
+        [
+          "Line",
+          33
+        ],
+        [
+          "Text",
+          14
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          55
+        ],
+        [
+          "Line",
+          24
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "ListItem",
+          6
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "ListGroup",
+          3
+        ],
+        [
+          "Picture",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          78
+        ],
+        [
+          "TableCell",
+          74
+        ],
+        [
+          "Line",
+          25
+        ],
+        [
+          "Text",
+          16
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          112
+        ],
+        [
+          "TableCell",
+          79
+        ],
+        [
+          "Line",
+          48
+        ],
+        [
+          "Text",
+          12
+        ],
+        [
+          "ListItem",
+          11
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "ListGroup",
+          3
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          124
+        ],
+        [
+          "Line",
+          48
+        ],
+        [
+          "ListItem",
+          29
+        ],
+        [
+          "Text",
+          13
+        ],
+        [
+          "ListGroup",
+          6
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "TableCell",
+          76
+        ],
+        [
+          "Span",
+          54
+        ],
+        [
+          "Line",
+          25
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          123
+        ],
+        [
+          "TableCell",
+          66
+        ],
+        [
+          "Line",
+          52
+        ],
+        [
+          "Text",
+          21
+        ],
+        [
+          "SectionHeader",
+          9
+        ],
+        [
+          "Reference",
+          2
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 8,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          61
+        ],
+        [
+          "TableCell",
+          37
+        ],
+        [
+          "Line",
+          27
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Footnote",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 9,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          88
+        ],
+        [
+          "TableCell",
+          57
+        ],
+        [
+          "Line",
+          40
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "ListItem",
+          8
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "ListGroup",
+          3
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 10,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          129
+        ],
+        [
+          "TableCell",
+          57
+        ],
+        [
+          "Line",
+          55
+        ],
+        [
+          "Text",
+          18
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 11,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          51
+        ],
+        [
+          "Line",
+          20
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "ListItem",
+          6
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "ListGroup",
+          3
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 12,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "TableCell",
+          99
+        ],
+        [
+          "Span",
+          89
+        ],
+        [
+          "Line",
+          37
+        ],
+        [
+          "Text",
+          14
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Reference",
+          3
+        ],
+        [
+          "Table",
+          2
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 13,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "TableCell",
+          139
+        ],
+        [
+          "Span",
+          58
+        ],
+        [
+          "Line",
+          21
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "Table",
+          2
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 14,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          212
+        ],
+        [
+          "TableCell",
+          96
+        ],
+        [
+          "Line",
+          84
+        ],
+        [
+          "Text",
+          20
+        ],
+        [
+          "ListItem",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 15,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          48
+        ],
+        [
+          "Line",
+          15
+        ],
+        [
+          "ListItem",
+          10
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 16,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          116
+        ],
+        [
+          "Span",
+          29
+        ],
+        [
+          "Text",
+          16
+        ],
+        [
+          "ListItem",
+          8
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 17,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          98
+        ],
+        [
+          "Line",
+          38
+        ],
+        [
+          "ListItem",
+          20
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "ListGroup",
+          6
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 18,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          117
+        ],
+        [
+          "Line",
+          47
+        ],
+        [
+          "ListItem",
+          21
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 19,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          90
+        ],
+        [
+          "Line",
+          37
+        ],
+        [
+          "ListItem",
+          20
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 20,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "TableCell",
+          85
+        ],
+        [
+          "Span",
+          81
+        ],
+        [
+          "Line",
+          37
+        ],
+        [
+          "ListItem",
+          9
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "ListGroup",
+          3
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 21,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "TableCell",
+          136
+        ],
+        [
+          "Span",
+          87
+        ],
+        [
+          "Line",
+          38
+        ],
+        [
+          "Text",
+          12
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Table",
+          2
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "TableGroup",
+          2
+        ],
+        [
+          "Reference",
+          2
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 22,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          78
+        ],
+        [
+          "TableCell",
+          68
+        ],
+        [
+          "Line",
+          35
+        ],
+        [
+          "Text",
+          12
+        ],
+        [
+          "ListItem",
+          4
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 23,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          193
+        ],
+        [
+          "TableCell",
+          101
+        ],
+        [
+          "Line",
+          96
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 24,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          163
+        ],
+        [
+          "Line",
+          83
+        ],
+        [
+          "TableCell",
+          45
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/27_4.4 System control block (SCB)"
+}
