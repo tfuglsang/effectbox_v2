@@ -19,7 +19,7 @@
  */
 class CpuBurnEffect : public AudioEffect {
 public:
-    static constexpr uint32_t MAX_ITERATIONS = 50;  // 100% burn rate
+    static constexpr uint32_t MAX_ITERATIONS = 100;  // 100% burn rate
     
     /**
      * @brief Construct a CPU burn effect
